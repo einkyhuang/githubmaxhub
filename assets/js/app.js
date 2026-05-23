@@ -3,7 +3,8 @@
 // ===== Home Page =====
 function initHome(){
     document.getElementById("updateTime").textContent = "更新: "+UPDATE_DATE;
-    document.getElementById("footerDate").textContent = UPDATE_DATE;
+    const fd = document.getElementById("footerDate");
+    if(fd) fd.textContent = UPDATE_DATE;
     renderStats();
     renderProjects();
     renderTrends();
