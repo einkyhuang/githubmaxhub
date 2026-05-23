@@ -441,9 +441,8 @@ body::before{
 
 /* ===== Ad Banner ===== */
 .ad-banner{
-    position:sticky;
-    top:60px;
-    z-index:99;
+    position:relative;
+    z-index:1;
     background:linear-gradient(135deg,rgba(180,77,255,0.08),rgba(0,229,255,0.05));
     border-bottom:1px solid rgba(180,77,255,0.25);
     padding:0 24px;
@@ -519,7 +518,6 @@ body::before{
     color:var(--text-muted);
 }
 @media(max-width:768px){
-    .ad-banner{top:auto}
     .ad-banner-inner{flex-wrap:wrap;gap:10px}
     .ad-content{flex-direction:column;align-items:flex-start;gap:10px}
     .ad-qr img{width:48px;height:48px}
