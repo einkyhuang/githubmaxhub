@@ -1,6 +1,6 @@
 // ===== Gitmaxhub Project Data =====
 // Auto-updated daily. DO NOT manually edit between markers.
-// Total projects: 30 (accumulated)
+// Total projects: 45 (accumulated)
 
 // DATA_START
 var UPDATE_DATE = '2026-05-24';
@@ -465,6 +465,276 @@ var PROJECTS = [
             '可自由组合和扩展'
             '完善的文档和使用示例'
             '社区贡献和反馈机制']
+    }
+    {
+        slug: 'learn-claude-code',
+        name: 'Learn Claude Code',
+        fullName: 'shareAI-lab/learn-claude-code',
+        githubUrl: 'https://github.com/shareAI-lab/learn-claude-code',
+        lang: 'TypeScript',
+        stars: '61k',
+        forks: '10k',
+        category: 'agent',
+        tags: ['Claude Code', '教程', 'Agent'],
+        descShort: 'Bash即所需——迷你Claude Code风格Agent框架，从0到1构建，61k Stars',
+        descFull: 'learn-claude-code 是一个迷你Claude Code风格的Agent框架，由shareAI-lab推出，累计61k Stars。它的设计理念是\'Bash is all you need\'，从零开始构建一个精简但功能完整的AI编码Agent。适合学习Agent架构设计和快速搭建个人编码助手。',
+        features: ['Bash即所需极简设计'
+            '从0到1完整教学'
+            '迷你Claude Code风格'
+            'TypeScript全栈实现'
+            '60k+社区认可']
+    },
+    {
+        slug: 'ruflo',
+        name: 'Ruflo',
+        fullName: 'ruvnet/ruflo',
+        githubUrl: 'https://github.com/ruvnet/ruflo',
+        lang: 'TypeScript',
+        stars: '52.3k',
+        forks: '5.9k',
+        category: 'agent',
+        tags: ['Agent编排', 'Claude', '平台'],
+        descShort: '领先的Claude智能体编排平台，52.3k Stars，周增8.1%',
+        descFull: 'Ruflo 是目前领先的Claude智能体编排平台，累计52.3k Stars，周增长率8.1%。它提供了一套完整的Agent编排和管理工具，让开发者可以像编排微服务一样编排AI Agent。与Hermes Agent并列增长最快的Claude生态项目。',
+        features: ['Claude智能体编排平台'
+            'Agent即服务架构'
+            '周增长率8.1%高速增长'
+            '企业级Agent管理'
+            'Claude生态核心项目']
+    },
+    {
+        slug: 'cherry-studio',
+        name: 'Cherry Studio',
+        fullName: 'CherryHQ/cherry-studio',
+        githubUrl: 'https://github.com/CherryHQ/cherry-studio',
+        lang: 'TypeScript',
+        stars: '45.8k',
+        forks: '4.4k',
+        category: 'agent',
+        tags: ['AI工作室', '生产力', '多模型'],
+        descShort: 'AI生产力工作室，300+助手，统一接入前沿LLM，45.8k Stars',
+        descFull: 'Cherry Studio 是一个AI生产力工作室，集智能对话、自主Agent和300+预置助手于一体。它统一接入OpenAI、Claude、DeepSeek等前沿LLM，让用户在一个界面中完成编码、写作、分析等各类AI辅助任务。支持Skills、OpenCode、Superpowers等协议。',
+        features: ['300+预置AI助手'
+            '统一接入多LLM'
+            '自主Agent能力'
+            'Skill/OpenCode协议支持'
+            'Codex/Superpowers集成']
+    },
+    {
+        slug: 'career-ops',
+        name: 'Career-Ops',
+        fullName: 'santifer/career-ops',
+        githubUrl: 'https://github.com/santifer/career-ops',
+        lang: 'JavaScript',
+        stars: '45.2k',
+        forks: '9.5k',
+        category: 'agent',
+        tags: ['求职', 'Claude Code', '自动化'],
+        descShort: 'Claude Code驱动的AI求职系统，14种技能模式，45.2k Stars首进前五',
+        descFull: 'Career-Ops 是一个基于Claude Code的AI驱动求职系统，首次亮相就闯入Agent榜单前五，累计45.2k Stars。它提供14种技能模式，包括简历优化、面试准备、职位匹配等，内置Go语言仪表盘和PDF批量生成功能，重新定义了AI辅助求职。',
+        features: ['14种求职技能模式'
+            'Claude Code驱动'
+            'Go仪表盘+PDF生成'
+            '批量职位匹配处理'
+            'AI求职新范式']
+    },
+    {
+        slug: 'cowagent',
+        name: 'CowAgent',
+        fullName: 'zhayujie/CowAgent',
+        githubUrl: 'https://github.com/zhayujie/CowAgent',
+        lang: 'Python',
+        stars: '44.5k',
+        forks: '10.1k',
+        category: 'agent',
+        tags: ['多平台', '超级助理', '微信'],
+        descShort: '超级AI助理，支持微信/飞书/钉钉/QQ多平台接入，44.5k Stars',
+        descFull: 'CowAgent（原chatgpt-on-wechat）是基于大模型的超级AI助理，能主动思考、任务规划、访问操作系统和外部资源。支持微信、飞书、钉钉、企微、QQ、公众号等全平台接入，可选择DeepSeek/OpenAI/Claude/Gemini等多种模型后端，比OpenClaw更轻量便捷。',
+        features: ['微信/飞书/钉钉/QQ全平台接入'
+            '主动思考与任务规划'
+            '多模型后端灵活切换'
+            'Skills创建与执行'
+            '长期记忆与知识库成长']
+    },
+    {
+        slug: 'nanobot',
+        name: 'Nanobot',
+        fullName: 'HKUDS/nanobot',
+        githubUrl: 'https://github.com/HKUDS/nanobot',
+        lang: 'Python',
+        stars: '42.7k',
+        forks: '7.5k',
+        category: 'agent',
+        tags: ['轻量级', '个人Agent', 'HKU'],
+        descShort: '超轻量级个人AI Agent，来自港大，42.7k Stars',
+        descFull: 'Nanobot 是香港大学推出的超轻量级个人AI Agent，累计42.7k Stars。它以极致轻量为设计目标，支持Claude Code、Codex和OpenClaw等主流Agent框架，可以作为个人电脑上的常驻AI助手。适合追求低资源占用的开发者。',
+        features: ['极致轻量设计'
+            '港大DS实验室出品'
+            'Claude Code/Codex/OpenClaw兼容'
+            '常驻个人AI助手'
+            '低资源占用']
+    },
+    {
+        slug: 'copilotkit',
+        name: 'CopilotKit',
+        fullName: 'CopilotKit/CopilotKit',
+        githubUrl: 'https://github.com/CopilotKit/CopilotKit',
+        lang: 'TypeScript',
+        stars: '31.5k',
+        forks: '4.1k',
+        category: 'framework',
+        tags: ['前端', 'Agent UI', '生成式UI'],
+        descShort: 'Agent与生成式UI的前端技术栈，31.5k Stars，React深度集成',
+        descFull: 'CopilotKit 是Agent与生成式UI的前端技术栈，累计31.5k Stars。它提供React组件和Hooks，让开发者可以快速将AI Agent集成到Web应用中，支持实时聊天、Agent操作和生成式UI。是构建AI驱动前端应用的工业级方案。',
+        features: ['React深度集成'
+            'Agent与生成式UI'
+            '实时聊天组件'
+            'Agent操作可视化'
+            '前端AI集成工业方案']
+    },
+    {
+        slug: 'openclaude',
+        name: 'OpenClaude',
+        fullName: 'Gitlawb/openclaude',
+        githubUrl: 'https://github.com/Gitlawb/openclaude',
+        lang: 'TypeScript',
+        stars: '27k',
+        forks: '8.5k',
+        category: 'agent',
+        tags: ['跨平台', '工具调用', 'Claude'],
+        descShort: '随处运行、使用任何工具的Claude Agent，27k Stars',
+        descFull: 'OpenClaude 是一个通用的Claude Agent运行时，累计27k Stars。它的核心卖点是\'随处运行，使用任何工具\'——无论是在服务器、桌面还是边缘设备，都可以运行Claude驱动的Agent，并调用任意外部工具和API。',
+        features: ['跨平台统一运行时'
+            '任意工具调用能力'
+            'Claude模型驱动'
+            '服务器/桌面/边缘全覆盖'
+            '灵活的工具注册机制']
+    },
+    {
+        slug: 'google-workspace-cli',
+        name: 'Google Workspace CLI',
+        fullName: 'googleworkspace/cli',
+        githubUrl: 'https://github.com/googleworkspace/cli',
+        lang: 'Rust',
+        stars: '26.3k',
+        forks: '1.4k',
+        category: 'tool',
+        tags: ['CLI', 'Google', 'Rust'],
+        descShort: 'Google官方Rust CLI，内置AI Agent能力，26.3k Stars',
+        descFull: 'Google Workspace CLI 是Google官方推出的命令行工具，用Rust构建，累计26.3k Stars。它内置AI Agent能力，可以在终端中直接操作Gmail、Calendar、Drive、Docs等Google Workspace服务，是生产力工具的Agent化标杆。',
+        features: ['Google官方出品'
+            'Rust高性能构建'
+            'Gmail/Calendar/Drive终端操作'
+            '内置AI Agent'
+            'Google Workspace全接入']
+    },
+    {
+        slug: 'e2b',
+        name: 'E2B',
+        fullName: 'e2b-dev/E2B',
+        githubUrl: 'https://github.com/e2b-dev/E2B',
+        lang: 'Python',
+        stars: '12.2k',
+        forks: '907',
+        category: 'tool',
+        tags: ['沙箱', '安全', '企业级'],
+        descShort: '企业级Agent安全沙箱环境，12.2k Stars，隔离运行不受信任代码',
+        descFull: 'E2B 是企业级AI Agent的开源安全沙箱环境，累计12.2k Stars。它为Agent提供隔离的代码执行环境，支持Python、Node.js、Bash等多种运行时，确保Agent执行不受信任代码时不会影响宿主系统。是Agent安全基础设施的关键组件。',
+        features: ['企业级安全沙箱'
+            '隔离代码执行环境'
+            'Python/Node.js/Bash多运行时'
+            'Agent安全基础设施'
+            'e2b.dev商业支持']
+    },
+    {
+        slug: 'alibaba-opensandbox',
+        name: 'OpenSandbox',
+        fullName: 'alibaba/OpenSandbox',
+        githubUrl: 'https://github.com/alibaba/OpenSandbox',
+        lang: 'Python',
+        stars: '10.7k',
+        forks: '854',
+        category: 'tool',
+        tags: ['沙箱', '安全', '阿里'],
+        descShort: '阿里开源的AI Agent安全沙箱运行时，10.7k Stars',
+        descFull: 'OpenSandbox 是阿里巴巴开源的AI Agent安全沙箱运行时，累计10.7k Stars。它为Agent提供安全的代码执行和文件系统访问环境，支持容器化和进程级隔离。作为国产Agent安全基础设施的代表，已被多个企业内部Agent平台采用。',
+        features: ['阿里巴巴开源'
+            '容器化安全隔离'
+            '代码执行沙箱'
+            '文件系统访问控制'
+            '国产Agent安全标杆']
+    },
+    {
+        slug: 'activepieces',
+        name: 'Activepieces',
+        fullName: 'activepieces/activepieces',
+        githubUrl: 'https://github.com/activepieces/activepieces',
+        lang: 'TypeScript',
+        stars: '22.2k',
+        forks: '3.7k',
+        category: 'framework',
+        tags: ['工作流', 'MCP', '自动化'],
+        descShort: 'AI Agent与MCP工作流自动化平台，22.2k Stars，开源Zapier替代',
+        descFull: 'Activepieces 是一个AI Agent与MCP协议的工作流自动化平台，累计22.2k Stars。它被视为开源版的Zapier/Make，支持可视化编排AI Agent工作流，原生集成MCP工具调用，适合企业构建内部自动化流程。',
+        features: ['开源Zapier替代'
+            'MCP协议原生集成'
+            '可视化工作流编排'
+            'AI Agent自动化'
+            '企业级流程引擎']
+    },
+    {
+        slug: 'nocobase',
+        name: 'NocoBase',
+        fullName: 'nocobase/nocobase',
+        githubUrl: 'https://github.com/nocobase/nocobase',
+        lang: 'TypeScript',
+        stars: '22.4k',
+        forks: '2.6k',
+        category: 'framework',
+        tags: ['无代码', 'AI平台', '企业'],
+        descShort: '开源AI+无代码平台，22.4k Stars，插件化构建业务系统',
+        descFull: 'NocoBase 是一个开源AI+无代码平台，累计22.4k Stars。它以插件化架构为核心，让用户通过无代码方式构建企业业务系统，并内置AI Agent能力用于数据分析、流程自动化和智能决策。适合中小企业快速搭建内部管理系统。',
+        features: ['插件化无代码架构'
+            '内置AI Agent能力'
+            '企业业务系统构建'
+            '数据分析与流程自动化'
+            '中小企业首选']
+    },
+    {
+        slug: 'aionui',
+        name: 'AionUi',
+        fullName: 'iOfficeAI/AionUi',
+        githubUrl: 'https://github.com/iOfficeAI/AionUi',
+        lang: 'TypeScript',
+        stars: '25.4k',
+        forks: '2.3k',
+        category: 'agent',
+        tags: ['协作', '本地化', '24/7'],
+        descShort: '免费本地化24/7协作应用，支持OpenClaw/Hermes/Claude Code，25.4k Stars',
+        descFull: 'AionUi 是一个免费、本地化的24/7协作应用，累计25.4k Stars。它支持OpenClaw、Hermes Agent和Claude Code三大主流Agent框架，可以在本地持续运行，适合需要全天候AI协作的个人和小团队。',
+        features: ['免费本地化部署'
+            '24/7持续运行'
+            'OpenClaw/Hermes/Claude Code兼容'
+            '多Agent框架统一界面'
+            '个人/小团队协作']
+    },
+    {
+        slug: 'opencli',
+        name: 'OpenCLI',
+        fullName: 'jackwener/OpenCLI',
+        githubUrl: 'https://github.com/jackwener/OpenCLI',
+        lang: 'JavaScript',
+        stars: '21.5k',
+        forks: '2.2k',
+        category: 'tool',
+        tags: ['CLI', '枢纽', '多Agent'],
+        descShort: '通用CLI枢纽与AI原生运行时，21.5k Stars，统一入口',
+        descFull: 'OpenCLI 是一个通用CLI枢纽和AI原生运行时，累计21.5k Stars。它统一了Claude Code、Codex、OpenCode等多个AI编码Agent的CLI入口，让开发者在同一个终端界面中调度不同的Agent，实现\'一个CLI，所有Agent\'的体验。',
+        features: ['统一CLI入口'
+            'Claude Code/Codex/OpenCode兼容'
+            'AI原生运行时'
+            '多Agent调度'
+            '终端一体化体验']
     }
 ];
 
