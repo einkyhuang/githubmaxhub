@@ -1,0 +1,9 @@
+{
+  "name": "gitmaxhub",
+  "version": "1.0.0",
+  "description": "GitHub 热门 AI 项目推荐 - 每日自动更新",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Static site, no build step needed.'"
+  }
+}
