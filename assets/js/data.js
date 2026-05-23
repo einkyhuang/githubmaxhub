@@ -298,10 +298,10 @@ var PROJECTS = [
         tags: ['AI Agent', '专业化', '多智能体'],
         descShort: '一站式 AI 智能体团队——从前端魔法师到 Reddit 社区达人，每个 Agent 都是具有专业个性的专家。',
         descFull: 'Agency Agents 提供了一整套专业化的 AI 智能体，覆盖前端开发、社区运营、内容创作等多个领域。每个智能体都经过精心设计，拥有独特的「人格」、工作流程和明确的交付物标准。适合需要快速搭建 AI 驱动团队的企业和个人开发者。',
-        features: ['开箱即用的专业化智能体集合'
-            '每个 Agent 有明确的职责和交付标准'
-            '支持前端开发、社区管理、内容创作等场景'
-            '可自定义 Agent 的行为和输出格式'
+        features: ['开箱即用的专业化智能体集合',
+            '每个 Agent 有明确的职责和交付标准',
+            '支持前端开发、社区管理、内容创作等场景',
+            '可自定义 Agent 的行为和输出格式',
             '完善的文档和使用指南']
     },
     {
@@ -316,10 +316,10 @@ var PROJECTS = [
         tags: ['API代理', '免费层', '自动故障转移'],
         descShort: '兼容 OpenAI 格式的代理，聚合约 14 家 AI 提供商的免费层 API Key，支持自动故障转移。',
         descFull: 'freellmapi 是一个 OpenAI 兼容的 API 代理，自动聚合约 14 家 AI 服务提供商的免费层密钥。当某个提供商的免费额度用尽或服务不可用时，自动切换到下一个可用的提供商，确保 API 调用的连续性。适合个人学习和实验用途。',
-        features: ['聚合约 14 家 AI 提供商的免费 API'
-            '兼容 OpenAI API 格式，无缝替换'
-            '自动故障转移，保证服务可用性'
-            '轻量级部署，配置简单'
+        features: ['聚合约 14 家 AI 提供商的免费 API',
+            '兼容 OpenAI API 格式，无缝替换',
+            '自动故障转移，保证服务可用性',
+            '轻量级部署，配置简单',
             '适合个人学习和原型开发']
     },
     {
@@ -334,10 +334,10 @@ var PROJECTS = [
         tags: ['学术研究', 'Claude Code', '工作流'],
         descShort: '为 Claude Code 设计的学术研究技能套件，覆盖「研究→撰写→审阅→修改→定稿」的完整学术写作流程。',
         descFull: 'Academic Research Skills 是一套面向 Claude Code 的专业技能集合，将学术研究的完整流程——从文献调研、论文撰写、同行审阅到修改定稿——封装为可复用的 AI 技能模块。帮助研究人员和学生在 AI 辅助下高效完成学术工作。',
-        features: ['完整的研究→写作→审阅→修改→定稿流程'
-            '适配 Claude Code 的技能系统'
-            '支持多种学术写作格式'
-            '内置文献管理和引用规范'
+        features: ['完整的研究→写作→审阅→修改→定稿流程',
+            '适配 Claude Code 的技能系统',
+            '支持多种学术写作格式',
+            '内置文献管理和引用规范',
             '开源社区持续迭代优化']
     },
     {
@@ -352,10 +352,10 @@ var PROJECTS = [
         tags: ['Claude Code', '性能优化', '开发工具'],
         descShort: 'Claude Code 的终极性能优化套件——技能、直觉、记忆、安全四大模块全面提升 AI 编码体验。',
         descFull: 'Everything Claude Code 是 Claude Code 生态中最全面的性能优化系统。它包含技能管理、上下文直觉、长期记忆、安全策略和研究优先开发等模块，让 Claude Code 从一个普通的 AI 编码助手进化为强大的开发伙伴。支持 Claude Code、Codex、OpenCode、Cursor 等主流工具。',
-        features: ['技能管理：组织和复用 AI 技能模块'
-            '上下文直觉：智能理解项目结构和意图'
-            '长期记忆：跨会话保持项目知识'
-            '安全策略：保护敏感代码和数据'
+        features: ['技能管理：组织和复用 AI 技能模块',
+            '上下文直觉：智能理解项目结构和意图',
+            '长期记忆：跨会话保持项目知识',
+            '安全策略：保护敏感代码和数据',
             '研究优先开发：基于深度调研的代码生成']
     },
     {
@@ -370,10 +370,10 @@ var PROJECTS = [
         tags: ['深度学习', 'NLP', '多模态'],
         descShort: 'Hugging Face 的旗舰模型框架，涵盖文本、视觉、音频和多模态领域的最先进机器学习模型。',
         descFull: 'Transformers 是 Hugging Face 生态的核心支柱，提供数千个预训练模型的开箱即用接口。支持 PyTorch、TensorFlow 和 JAX，覆盖自然语言处理、计算机视觉、语音识别和多模态学习等几乎所有 AI 子领域。无论训练还是推理，只需几行代码即可调用最先进的模型。',
-        features: ['数千个预训练模型，开箱即用'
-            '支持 PyTorch / TensorFlow / JAX'
-            '覆盖 NLP、CV、语音、多模态全领域'
-            '活跃的社区和丰富的文档'
+        features: ['数千个预训练模型，开箱即用',
+            '支持 PyTorch / TensorFlow / JAX',
+            '覆盖 NLP、CV、语音、多模态全领域',
+            '活跃的社区和丰富的文档',
             '与 Hugging Face Hub 无缝集成']
     },
     {
@@ -388,10 +388,10 @@ var PROJECTS = [
         tags: ['自主Agent', '自动化', 'GPT'],
         descShort: '最具影响力的自主 AI Agent 项目——让 AI 能够自主规划、执行和迭代完成复杂任务。',
         descFull: 'AutoGPT 是自主 AI Agent 领域的开创性项目，它将 GPT 模型的推理能力与工具调用、记忆管理和任务规划相结合，使 AI 能够自主拆解复杂目标、逐步执行并自我纠错。虽然早期版本存在稳定性问题，但其理念深刻影响了整个 AI Agent 生态的发展方向。',
-        features: ['自主任务规划和拆解'
-            '工具调用和互联网访问'
-            '长期和短期记忆管理'
-            '自我纠错和迭代优化'
+        features: ['自主任务规划和拆解',
+            '工具调用和互联网访问',
+            '长期和短期记忆管理',
+            '自我纠错和迭代优化',
             '丰富的插件和扩展生态']
     },
     {
@@ -406,10 +406,10 @@ var PROJECTS = [
         tags: ['聊天界面', '自托管', 'ChatGPT替代'],
         descShort: '自托管的 ChatGPT 替代方案——友好的 AI 聊天界面，支持 Ollama 和 OpenAI API。',
         descFull: 'Open WebUI 是一个功能丰富的自托管 AI 聊天界面，提供类似 ChatGPT 的交互体验，但完全运行在你自己的服务器上。支持 Ollama 和 OpenAI 兼容的 API，内置对话历史管理、Markdown 渲染、代码高亮等功能，是搭建私有 AI 助手的最佳前端方案。',
-        features: ['类 ChatGPT 的友好交互界面'
-            '支持 Ollama 和 OpenAI API'
-            '对话历史管理与搜索'
-            'Markdown 和代码高亮渲染'
+        features: ['类 ChatGPT 的友好交互界面',
+            '支持 Ollama 和 OpenAI API',
+            '对话历史管理与搜索',
+            'Markdown 和代码高亮渲染',
             '多用户支持和权限管理']
     },
     {
@@ -424,10 +424,10 @@ var PROJECTS = [
         tags: ['LLM框架', '编排', 'Agent'],
         descShort: 'AI 应用开发的工业标准框架，用可组合的组件构建生产级 LLM 应用和智能体。',
         descFull: 'LangChain 是构建 LLM 应用的事实标准框架，提供从 Prompt 管理、链式调用、Agent 编排到 RAG 管道的全套工具。它将 LLM 应用开发中的通用模式抽象为可组合的组件，大幅降低了 AI 应用的开发复杂度。同时支持 Python 和 TypeScript/JavaScript 生态。',
-        features: ['完整的 LLM 应用开发工具链'
-            'Prompt 模板和链式调用管理'
-            '内置 RAG 管道和向量存储集成'
-            '强大的 Agent 框架和工具系统'
+        features: ['完整的 LLM 应用开发工具链',
+            'Prompt 模板和链式调用管理',
+            '内置 RAG 管道和向量存储集成',
+            '强大的 Agent 框架和工具系统',
             'Python + TypeScript 双语言支持']
     },
     {
@@ -442,10 +442,10 @@ var PROJECTS = [
         tags: ['提示词', '社区', 'ChatGPT'],
         descShort: '全球最大的 ChatGPT 提示词社区，发现、分享和收藏高质量 Prompt，支持自托管部署。',
         descFull: 'Prompts.chat（原 Awesome ChatGPT Prompts）是全球最活跃的 AI 提示词社区，收录了数千条经过验证的高质量 ChatGPT 提示词，覆盖写作、编程、教育、商业等各个领域。支持自托管部署，保证完全的数据隐私。',
-        features: ['数千条高质量社区贡献提示词'
-            '分类浏览和搜索功能'
-            '支持自托管，数据完全私密'
-            '定期更新最新的提示词技巧'
+        features: ['数千条高质量社区贡献提示词',
+            '分类浏览和搜索功能',
+            '支持自托管，数据完全私密',
+            '定期更新最新的提示词技巧',
             '开放 API 和社区贡献机制']
     },
     {
@@ -460,10 +460,10 @@ var PROJECTS = [
         tags: ['AI技能', 'Claude', '可复用'],
         descShort: 'Anthropic 官方 Agent Skills 仓库——可复用、可组合的 AI Agent 能力模块集合。',
         descFull: 'Anthropic Skills 是 Anthropic 官方维护的 Agent 技能开源仓库，提供了一系列可复用的 AI 技能模块，涵盖代码审查、文档生成、数据分析、设计辅助等常见开发场景。每个技能都是独立的功能单元，可以自由组合使用，是构建 AI 辅助开发工作流的基石。',
-        features: ['Anthropic 官方维护和审核'
-            '丰富的高质量技能模块'
-            '可自由组合和扩展'
-            '完善的文档和使用示例'
+        features: ['Anthropic 官方维护和审核',
+            '丰富的高质量技能模块',
+            '可自由组合和扩展',
+            '完善的文档和使用示例',
             '社区贡献和反馈机制']
     },
     {
@@ -478,10 +478,10 @@ var PROJECTS = [
         tags: ['Claude Code', '教程', 'Agent'],
         descShort: 'Bash即所需——迷你Claude Code风格Agent框架，从0到1构建，61k Stars',
         descFull: 'learn-claude-code 是一个迷你Claude Code风格的Agent框架，由shareAI-lab推出，累计61k Stars。它的设计理念是\'Bash is all you need\'，从零开始构建一个精简但功能完整的AI编码Agent。适合学习Agent架构设计和快速搭建个人编码助手。',
-        features: ['Bash即所需极简设计'
-            '从0到1完整教学'
-            '迷你Claude Code风格'
-            'TypeScript全栈实现'
+        features: ['Bash即所需极简设计',
+            '从0到1完整教学',
+            '迷你Claude Code风格',
+            'TypeScript全栈实现',
             '60k+社区认可']
     },
     {
@@ -496,10 +496,10 @@ var PROJECTS = [
         tags: ['Agent编排', 'Claude', '平台'],
         descShort: '领先的Claude智能体编排平台，52.3k Stars，周增8.1%',
         descFull: 'Ruflo 是目前领先的Claude智能体编排平台，累计52.3k Stars，周增长率8.1%。它提供了一套完整的Agent编排和管理工具，让开发者可以像编排微服务一样编排AI Agent。与Hermes Agent并列增长最快的Claude生态项目。',
-        features: ['Claude智能体编排平台'
-            'Agent即服务架构'
-            '周增长率8.1%高速增长'
-            '企业级Agent管理'
+        features: ['Claude智能体编排平台',
+            'Agent即服务架构',
+            '周增长率8.1%高速增长',
+            '企业级Agent管理',
             'Claude生态核心项目']
     },
     {
@@ -514,10 +514,10 @@ var PROJECTS = [
         tags: ['AI工作室', '生产力', '多模型'],
         descShort: 'AI生产力工作室，300+助手，统一接入前沿LLM，45.8k Stars',
         descFull: 'Cherry Studio 是一个AI生产力工作室，集智能对话、自主Agent和300+预置助手于一体。它统一接入OpenAI、Claude、DeepSeek等前沿LLM，让用户在一个界面中完成编码、写作、分析等各类AI辅助任务。支持Skills、OpenCode、Superpowers等协议。',
-        features: ['300+预置AI助手'
-            '统一接入多LLM'
-            '自主Agent能力'
-            'Skill/OpenCode协议支持'
+        features: ['300+预置AI助手',
+            '统一接入多LLM',
+            '自主Agent能力',
+            'Skill/OpenCode协议支持',
             'Codex/Superpowers集成']
     },
     {
@@ -532,10 +532,10 @@ var PROJECTS = [
         tags: ['求职', 'Claude Code', '自动化'],
         descShort: 'Claude Code驱动的AI求职系统，14种技能模式，45.2k Stars首进前五',
         descFull: 'Career-Ops 是一个基于Claude Code的AI驱动求职系统，首次亮相就闯入Agent榜单前五，累计45.2k Stars。它提供14种技能模式，包括简历优化、面试准备、职位匹配等，内置Go语言仪表盘和PDF批量生成功能，重新定义了AI辅助求职。',
-        features: ['14种求职技能模式'
-            'Claude Code驱动'
-            'Go仪表盘+PDF生成'
-            '批量职位匹配处理'
+        features: ['14种求职技能模式',
+            'Claude Code驱动',
+            'Go仪表盘+PDF生成',
+            '批量职位匹配处理',
             'AI求职新范式']
     },
     {
@@ -550,10 +550,10 @@ var PROJECTS = [
         tags: ['多平台', '超级助理', '微信'],
         descShort: '超级AI助理，支持微信/飞书/钉钉/QQ多平台接入，44.5k Stars',
         descFull: 'CowAgent（原chatgpt-on-wechat）是基于大模型的超级AI助理，能主动思考、任务规划、访问操作系统和外部资源。支持微信、飞书、钉钉、企微、QQ、公众号等全平台接入，可选择DeepSeek/OpenAI/Claude/Gemini等多种模型后端，比OpenClaw更轻量便捷。',
-        features: ['微信/飞书/钉钉/QQ全平台接入'
-            '主动思考与任务规划'
-            '多模型后端灵活切换'
-            'Skills创建与执行'
+        features: ['微信/飞书/钉钉/QQ全平台接入',
+            '主动思考与任务规划',
+            '多模型后端灵活切换',
+            'Skills创建与执行',
             '长期记忆与知识库成长']
     },
     {
@@ -568,10 +568,10 @@ var PROJECTS = [
         tags: ['轻量级', '个人Agent', 'HKU'],
         descShort: '超轻量级个人AI Agent，来自港大，42.7k Stars',
         descFull: 'Nanobot 是香港大学推出的超轻量级个人AI Agent，累计42.7k Stars。它以极致轻量为设计目标，支持Claude Code、Codex和OpenClaw等主流Agent框架，可以作为个人电脑上的常驻AI助手。适合追求低资源占用的开发者。',
-        features: ['极致轻量设计'
-            '港大DS实验室出品'
-            'Claude Code/Codex/OpenClaw兼容'
-            '常驻个人AI助手'
+        features: ['极致轻量设计',
+            '港大DS实验室出品',
+            'Claude Code/Codex/OpenClaw兼容',
+            '常驻个人AI助手',
             '低资源占用']
     },
     {
@@ -586,10 +586,10 @@ var PROJECTS = [
         tags: ['前端', 'Agent UI', '生成式UI'],
         descShort: 'Agent与生成式UI的前端技术栈，31.5k Stars，React深度集成',
         descFull: 'CopilotKit 是Agent与生成式UI的前端技术栈，累计31.5k Stars。它提供React组件和Hooks，让开发者可以快速将AI Agent集成到Web应用中，支持实时聊天、Agent操作和生成式UI。是构建AI驱动前端应用的工业级方案。',
-        features: ['React深度集成'
-            'Agent与生成式UI'
-            '实时聊天组件'
-            'Agent操作可视化'
+        features: ['React深度集成',
+            'Agent与生成式UI',
+            '实时聊天组件',
+            'Agent操作可视化',
             '前端AI集成工业方案']
     },
     {
@@ -604,10 +604,10 @@ var PROJECTS = [
         tags: ['跨平台', '工具调用', 'Claude'],
         descShort: '随处运行、使用任何工具的Claude Agent，27k Stars',
         descFull: 'OpenClaude 是一个通用的Claude Agent运行时，累计27k Stars。它的核心卖点是\'随处运行，使用任何工具\'——无论是在服务器、桌面还是边缘设备，都可以运行Claude驱动的Agent，并调用任意外部工具和API。',
-        features: ['跨平台统一运行时'
-            '任意工具调用能力'
-            'Claude模型驱动'
-            '服务器/桌面/边缘全覆盖'
+        features: ['跨平台统一运行时',
+            '任意工具调用能力',
+            'Claude模型驱动',
+            '服务器/桌面/边缘全覆盖',
             '灵活的工具注册机制']
     },
     {
@@ -622,10 +622,10 @@ var PROJECTS = [
         tags: ['CLI', 'Google', 'Rust'],
         descShort: 'Google官方Rust CLI，内置AI Agent能力，26.3k Stars',
         descFull: 'Google Workspace CLI 是Google官方推出的命令行工具，用Rust构建，累计26.3k Stars。它内置AI Agent能力，可以在终端中直接操作Gmail、Calendar、Drive、Docs等Google Workspace服务，是生产力工具的Agent化标杆。',
-        features: ['Google官方出品'
-            'Rust高性能构建'
-            'Gmail/Calendar/Drive终端操作'
-            '内置AI Agent'
+        features: ['Google官方出品',
+            'Rust高性能构建',
+            'Gmail/Calendar/Drive终端操作',
+            '内置AI Agent',
             'Google Workspace全接入']
     },
     {
@@ -640,10 +640,10 @@ var PROJECTS = [
         tags: ['沙箱', '安全', '企业级'],
         descShort: '企业级Agent安全沙箱环境，12.2k Stars，隔离运行不受信任代码',
         descFull: 'E2B 是企业级AI Agent的开源安全沙箱环境，累计12.2k Stars。它为Agent提供隔离的代码执行环境，支持Python、Node.js、Bash等多种运行时，确保Agent执行不受信任代码时不会影响宿主系统。是Agent安全基础设施的关键组件。',
-        features: ['企业级安全沙箱'
-            '隔离代码执行环境'
-            'Python/Node.js/Bash多运行时'
-            'Agent安全基础设施'
+        features: ['企业级安全沙箱',
+            '隔离代码执行环境',
+            'Python/Node.js/Bash多运行时',
+            'Agent安全基础设施',
             'e2b.dev商业支持']
     },
     {
@@ -658,10 +658,10 @@ var PROJECTS = [
         tags: ['沙箱', '安全', '阿里'],
         descShort: '阿里开源的AI Agent安全沙箱运行时，10.7k Stars',
         descFull: 'OpenSandbox 是阿里巴巴开源的AI Agent安全沙箱运行时，累计10.7k Stars。它为Agent提供安全的代码执行和文件系统访问环境，支持容器化和进程级隔离。作为国产Agent安全基础设施的代表，已被多个企业内部Agent平台采用。',
-        features: ['阿里巴巴开源'
-            '容器化安全隔离'
-            '代码执行沙箱'
-            '文件系统访问控制'
+        features: ['阿里巴巴开源',
+            '容器化安全隔离',
+            '代码执行沙箱',
+            '文件系统访问控制',
             '国产Agent安全标杆']
     },
     {
@@ -676,10 +676,10 @@ var PROJECTS = [
         tags: ['工作流', 'MCP', '自动化'],
         descShort: 'AI Agent与MCP工作流自动化平台，22.2k Stars，开源Zapier替代',
         descFull: 'Activepieces 是一个AI Agent与MCP协议的工作流自动化平台，累计22.2k Stars。它被视为开源版的Zapier/Make，支持可视化编排AI Agent工作流，原生集成MCP工具调用，适合企业构建内部自动化流程。',
-        features: ['开源Zapier替代'
-            'MCP协议原生集成'
-            '可视化工作流编排'
-            'AI Agent自动化'
+        features: ['开源Zapier替代',
+            'MCP协议原生集成',
+            '可视化工作流编排',
+            'AI Agent自动化',
             '企业级流程引擎']
     },
     {
@@ -694,10 +694,10 @@ var PROJECTS = [
         tags: ['无代码', 'AI平台', '企业'],
         descShort: '开源AI+无代码平台，22.4k Stars，插件化构建业务系统',
         descFull: 'NocoBase 是一个开源AI+无代码平台，累计22.4k Stars。它以插件化架构为核心，让用户通过无代码方式构建企业业务系统，并内置AI Agent能力用于数据分析、流程自动化和智能决策。适合中小企业快速搭建内部管理系统。',
-        features: ['插件化无代码架构'
-            '内置AI Agent能力'
-            '企业业务系统构建'
-            '数据分析与流程自动化'
+        features: ['插件化无代码架构',
+            '内置AI Agent能力',
+            '企业业务系统构建',
+            '数据分析与流程自动化',
             '中小企业首选']
     },
     {
@@ -712,10 +712,10 @@ var PROJECTS = [
         tags: ['协作', '本地化', '24/7'],
         descShort: '免费本地化24/7协作应用，支持OpenClaw/Hermes/Claude Code，25.4k Stars',
         descFull: 'AionUi 是一个免费、本地化的24/7协作应用，累计25.4k Stars。它支持OpenClaw、Hermes Agent和Claude Code三大主流Agent框架，可以在本地持续运行，适合需要全天候AI协作的个人和小团队。',
-        features: ['免费本地化部署'
-            '24/7持续运行'
-            'OpenClaw/Hermes/Claude Code兼容'
-            '多Agent框架统一界面'
+        features: ['免费本地化部署',
+            '24/7持续运行',
+            'OpenClaw/Hermes/Claude Code兼容',
+            '多Agent框架统一界面',
             '个人/小团队协作']
     },
     {
@@ -730,10 +730,10 @@ var PROJECTS = [
         tags: ['CLI', '枢纽', '多Agent'],
         descShort: '通用CLI枢纽与AI原生运行时，21.5k Stars，统一入口',
         descFull: 'OpenCLI 是一个通用CLI枢纽和AI原生运行时，累计21.5k Stars。它统一了Claude Code、Codex、OpenCode等多个AI编码Agent的CLI入口，让开发者在同一个终端界面中调度不同的Agent，实现\'一个CLI，所有Agent\'的体验。',
-        features: ['统一CLI入口'
-            'Claude Code/Codex/OpenCode兼容'
-            'AI原生运行时'
-            '多Agent调度'
+        features: ['统一CLI入口',
+            'Claude Code/Codex/OpenCode兼容',
+            'AI原生运行时',
+            '多Agent调度',
             '终端一体化体验']
     }
 ];
