@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DevPulse - GitHub 热门 AI 项目推荐</title>
+<meta name="description" content="每日自动采集 GitHub 热门 AI/LLM/Agent 项目，按分类整理，一键直达源码仓库。">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>⚡</text></svg>">
+</head>
+<body>
+
+<nav class="nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-brand">DevPulse</a>
+        <ul class="nav-links">
+            <li><a href="#projects" class="active">项目</a></li>
+            <li><a href="#trends">趋势</a></li>
+        </ul>
+        <span class="nav-update" id="updateTime">更新中…</span>
+    </div>
+</nav>
+
+<div class="ad-banner">
+    <a href="https://forwelike.com" target="_blank" rel="nofollow sponsored" class="ad-banner-inner">
+        <div class="ad-badge">推广</div>
+        <div class="ad-content">
+            <div class="ad-text">
+                <h3>一站式跨境外贸网站搭建，SEO / GEO 优化</h3>
+                <p>16年外贸经验 · 14年品牌营销设计经验 · 从建站到获客全覆盖</p>
+                <span class="ad-cta">了解详情 →</span>
+            </div>
+        </div>
+        <div class="ad-qr">
+            <img src="assets/img/qr-forwelike.png" alt="forwelike.com 二维码" width="64" height="64">
+            <span>扫码访问</span>
+        </div>
+    </a>
+</div>
+
+<section class="hero">
+    <div class="hero-badge"><span class="dot"></span> LIVE · 实时追踪 GitHub 热门项目</div>
+    <h1>发现<span class="gradient"> GitHub 热门 AI 项目</span></h1>
+    <p>每日自动采集 GitHub Trending、社区热榜中的 AI/LLM/Agent 项目，中文介绍，分类筛选，一键直达源码仓库。</p>
+    <div class="stats-row">
+        <div class="stat-item"><div class="stat-value" id="statTotal">—</div><div class="stat-label">收录项目</div></div>
+        <div class="stat-item"><div class="stat-value" id="statStars">—</div><div class="stat-label">累计 Star</div></div>
+        <div class="stat-item"><div class="stat-value" id="statCats">—</div><div class="stat-label">覆盖领域</div></div>
+        <div class="stat-item"><div class="stat-value">每日</div><div class="stat-label">自动更新</div></div>
+    </div>
+</section>
+
+<main class="main" id="projects">
+    <div class="toolbar">
+        <div class="search-box">
+            <span class="search-icon">&#128269;</span>
+            <input type="text" id="searchInput" placeholder="搜索项目名称、描述、标签…" oninput="renderProjects()">
+        </div>
+        <div class="filter-pills" id="filterPills">
+            <button class="filter-pill active" data-category="all" onclick="setFilter('all')">全部</button>
+            <button class="filter-pill" data-category="agent" onclick="setFilter('agent')">AI Agent</button>
+            <button class="filter-pill" data-category="framework" onclick="setFilter('framework')">框架</button>
+            <button class="filter-pill" data-category="tool" onclick="setFilter('tool')">工具</button>
+            <button class="filter-pill" data-category="model" onclick="setFilter('model')">模型</button>
+            <button class="filter-pill" data-category="research" onclick="setFilter('research')">研究</button>
+            <button class="filter-pill" data-category="multimodal" onclick="setFilter('multimodal')">多模态</button>
+        </div>
+        <span class="result-count" id="resultCount"></span>
+    </div>
+
+    <div class="projects-grid" id="projectsGrid"></div>
+    <div class="empty-state" id="emptyState" style="display:none">
+        <div class="icon">🔍</div>
+        <p>没有找到匹配的项目，试试调整筛选条件</p>
+    </div>
+</main>
+
+<section class="main" id="trends">
+    <div class="trends-section">
+        <h2>📊 AI 开源趋势洞察</h2>
+        <p class="subtitle">基于当前热门项目的领域分析与技术趋势</p>
+        <div class="trends-grid" id="trendsGrid"></div>
+    </div>
+</section>
+
+<footer class="footer">
+    <p><span class="brand">DevPulse</span> · GitHub 热门 AI 项目推荐</p>
+    <p>数据每日自动更新 · 报告生成于 <span id="footerDate"></span> · 部署于 Cloudflare Pages</p>
+</footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
