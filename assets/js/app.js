@@ -207,14 +207,20 @@ function initAdFloat(){
         adFloat.classList.remove("ad-float--visible");
     });
 
-    // Scroll detection
+    // Scroll detection: 当页面滚动超过广告横幅原始位置时显示悬浮卡片
+    var threshold = adBanner.offsetTop + adBanner.offsetHeight;
     var ticking = false;
+
+    // 窗口大小变化时重新计算阈值
+    window.addEventListener("resize",function(){
+        threshold = adBanner.offsetTop + adBanner.offsetHeight;
+    });
+
     window.addEventListener("scroll",function(){
         if(!ticking){
             requestAnimationFrame(function(){
                 if(adFloatDismissed) return;
-                const bannerBottom = adBanner.getBoundingClientRect().bottom;
-                if(bannerBottom < 0){
+                if(window.scrollY > threshold + 20){
                     adFloat.classList.add("ad-float--visible");
                 } else {
                     adFloat.classList.remove("ad-float--visible");
