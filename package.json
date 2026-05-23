@@ -4,6 +4,6 @@
   "description": "GitHub 热门 AI 项目推荐 - 每日自动更新",
   "private": true,
   "scripts": {
-    "build": "rm -rf dist && mkdir -p dist && cp -r index.html project.html assets dist/"
+    "build": "rm -rf dist && mkdir -p dist && cp -r index.html project.html tools.html assets dist/"
   }
 }

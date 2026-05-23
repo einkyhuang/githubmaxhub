@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>工具导航 - Gitmaxhub</title>
+<meta name="description" content="每日更新的各领域好用的工作与生活工具导航，涵盖开发、AI、设计、效率、办公、学习等分类。">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>🧰</text></svg>">
+</head>
+<body>
+
+<nav class="nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-brand">Gitmaxhub</a>
+        <ul class="nav-links">
+            <li><a href="index.html">项目</a></li>
+            <li><a href="tools.html" class="active">工具</a></li>
+            <li><a href="index.html#trends">趋势</a></li>
+        </ul>
+        <span class="nav-update" id="updateTime">更新中…</span>
+    </div>
+</nav>
+
+<div class="ad-banner">
+    <a href="https://forwelike.com" target="_blank" rel="nofollow sponsored" class="ad-banner-inner">
+        <div class="ad-badge">推广</div>
+        <div class="ad-content">
+            <div class="ad-text">
+                <h3>一站式跨境外贸网站搭建，SEO / GEO 优化</h3>
+                <p>16年外贸经验 · 14年品牌营销设计经验 · 从建站到获客全覆盖</p>
+                <span class="ad-cta">了解详情 →</span>
+            </div>
+        </div>
+        <div class="ad-qr">
+            <img src="assets/img/qr-forwelike.png" alt="forwelike.com 二维码" width="64" height="64">
+            <span>扫码访问</span>
+        </div>
+    </a>
+</div>
+
+<section class="hero tools-hero">
+    <div class="hero-badge"><span class="dot"></span> CATALOG · 精选实用工具库</div>
+    <h1>好用<span class="gradient"> 工具导航</span></h1>
+    <p>每日更新工作与生活的好工具，涵盖开发、AI、设计、效率、办公、学习等分类，精选推荐，持续收录。</p>
+    <div class="stats-row">
+        <div class="stat-item"><div class="stat-value" id="statTotal">—</div><div class="stat-label">收录工具</div></div>
+        <div class="stat-item"><div class="stat-value" id="statCats">—</div><div class="stat-label">覆盖分类</div></div>
+        <div class="stat-item"><div class="stat-value">精选</div><div class="stat-label">持续更新</div></div>
+    </div>
+</section>
+
+<main class="main" id="toolsMain">
+    <div class="toolbar">
+        <div class="search-box">
+            <span class="search-icon">&#128269;</span>
+            <input type="text" id="searchInput" placeholder="搜索工具名称、描述、标签…" oninput="renderTools()">
+        </div>
+        <div class="filter-pills" id="filterPills"></div>
+        <span class="result-count" id="resultCount"></span>
+    </div>
+
+    <div class="tools-grid" id="toolsGrid"></div>
+    <div class="empty-state" id="emptyState" style="display:none">
+        <div class="icon">🔍</div>
+        <p>没有找到匹配的工具，试试调整筛选条件</p>
+    </div>
+</main>
+
+<footer class="footer">
+    <p><span class="brand">Gitmaxhub</span> · GitHub 热门项目推荐 · 工具导航</p>
+    <p>Power by <a href="https://forwelike.com" target="_blank">Forwelike</a></p>
+</footer>
+
+<script src="assets/js/tools-data.js"></script>
+<script>
+// ===== Tools Page =====
+var toolFilter = 'all';
+
+function initTools() {
+    document.getElementById('updateTime').textContent = '更新: ' + TOOLS_UPDATE_DATE;
+    renderStats();
+    renderFilters();
+    renderTools();
+}
+
+function renderStats() {
+    document.getElementById('statTotal').textContent = TOOLS.length;
+    var cats = new Set(TOOLS.map(function(t) { return t.category; }));
+    document.getElementById('statCats').textContent = cats.size;
+}
+
+function renderFilters() {
+    var pills = document.getElementById('filterPills');
+    var html = '<button class="filter-pill active" data-category="all" onclick="setToolFilter(\'all\')">全部</button>';
+    var catKeys = Object.keys(TOOL_CATEGORIES);
+    catKeys.forEach(function(key) {
+        var cat = TOOL_CATEGORIES[key];
+        html += '<button class="filter-pill" data-category="' + key + '" onclick="setToolFilter(\'' + key + '\')">' + cat.icon + ' ' + cat.name + '</button>';
+    });
+    pills.innerHTML = html;
+}
+
+function setToolFilter(cat) {
+    toolFilter = cat;
+    document.querySelectorAll('.filter-pill').forEach(function(b) { b.classList.remove('active'); });
+    var btn = document.querySelector('[data-category="' + cat + '"]');
+    if (btn) btn.classList.add('active');
+    renderTools();
+}
+
+function renderTools() {
+    var query = (document.getElementById('searchInput')?.value || '').toLowerCase().trim();
+    var filtered = TOOLS;
+    if (toolFilter !== 'all') {
+        filtered = filtered.filter(function(t) { return t.category === toolFilter; });
+    }
+    if (query) {
+        filtered = filtered.filter(function(t) {
+            return t.name.toLowerCase().includes(query) ||
+                   t.desc.toLowerCase().includes(query) ||
+                   t.tags.some(function(tag) { return tag.toLowerCase().includes(query); });
+        });
+    }
+
+    document.getElementById('resultCount').textContent = filtered.length + ' 个工具';
+    var grid = document.getElementById('toolsGrid');
+    var empty = document.getElementById('emptyState');
+
+    if (filtered.length === 0) {
+        grid.innerHTML = '';
+        if (empty) empty.style.display = 'block';
+        return;
+    }
+    if (empty) empty.style.display = 'none';
+
+    grid.innerHTML = filtered.map(function(t) {
+        var catInfo = TOOL_CATEGORIES[t.category] || {};
+        var platforms = t.platform.map(function(p) {
+            var pMap = { mac: '🍎', windows: '🪟', linux: '🐧', web: '🌐', ios: '📱', android: '🤖' };
+            return '<span class="tool-platform-icon" title="' + p + '">' + (pMap[p] || p) + '</span>';
+        }).join('');
+
+        return '<a href="' + t.url + '" target="_blank" rel="noopener" class="tool-card">' +
+            '<div class="tool-card-top">' +
+                '<span class="tool-icon">' + t.icon + '</span>' +
+                '<div class="tool-info">' +
+                    '<h3 class="tool-name">' + t.name + '</h3>' +
+                    '<span class="tool-cat-badge" style="background:' + (catInfo.color || '#555') + '20;color:' + (catInfo.color || '#888') + '">' + (catInfo.name || t.category) + '</span>' +
+                '</div>' +
+            '</div>' +
+            '<p class="tool-desc">' + t.desc + '</p>' +
+            '<div class="tool-bottom">' +
+                '<div class="tool-tags">' + t.tags.slice(0, 4).map(function(tag) {
+                    return '<span class="tool-tag">' + tag + '</span>';
+                }).join('') + '</div>' +
+                '<div class="tool-platforms">' + platforms + '</div>' +
+            '</div>' +
+        '</a>';
+    }).join('');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    if (document.getElementById('toolsGrid')) {
+        initTools();
+    }
+    initAdFloat();
+});
+
+// Floating ad (shared)
+var adFloatDismissed = false;
+function initAdFloat() {
+    var adFloat = document.getElementById('adFloat');
+    var adClose = document.getElementById('adFloatClose');
+    var adBanner = document.querySelector('.ad-banner');
+    if (!adFloat || !adBanner) return;
+
+    adClose.addEventListener('click', function(e) {
+        e.preventDefault(); e.stopPropagation();
+        adFloatDismissed = true;
+        adFloat.classList.remove('ad-float--visible');
+    });
+
+    var threshold = adBanner.offsetTop + adBanner.offsetHeight;
+    var ticking = false;
+    window.addEventListener('resize', function() { threshold = adBanner.offsetTop + adBanner.offsetHeight; });
+    window.addEventListener('scroll', function() {
+        if (!ticking) {
+            requestAnimationFrame(function() {
+                if (adFloatDismissed) return;
+                if (window.scrollY > threshold + 20) adFloat.classList.add('ad-float--visible');
+                else adFloat.classList.remove('ad-float--visible');
+                ticking = false;
+            });
+            ticking = true;
+        }
+    }, { passive: true });
+}
+</script>
+
+<div class="ad-float" id="adFloat">
+    <button class="ad-float-close" id="adFloatClose" title="关闭">&times;</button>
+    <a href="https://forwelike.com" target="_blank" rel="nofollow sponsored" class="ad-float-inner">
+        <div class="ad-float-text">
+            <span class="ad-float-tag">推广</span>
+            <p class="ad-float-title">跨境外贸建站</p>
+            <p class="ad-float-desc">SEO/GEO优化 · 一站式服务</p>
+        </div>
+        <div class="ad-float-qr">
+            <img src="assets/img/qr-forwelike.png" alt="forwelike.com" width="56" height="56">
+        </div>
+    </a>
+</div>
+</body>
+</html>
