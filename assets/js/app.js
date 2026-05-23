@@ -1,4 +1,4 @@
-// ===== DevPulse - Main App =====
+// ===== Gitmaxhub - Main App =====
 
 // ===== Home Page =====
 function initHome(){
@@ -132,7 +132,7 @@ function initDetail(){
         return;
     }
 
-    document.title = project.fullName + " - DevPulse";
+    document.title = project.fullName + " - Gitmaxhub";
     document.getElementById("detailTitle").textContent = project.name;
     document.getElementById("detailBreadcrumb").textContent = project.name;
     document.getElementById("detailFullname").textContent = project.fullName;
@@ -186,4 +186,42 @@ document.addEventListener("DOMContentLoaded",()=>{
     if(document.getElementById("detailContent")){
         initDetail();
     }
+    initAdFloat();
 });
+
+// ===== Floating Ad Card (scroll-triggered) =====
+var adFloatDismissed = false;
+
+function initAdFloat(){
+    const adFloat = document.getElementById("adFloat");
+    const adClose = document.getElementById("adFloatClose");
+    const adBanner = document.querySelector(".ad-banner");
+
+    if(!adFloat || !adBanner) return;
+
+    // Close button
+    adClose.addEventListener("click",function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        adFloatDismissed = true;
+        adFloat.classList.remove("ad-float--visible");
+    });
+
+    // Scroll detection
+    var ticking = false;
+    window.addEventListener("scroll",function(){
+        if(!ticking){
+            requestAnimationFrame(function(){
+                if(adFloatDismissed) return;
+                const bannerBottom = adBanner.getBoundingClientRect().bottom;
+                if(bannerBottom < 0){
+                    adFloat.classList.add("ad-float--visible");
+                } else {
+                    adFloat.classList.remove("ad-float--visible");
+                }
+                ticking = false;
+            });
+            ticking = true;
+        }
+    },{passive:true});
+}

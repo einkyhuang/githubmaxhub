@@ -1,4 +1,4 @@
-// ===== DevPulse Project Data =====
+// ===== Gitmaxhub Project Data =====
 // Auto-updated daily. DO NOT manually edit between markers.
 
 // DATA_START
