@@ -465,7 +465,7 @@ var PROJECTS = [
             '可自由组合和扩展'
             '完善的文档和使用示例'
             '社区贡献和反馈机制']
-    }
+    },
     {
         slug: 'learn-claude-code',
         name: 'Learn Claude Code',
@@ -739,12 +739,17 @@ var PROJECTS = [
 ];
 
 var CATEGORIES = {
-    'agent': {name:'AI Agent', icon:'🤖', color:'#00e5ff'},
+    'agent': {name:'Agent', icon:'🤖', color:'#00e5ff'},
     'framework': {name:'框架平台', icon:'🏗️', color:'#b44dff'},
     'tool': {name:'开发工具', icon:'🔧', color:'#00e676'},
     'model': {name:'模型推理', icon:'🧠', color:'#ff9100'},
     'research': {name:'Skills研究', icon:'📚', color:'#ff4081'},
-    'multimodal': {name:'多模态', icon:'🎨', color:'#448aff'}
+    'multimodal': {name:'多模态', icon:'🎨', color:'#448aff'},
+    'security': {name:'安全', icon:'🛡️', color:'#ff1744'},
+    'devops': {name:'DevOps', icon:'🚀', color:'#76ff03'},
+    'frontend': {name:'前端', icon:'💻', color:'#ffea00'},
+    'data': {name:'数据科学', icon:'📊', color:'#18ffff'},
+    'mobile': {name:'移动开发', icon:'📱', color:'#e040fb'}
 };
 
 var TRENDS = [
