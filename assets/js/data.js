@@ -395,7 +395,7 @@ var PROJECTS = [
         category: 'agent',
         tags: ['Claude Code', '教程', 'Agent'],
         descShort: '迷你Claude Code风格Agent框架，61k Stars，Bash即所需从零构建',
-        descFull: 'learn-claude-code 是一个迷你Claude Code风格的Agent框架，由shareAI-lab推出，累计61k Stars。它的设计理念是'Bash is all you need'，从零开始构建一个精简但功能完整的AI编码Agent。适合学习Agent架构设计和快速搭建个人编码助手。',
+        descFull: 'learn-claude-code 是一个迷你Claude Code风格的Agent框架，由shareAI-lab推出，累计61k Stars。它的设计理念是"Bash is all you need"，从零开始构建一个精简但功能完整的AI编码Agent。适合学习Agent架构设计和快速搭建个人编码助手。',
         features: ['Bash即所需极简设计', '从0到1完整教学', '迷你Claude Code风格', 'TypeScript全栈实现', '61k社区认可']
     },
     {
