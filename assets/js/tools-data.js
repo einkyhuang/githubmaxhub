@@ -3,7 +3,7 @@
 // Total tools: 86
 
 // TOOLS_DATA_START
-var TOOLS_UPDATE_DATE = '2026-05-25';
+var TOOLS_UPDATE_DATE = '2026-05-26';
 
 var FEATURED_IDS = ['chatgpt', 'claude', 'cursor', 'vscode', 'figma', 'notion', 'raycast', 'perplexity'];
 
