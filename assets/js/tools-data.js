@@ -1,10 +1,10 @@
 // ===== Gitmaxhub Tool Navigation Data =====
 // Auto-updated daily. DO NOT manually edit between markers.
-// Total tools: 86
+// Total tools: 59
 
 
 // TOOLS_DATA_START
-const TOOLS_UPDATE_DATE = '2026-05-29';
+const TOOLS_UPDATE_DATE = '2026-05-30';
 
 const FEATURED_IDS = ["ecc", "openclaw", "superpowers", "hermes-agent", "karpathy-skills", "anthropics-skills", "mattpocock-skills", "understand-anything"];
 
@@ -35,36 +35,12 @@ const TOOLS_DATA = [
     ]
   },
   {
-    "slug": "openclaw",
-    "name": "OpenClaw",
-    "fullName": "openclaw/openclaw",
-    "githubUrl": "https://github.com/openclaw/openclaw",
-    "lang": "TypeScript",
-    "stars": "370k",
-    "forks": "76k",
-    "category": "agent",
-    "tags": [
-      "AI Agent",
-      "跨平台",
-      "多端协同"
-    ],
-    "descShort": "跨平台AI Agent框架，370k Stars登顶GitHub，支持Windows/Mac/Linux/Web/手机统一运行",
-    "descFull": "OpenClaw 是目前GitHub上Star数最高的AI Agent项目，累计370k Stars。它支持在Windows、Mac、Linux、Web和手机端运行统一的AI助手架构，为多端协同的企业场景提供一站式解决方案。其核心优势在于任何OS/平台都能获得一致的Agent体验，被誉为AI Agent界的瑞士军刀。本月持续领跑AI Agent赛道。",
-    "features": [
-      "全平台统一Agent架构",
-      "支持Windows/Mac/Linux/Web/手机",
-      "零配置跨端迁移",
-      "企业级多端协同",
-      "370k Stars登顶GitHub"
-    ]
-  },
-  {
     "slug": "superpowers",
     "name": "Superpowers",
     "fullName": "obra/superpowers",
     "githubUrl": "https://github.com/obra/superpowers",
     "lang": "TypeScript",
-    "stars": "215k",
+    "stars": "190k",
     "forks": "17k",
     "category": "agent",
     "tags": [
@@ -73,8 +49,8 @@ const TOOLS_DATA = [
       "AI编码",
       "开发方法论"
     ],
-    "descShort": "面向AI编码Agent的TDD开发框架，215k Stars，定义了Agent Skill标准范式",
-    "descFull": "obra/superpowers 是一个面向AI编码Agent的TDD（测试驱动开发）框架和软件开发方法论。它在GitHub Trending上表现极其凶猛，累计215k Stars。该项目重新定义了AI辅助编程的工作流程，将测试先行理念融入Agent协作中，大幅提升AI生成代码的可靠性和可维护性。其定义的Agent Skill标准范式影响了后续众多框架设计。",
+    "descShort": "面向AI编码Agent的TDD开发框架，190k Stars，定义了Agent Skill标准范式",
+    "descFull": "obra/superpowers 是一个面向AI编码Agent的TDD（测试驱动开发）框架和软件开发方法论。它在GitHub Trending上表现极其凶猛，累计190k Stars。该项目重新定义了AI辅助编程的工作流程，将测试先行理念融入Agent协作中，大幅提升AI生成代码的可靠性和可维护性。其定义的Agent Skill标准范式影响了后续众多框架设计。",
     "features": [
       "AI Agent TDD开发框架",
       "测试驱动的Agent编码方法论",
@@ -89,8 +65,8 @@ const TOOLS_DATA = [
     "fullName": "NousResearch/hermes-agent",
     "githubUrl": "https://github.com/NousResearch/hermes-agent",
     "lang": "Python",
-    "stars": "172k",
-    "forks": "27k",
+    "stars": "147k",
+    "forks": "23k",
     "category": "agent",
     "tags": [
       "AI Agent",
@@ -98,8 +74,8 @@ const TOOLS_DATA = [
       "自主Agent",
       "持久记忆"
     ],
-    "descShort": "自适应生长的AI Agent系统，172k Stars，跨会话记忆+技能系统+子Agent委托",
-    "descFull": "NousResearch推出的hermes-agent是目前最受关注的AI Agent系统之一，累计172k Stars。它解决了AI最大的痛点——健忘症，具备跨会话记忆（重启后依然记得你）、可插拔技能系统、子代理委托（自动拆分复杂任务）和定时任务自动化工作流。本月持续增长，自适应学习能力备受关注。",
+    "descShort": "自适应生长的AI Agent系统，147k Stars，跨会话记忆+技能系统+子Agent委托",
+    "descFull": "NousResearch推出的hermes-agent是目前最受关注的AI Agent系统之一，累计147k Stars。它解决了AI最大的痛点——健忘症，具备跨会话记忆（重启后依然记得你）、可插拔技能系统、子代理委托（自动拆分复杂任务）和定时任务自动化工作流。本月持续增长，自适应学习能力备受关注。",
     "features": [
       "跨会话持久记忆",
       "可插拔技能系统",
@@ -114,22 +90,22 @@ const TOOLS_DATA = [
     "fullName": "multica-ai/andrej-karpathy-skills",
     "githubUrl": "https://github.com/multica-ai/andrej-karpathy-skills",
     "lang": "Markdown",
-    "stars": "160k",
-    "forks": "23k",
+    "stars": "126k",
+    "forks": "13k",
     "category": "research",
     "tags": [
       "AI技能",
       "Claude",
       "开发方法论"
     ],
-    "descShort": "前特斯拉AI总监Karpathy的Claude Skills合集，160k Stars",
-    "descFull": "由前特斯拉AI总监Andrej Karpathy推出的Claude Skills合集，累计160k Stars。该项目定义了一套让Claude像资深工程师一样工作的Skills规范，涵盖代码审查、架构设计、性能优化等多个工程领域。它的爆火标志着Skills正在取代传统Prompt Engineering，成为人机协作的新范式。本月持续增长，Skills生态持续扩张。",
+    "descShort": "前特斯拉AI总监Karpathy的Claude Skills合集，126k Stars，5月单月新增80k",
+    "descFull": "由前特斯拉AI总监Andrej Karpathy推出的Claude Skills合集，累计126k Stars。该项目定义了一套让Claude像资深工程师一样工作的Skills规范，涵盖代码审查、架构设计、性能优化等多个工程领域。它的爆火标志着Skills正在取代传统Prompt Engineering，成为人机协作的新范式。5月单月新增80k+ Stars，是本月增长最猛的项目。",
     "features": [
       "Karpathy亲编Skills规范",
       "涵盖代码审查/架构设计/性能优化",
       "模拟资深工程师行为模式",
-      "Skills替代Prompt Engineering新范式",
-      "160k Stars里程碑"
+      "Skill替代Prompt Engineering新范式",
+      "5月单月新增80k Stars"
     ]
   },
   {
@@ -147,7 +123,7 @@ const TOOLS_DATA = [
       "可复用"
     ],
     "descShort": "Anthropic官方Agent Skills仓库，148k Stars，可复用的AI Agent能力模块集合",
-    "descFull": "Anthropic Skills 是Anthropic官方维护的Agent技能开源仓库，累计148k Stars。提供了一系列可复用的AI技能模块，涵盖代码审查、文档生成、数据分析、设计辅助等常见开发场景。每个技能都是独立的功能单元，可以自由组合使用，是构建AI辅助开发工作流的基石。",
+    "descFull": "Anthropic Skills 是Anthropic官方维护的Agent技能开源仓库，累计148k Stars。提供了一系列可复用的AI技能模块，涵盖代码审查、文档生成、数据分析、设计辅助等常见开发场景。每个技能都是独立的功能单元，可自由组合使用，是构建AI辅助开发工作流的基石。",
     "features": [
       "Anthropic官方维护和审核",
       "丰富的高质量技能模块",
@@ -162,16 +138,16 @@ const TOOLS_DATA = [
     "fullName": "mattpocock/skills",
     "githubUrl": "https://github.com/mattpocock/skills",
     "lang": "TypeScript",
-    "stars": "112k",
-    "forks": "12k",
+    "stars": "74k",
+    "forks": "6k",
     "category": "research",
     "tags": [
       "AI技能",
       "开发工具",
       "可复用"
     ],
-    "descShort": "TypeScript大神的真实工程师Skills集合，112k Stars，定义Agent工程标准",
-    "descFull": "TypeScript圈大神Matt Pocock推出的Claude/Codex Skills集合，累计112k Stars。不同于教科书式的刻板输出，这套Skills模拟一个真的懂代码、有审美、会跟产品经理吵架的真实开发者的行为模式。它正帮助全球开发者将自己的工程经验封装成可被Agent执行的标准化指令集。",
+    "descShort": "TypeScript大神的真实工程师Skills集合，74k Stars，5月单月新增37k",
+    "descFull": "TypeScript圈大神Matt Pocock推出的Claude/Codex Skills集合，累计74k Stars。不同于教科书式的刻板输出，这套Skills模拟一个真的懂代码、有审美、会跟产品经理吵架的真实开发者的行为模式。它正帮助全球开发者将自己的工程经验封装成可被Agent执行的标准化指令集。5月单月新增37k Stars。",
     "features": [
       "TypeScript大神亲编Skills",
       "模拟真实工程师行为模式",
@@ -186,8 +162,8 @@ const TOOLS_DATA = [
     "fullName": "Lum1104/Understand-Anything",
     "githubUrl": "https://github.com/Lum1104/Understand-Anything",
     "lang": "TypeScript",
-    "stars": "41k",
-    "forks": "3.3k",
+    "stars": "44k",
+    "forks": "3.6k",
     "category": "tool",
     "tags": [
       "知识图谱",
@@ -195,14 +171,14 @@ const TOOLS_DATA = [
       "Claude Code",
       "Cursor"
     ],
-    "descShort": "交互式代码知识图谱，41k Stars，可视化探索代码库结构",
-    "descFull": "Understand Anything 是一个将代码或知识库转化为交互式知识图谱的工具，累计41k Stars。它让AI编码助手（Claude Code、Codex、Cursor、Copilot、Gemini CLI）能以可视化方式探索、搜索和问答你的代码库结构，是5月最火爆的开发者工具之一，日均新增200+ Stars。",
+    "descShort": "交互式代码知识图谱，44k Stars（周增26k），可视化探索代码库结构",
+    "descFull": "Understand Anything 是一个将代码或知识库转化为交互式知识图谱的工具，累计44k Stars。它让AI编码助手（Claude Code、Codex、Cursor、Copilot、Gemini CLI）能以可视化方式探索、搜索和问答你的代码库结构，是5月最火爆的开发者工具之一，本周新增26k+ Stars。",
     "features": [
       "交互式代码知识图谱",
       "可视化探索代码库结构",
       "支持主流AI编码助手",
       "搜索与问答功能",
-      "5月日均新增200+ Stars"
+      "本周新增26k Stars"
     ]
   },
   {
@@ -211,16 +187,16 @@ const TOOLS_DATA = [
     "fullName": "TauricResearch/TradingAgents",
     "githubUrl": "https://github.com/TauricResearch/TradingAgents",
     "lang": "Python",
-    "stars": "92k",
-    "forks": "19k",
+    "stars": "80k",
+    "forks": "16k",
     "category": "agent",
     "tags": [
       "多智能体",
       "金融",
       "自动化"
     ],
-    "descShort": "多Agent金融交易框架，92k Stars，数据分析+策略+风控协同决策",
-    "descFull": "TradingAgents 是一个革命性的多智能体金融交易框架，累计92k Stars。它用多个AI Agent协同工作：一个负责数据分析、一个负责策略生成、一个负责风控，最后综合决策下单。这个项目标志着AI Agent从写代码扩展到执行真实金融业务，Multi-Agent协作正在成为构建复杂AI应用的主流架构。",
+    "descShort": "多Agent金融交易框架，80k Stars，数据分析+策略+风控协同决策",
+    "descFull": "TradingAgents 是一个革命性的多智能体金融交易框架，累计80k Stars。它用多个AI Agent协同工作：一个负责数据分析、一个负责策略生成、一个负责风控，最后综合决策下单。这个项目标志着AI Agent从写代码扩展到执行真实金融业务，Multi-Agent协作正在成为构建复杂AI应用的主流架构。",
     "features": [
       "多Agent协同决策",
       "数据分析+策略生成+风控三Agent架构",
@@ -235,8 +211,8 @@ const TOOLS_DATA = [
     "fullName": "bytedance/UI-TARS-desktop",
     "githubUrl": "https://github.com/bytedance/UI-TARS-desktop",
     "lang": "TypeScript",
-    "stars": "42k",
-    "forks": "5.5k",
+    "stars": "35k",
+    "forks": "3.5k",
     "category": "agent",
     "tags": [
       "多模态Agent",
@@ -244,8 +220,8 @@ const TOOLS_DATA = [
       "桌面端",
       "GUI自动化"
     ],
-    "descShort": "字节跳动多模态AI Agent桌面端，42k Stars，跨应用GUI自动化",
-    "descFull": "UI-TARS Desktop 是字节跳动开源的多模态AI Agent桌面端技术栈，累计42k Stars。它将前沿模型与Agent基础设施连接，支持跨应用GUI自动化操作，为构建桌面级智能体提供了完整的架构参考和工程实践。本月持续增长，桌面端AI Agent成新热点。",
+    "descShort": "字节跳动多模态AI Agent桌面端，35k Stars，跨应用GUI自动化",
+    "descFull": "UI-TARS Desktop 是字节跳动开源的多模态AI Agent桌面端技术栈，累计35k Stars。它将前沿模型与Agent基础设施连接，支持跨应用GUI自动化操作，能像人类一样看屏幕、理解界面并操作鼠标键盘。为构建桌面级智能体提供了完整的架构参考和工程实践。",
     "features": [
       "字节跳动开源出品",
       "多模态AI Agent桌面端",
@@ -260,7 +236,7 @@ const TOOLS_DATA = [
     "fullName": "Alishahryar1/free-claude-code",
     "githubUrl": "https://github.com/Alishahryar1/free-claude-code",
     "lang": "Python",
-    "stars": "32k",
+    "stars": "25k",
     "forks": "7.5k",
     "category": "agent",
     "tags": [
@@ -269,13 +245,13 @@ const TOOLS_DATA = [
       "VSCode",
       "Discord"
     ],
-    "descShort": "免费版Claude Code集成方案，32k Stars，终端+VSCode+Discord",
-    "descFull": "Free Claude Code 提供免费的Claude Code集成方案，支持终端直接调用、VSCode插件和Discord机器人三种入口。为开发者提供了零门槛使用Claude Code的途径，月增26k+ Stars成为5月最热门项目之一。免费AI工具需求持续旺盛。",
+    "descShort": "免费版Claude Code集成方案，25k Stars，终端+VSCode+Discord",
+    "descFull": "Free Claude Code 提供免费的Claude Code集成方案，支持终端直接调用、VSCode插件和Discord机器人三种入口。为开发者提供了零门槛使用Claude Code的途径，月增23k+ Stars成为5月最热门项目之一。免费AI工具需求持续旺盛。",
     "features": [
       "免费Claude Code集成",
       "终端/VSCode/Discord三入口",
       "无需付费API Key",
-      "月增26k+ Stars",
+      "月增23k+ Stars",
       "极大降低Claude Code使用门槛"
     ]
   },
@@ -285,8 +261,8 @@ const TOOLS_DATA = [
     "fullName": "nexu-io/open-design",
     "githubUrl": "https://github.com/nexu-io/open-design",
     "lang": "TypeScript",
-    "stars": "48k",
-    "forks": "6.5k",
+    "stars": "38k",
+    "forks": "4.3k",
     "category": "multimodal",
     "tags": [
       "设计",
@@ -295,14 +271,38 @@ const TOOLS_DATA = [
       "设计系统",
       "AI设计"
     ],
-    "descShort": "开源Claude Design替代品，48k Stars（月增38k），75套设计系统",
-    "descFull": "Open Design 是Claude Design的开源替代品，累计48k Stars，本月新增38k+。内建21个Skills和75套品牌级设计系统，可生成Web/桌面/移动端原型、幻灯片、图片、视频和超帧动画，支持HTML/PDF/PPTX/MP4导出。兼容Claude Code、Codex、Cursor、Gemini等主流AI Agent。",
+    "descShort": "开源Claude Design替代品，38k Stars（月增34k），71套设计系统",
+    "descFull": "Open Design 是Claude Design的开源替代品，累计38k Stars，本月新增34k+。内建19个Skills和71套品牌级设计系统，可生成Web/桌面/移动端原型、幻灯片、图片、视频和超帧动画，支持HTML/PDF/PPTX/MP4导出。兼容Claude Code、Codex、Cursor、Gemini等主流AI Agent。",
     "features": [
-      "21个Skills + 75套品牌级设计系统",
+      "19个Skills + 71套品牌级设计系统",
       "Web/桌面/移动端原型一键生成",
       "支持HTML/PDF/PPTX/MP4多格式导出",
-      "兼容主流AI Agent（Claude/Codex/Cursor/Gemini）",
-      "本月新增38k Stars"
+      "兼容主流AI Agent",
+      "本月新增34k Stars"
+    ]
+  },
+  {
+    "slug": "openclaw",
+    "name": "OpenClaw",
+    "fullName": "openclaw/openclaw",
+    "githubUrl": "https://github.com/openclaw/openclaw",
+    "lang": "TypeScript",
+    "stars": "370k",
+    "forks": "76k",
+    "category": "agent",
+    "tags": [
+      "AI Agent",
+      "跨平台",
+      "多端协同"
+    ],
+    "descShort": "跨平台AI Agent框架，370k Stars登顶GitHub，支持Windows/Mac/Linux/Web/手机统一运行",
+    "descFull": "OpenClaw 是目前GitHub上Star数最高的AI Agent项目，累计370k Stars。它支持在Windows、Mac、Linux、Web和手机端运行统一的AI助手架构，为多端协同的企业场景提供一站式解决方案。其核心优势在于任何OS/平台都能获得一致的Agent体验，被誉为AI Agent界的瑞士军刀。",
+    "features": [
+      "全平台统一Agent架构",
+      "支持Windows/Mac/Linux/Web/手机",
+      "零配置跨端迁移",
+      "企业级多端协同",
+      "370k Stars登顶GitHub"
     ]
   },
   {
@@ -337,7 +337,7 @@ const TOOLS_DATA = [
     "fullName": "heygen-com/hyperframes",
     "githubUrl": "https://github.com/heygen-com/hyperframes",
     "lang": "TypeScript",
-    "stars": "25k",
+    "stars": "19k",
     "forks": "4.5k",
     "category": "multimodal",
     "tags": [
@@ -346,14 +346,14 @@ const TOOLS_DATA = [
       "HeyGen",
       "短视频"
     ],
-    "descShort": "HTML直接渲染为视频引擎，25k Stars，代码即视频",
+    "descShort": "HTML直接渲染为视频引擎，19k Stars，代码即视频",
     "descFull": "HyperFrames 由HeyGen推出，能将HTML直接渲染为视频，让网页变成短片源代码。它重新定义了视频创作范式——用代码表达视频创意，实现从HTML/CSS到专业级视频的无缝转换，适合自媒体和内容创作者。",
     "features": [
       "HTML直接渲染为视频",
       "代码即视频创作范式",
       "HeyGen出品",
       "自媒体/短视频利器",
-      "25k Stars快速增长"
+      "本月新增17k Stars"
     ]
   },
   {
@@ -362,7 +362,7 @@ const TOOLS_DATA = [
     "fullName": "AIDC-AI/Pixelle-Video",
     "githubUrl": "https://github.com/AIDC-AI/Pixelle-Video",
     "lang": "Python",
-    "stars": "23k",
+    "stars": "18k",
     "forks": "4.5k",
     "category": "multimodal",
     "tags": [
@@ -371,14 +371,14 @@ const TOOLS_DATA = [
       "阿里AIDC",
       "自动化"
     ],
-    "descShort": "阿里AIDC全自动短视频生成引擎，23k Stars，一站式视频AI",
-    "descFull": "Pixelle Video 由阿里AIDC推出，是一个全自动短视频生成引擎，累计23k Stars。它集成AI剧本、画面生成、配音合成等能力，实现从创意到成片的全流程自动化，适合跨境电商素材制作和短视频批量生产。",
+    "descShort": "阿里AIDC全自动短视频生成引擎，18k Stars，一站式视频AI",
+    "descFull": "Pixelle Video 由阿里AIDC推出，是一个全自动短视频生成引擎，累计18k Stars。它集成AI剧本、画面生成、配音合成等能力，实现从创意到成片的全流程自动化，适合跨境电商素材制作和短视频批量生产。",
     "features": [
       "阿里AIDC出品",
       "全自动短视频生成引擎",
       "AI剧本+画面+配音一站式",
       "跨境电商素材制作利器",
-      "23k Stars快速增长"
+      "本月新增14k Stars"
     ]
   },
   {
@@ -387,21 +387,21 @@ const TOOLS_DATA = [
     "fullName": "farion1231/cc-switch",
     "githubUrl": "https://github.com/farion1231/cc-switch",
     "lang": "TypeScript",
-    "stars": "80k",
-    "forks": "8k",
+    "stars": "70k",
+    "forks": "4.5k",
     "category": "tool",
     "tags": [
       "桌面",
       "AI Agent管理",
       "跨平台"
     ],
-    "descShort": "跨平台桌面AI Agent管理助手，80k Stars，集成主流Agent",
-    "descFull": "CC Switch 是一个跨平台桌面端AI Agent一站式管理助手，累计80k Stars。它集成了Claude Code、Codex、OpenCode、OpenClaw、Gemini CLI和Hermes Agent，提供统一的界面管理和切换，本月持续高速增长。AI Agent管理工具需求不断增加。",
+    "descShort": "跨平台桌面AI Agent管理助手，70k Stars，集成主流Agent",
+    "descFull": "CC Switch 是一个跨平台桌面端AI Agent一站式管理助手，累计70k Stars。它集成了Claude Code、Codex、OpenCode、OpenClaw、Gemini CLI和Hermes Agent，提供统一的界面管理和切换，5月新增16k Stars。AI Agent管理工具需求不断增加。",
     "features": [
-      "跨平台桌面端（Win/Mac/Linux）",
-      "集成Claude Code/Codex/Gemini CLI等主流Agent",
+      "跨平台桌面端",
+      "集成Claude Code/Codex/Gemini等主流Agent",
       "统一界面管理和切换",
-      "80k Stars里程碑",
+      "70k Stars里程碑",
       "一站式AI Agent管理"
     ]
   },
@@ -461,8 +461,8 @@ const TOOLS_DATA = [
     "fullName": "HKUDS/ViMax",
     "githubUrl": "https://github.com/HKUDS/ViMax",
     "lang": "Python",
-    "stars": "10k",
-    "forks": "1.4k",
+    "stars": "7k",
+    "forks": "1.1k",
     "category": "multimodal",
     "tags": [
       "视频生成",
@@ -471,8 +471,8 @@ const TOOLS_DATA = [
       "编剧",
       "制片"
     ],
-    "descShort": "Agentic视频生成框架，10k Stars，导演+编剧+制片+生成一体化",
-    "descFull": "ViMax 是港大推出的Agentic视频生成框架，累计10k Stars。它将导演、编剧、制片和视频生成融为一体，实现从创意到成片的一站式创作闭环。不同于传统单点视频生成，ViMax采用多Agent协作架构，能自动生成脚本、设计分镜、选择参考图像、保持一致性并拼接视频，真正实现视频生产全流程自动化。",
+    "descShort": "Agentic视频生成框架，7k Stars，导演+编剧+制片+生成一体化",
+    "descFull": "ViMax 是港大推出的Agentic视频生成框架，累计7k Stars。它将导演、编剧、制片和视频生成融为一体，实现从创意到成片的一站式创作闭环。采用多Agent协作架构，能自动生成脚本、设计分镜、选择参考图像、保持一致性并拼接视频。",
     "features": [
       "导演+编剧+制片+生成一体化",
       "多Agent协作视频生产链",
@@ -522,7 +522,7 @@ const TOOLS_DATA = [
       "实践"
     ],
     "descShort": "从零开始的AI工程项目，18k Stars，学习+构建+交付完整闭环",
-    "descFull": "AI Engineering From Scratch 是一个从零开始的AI工程项目教程，累计18k Stars。它依托Python带你打通从底层原理学习、动手构建到产品交付的完整闭环，专为想入门或转型AI工程的开发者打造，助你真正把AI技术转化为可落地的实用产品。本月持续增长，AI工程教育需求旺盛。",
+    "descFull": "AI Engineering From Scratch 是一个从零开始的AI工程项目教程，累计18k Stars。它依托Python带你打通从底层原理学习、动手构建到产品交付的完整闭环，专为想入门或转型AI工程的开发者打造，助你真正把AI技术转化为可落地的实用产品。",
     "features": [
       "从零开始的AI工程教程",
       "学习+构建+交付完整闭环",
@@ -547,7 +547,7 @@ const TOOLS_DATA = [
       "上下文"
     ],
     "descShort": "Claude Code的MCP代码搜索工具，10k Stars，全代码库上下文",
-    "descFull": "Claude Context 是Zilliz推出的Claude Code MCP（Model Context Protocol）工具，累计10k Stars。它通过MCP协议将整个代码库变为Claude编程助手的上下文，让AI开发者在庞大项目中精确搜索和定位代码，极大提升编程效率。支持代码语义搜索和精准定位。",
+    "descFull": "Claude Context 是Zilliz推出的Claude Code MCP（Model Context Protocol）工具，累计10k Stars。它通过MCP协议将整个代码库变为Claude编程助手的上下文，让AI开发者在庞大项目中精确搜索和定位代码，极大提升编程效率。",
     "features": [
       "MCP协议代码搜索工具",
       "全代码库上下文支持",
@@ -639,23 +639,22 @@ const TOOLS_DATA = [
     "fullName": "colbymchenry/codegraph",
     "githubUrl": "https://github.com/colbymchenry/codegraph",
     "lang": "TypeScript",
-    "stars": "30k",
-    "forks": "2.8k",
-    "category": "agent",
+    "stars": "33k",
+    "forks": "2k",
+    "category": "tool",
     "tags": [
       "知识图谱",
       "Claude Code",
       "本地",
-      "Token优化",
-      "Cursor"
+      "Token优化"
     ],
-    "descShort": "预索引代码知识图谱，30k Stars（本月+15k），减少Token消耗",
-    "descFull": "CodeGraph 为Claude Code、Codex、Cursor等AI编程工具打造预索引代码知识图谱，完全本地运行。它大幅减少Token消耗与工具调用次数，帮助开发者在保障代码隐私的同时显著提升AI编程效率。5月暴涨15k+ Stars，成为最热门AI编码辅助工具之一。",
+    "descShort": "预索引代码知识图谱，33k Stars（周增17k），减少Token消耗",
+    "descFull": "CodeGraph 为Claude Code、Codex、Cursor等AI编程工具打造预索引代码知识图谱，完全本地运行。它大幅减少Token消耗与工具调用次数，帮助开发者在保障代码隐私的同时显著提升AI编程效率。5月暴涨，本周新增17k Stars，成为最热门AI编码辅助工具之一。",
     "features": [
       "预索引代码知识图谱",
       "100%本地运行隐私保障",
       "大幅减少Token消耗",
-      "本月暴涨15k Stars",
+      "本周暴涨17k Stars",
       "兼容Claude Code/Codex/Cursor/Gemini"
     ]
   },
@@ -665,8 +664,8 @@ const TOOLS_DATA = [
     "fullName": "addyosmani/agent-skills",
     "githubUrl": "https://github.com/addyosmani/agent-skills",
     "lang": "Shell",
-    "stars": "50k",
-    "forks": "6.5k",
+    "stars": "45k",
+    "forks": "5k",
     "category": "research",
     "tags": [
       "Agent Skills",
@@ -674,14 +673,14 @@ const TOOLS_DATA = [
       "Addy Osmani",
       "Google Chrome"
     ],
-    "descShort": "Google Chrome团队的AI编码Agent工程技能库，50k Stars",
-    "descFull": "Agent Skills 由Google Chrome团队的Addy Osmani推出，是一个面向AI编码Agent的生产级工程技能集合。它标准化了Agent在实际开发中需要的各种底层操作（文件处理、环境配置等），非常适合作为构建自定义Coding Agent的基础工具集。本月持续增长。",
+    "descShort": "Google Chrome团队的AI编码Agent工程技能库，45k Stars，月增24k",
+    "descFull": "Agent Skills 由Google Chrome团队的Addy Osmani推出，是一个面向AI编码Agent的生产级工程技能集合。它标准化了Agent在实际开发中需要的各种底层操作（文件处理、环境配置等），非常适合作为构建自定义Coding Agent的基础工具集。5月新增24k Stars。",
     "features": [
       "Google Chrome团队出品",
       "生产级工程技能库",
       "标准化Agent底层操作",
       "适用于构建自定义Coding Agent",
-      "50k Stars里程碑"
+      "月增24k Stars"
     ]
   },
   {
@@ -725,7 +724,7 @@ const TOOLS_DATA = [
       "全栈"
     ],
     "descShort": "AI驱动的全栈编码Agent，68k Stars，独立完成开发任务",
-    "descFull": "OpenHands 是一个AI驱动的全栈编码Agent，累计68k Stars。它可以独立完成从需求分析到代码实现的全流程开发任务，运行在隔离沙箱环境中执行命令、读写文件、安装依赖。适合自动化编程任务和开发流程加速。本月持续增长。",
+    "descFull": "OpenHands 是一个AI驱动的全栈编码Agent，累计68k Stars。它可以独立完成从需求分析到代码实现的全流程开发任务，运行在隔离沙箱环境中执行命令、读写文件、安装依赖。适合自动化编程任务和开发流程加速。",
     "features": [
       "全栈AI编码Agent",
       "独立完成需求到代码全流程",
@@ -828,7 +827,7 @@ const TOOLS_DATA = [
       "工作流"
     ],
     "descShort": "ComfyUI的LTXVideo支持扩展，4.5k Stars，文本/图像到视频生成",
-    "descFull": "ComfyUI LTXVideo 是Lightricks官方出品的ComfyUI扩展，让ComfyUI也能用上LTXVideo强大视频生成能力，累计4.5k Stars。只需简单节点操作即可创作高质量动态内容，支持文本到视频、图像到视频、视频增强等工作流，提供低显存优化方案。",
+    "descFull": "ComfyUI LTXVideo 是Lightricks官方出品的ComfyUI扩展，让ComfyUI也能用上LTXVideo强大视频生成能力，累计4.5k Stars。只需简单节点操作即可创作高质量动态内容，支持文本到视频、图像到视频、视频增强等工作流。",
     "features": [
       "ComfyUI LTXVideo支持扩展",
       "文本/图像到视频生成",
@@ -854,7 +853,7 @@ const TOOLS_DATA = [
       "RAG"
     ],
     "descShort": "LLM和AI Agent记忆基础设施，5.5k Stars，持续学习演进能力",
-    "descFull": "memU 是为AI大模型和智能体打造的记忆基础设施，累计5.5k Stars。它支持多模态输入（对话、文档、图像等），通过三层架构（资源-项目-类别）组织记忆，提供RAG和LLM双检索方式，支持云部署和自托管，让AI拥有持续学习和演进的能力。",
+    "descFull": "memU 是为AI大模型和智能体打造的记忆基础设施，累计5.5k Stars。它支持多模态输入（对话、文档、图像等），通过三层架构组织记忆，提供RAG和LLM双检索方式，让AI拥有持续学习和演进的能力。",
     "features": [
       "LLM和AI Agent记忆基础设施",
       "多模态输入支持",
@@ -947,7 +946,7 @@ const TOOLS_DATA = [
     "fullName": "soxoj/maigret",
     "githubUrl": "https://github.com/soxoj/maigret",
     "lang": "Python",
-    "stars": "33k",
+    "stars": "29k",
     "forks": "4.5k",
     "category": "security",
     "tags": [
@@ -957,8 +956,8 @@ const TOOLS_DATA = [
       "调查",
       "隐私"
     ],
-    "descShort": "用户名身份侦查工具，33k Stars，覆盖3000+网站",
-    "descFull": "Maigret 是一个强大的用户名身份侦查工具，累计33k Stars。它可以通过用户名在3000+个网站上收集个人信息，创建详细的人物档案，用于OSINT（开源情报）调查、隐私审计和安全研究。",
+    "descShort": "用户名身份侦查工具，29k Stars，覆盖3000+网站",
+    "descFull": "Maigret 是一个强大的用户名身份侦查工具，累计29k Stars。它可以通过用户名在3000+个网站上收集个人信息，创建详细的人物档案，用于OSINT（开源情报）调查、隐私审计和安全研究。",
     "features": [
       "用户名身份侦查工具",
       "覆盖3000+网站数据收集",
@@ -973,8 +972,8 @@ const TOOLS_DATA = [
     "fullName": "anthropics/financial-services",
     "githubUrl": "https://github.com/anthropics/financial-services",
     "lang": "Python",
-    "stars": "30k",
-    "forks": "5.5k",
+    "stars": "21k",
+    "forks": "2.8k",
     "category": "agent",
     "tags": [
       "金融服务",
@@ -983,8 +982,8 @@ const TOOLS_DATA = [
       "企业应用",
       "合规"
     ],
-    "descShort": "Anthropic官方金融服务应用样板，30k Stars，企业级AI应用参考",
-    "descFull": "Financial Services 是Anthropic官方推出的金融服务应用样板，累计30k Stars。它展示了如何在金融服务行业构建安全、合规、可靠的AI应用，包括风险评估、客户服务、合规检查等场景，是企业级AI应用的重要参考。",
+    "descShort": "Anthropic官方金融服务应用样板，21k Stars（月增16k），企业级AI应用参考",
+    "descFull": "Financial Services 是Anthropic官方推出的金融服务应用样板，累计21k Stars。它展示了如何在金融服务行业构建安全、合规、可靠的AI应用，包括风险评估、客户服务、合规检查等场景，是企业级AI应用的重要参考。本月新增16k Stars。",
     "features": [
       "Anthropic官方金融服务样板",
       "企业级AI应用参考架构",
@@ -999,7 +998,7 @@ const TOOLS_DATA = [
     "fullName": "Fincept-Corporation/FinceptTerminal",
     "githubUrl": "https://github.com/Fincept-Corporation/FinceptTerminal",
     "lang": "Python",
-    "stars": "25k",
+    "stars": "22k",
     "forks": "4.5k",
     "category": "agent",
     "tags": [
@@ -1009,8 +1008,8 @@ const TOOLS_DATA = [
       "数据分析",
       "量化"
     ],
-    "descShort": "高级市场分析与投资研究终端，25k Stars，量化投资工具",
-    "descFull": "Fincept Terminal 是一个高级市场分析与投资研究终端，累计25k Stars。它集成了多种金融数据源和分析工具，提供专业的市场洞察、投资研究和量化分析功能，是金融从业者和投资者的强大工具。",
+    "descShort": "高级市场分析与投资研究终端，22k Stars，量化投资工具",
+    "descFull": "Fincept Terminal 是一个高级市场分析与投资研究终端，累计22k Stars。它集成了多种金融数据源和分析工具，提供专业的市场洞察、投资研究和量化分析功能，是金融从业者和投资者的强大工具。",
     "features": [
       "高级市场分析与投资研究",
       "多金融数据源集成",
@@ -1025,7 +1024,7 @@ const TOOLS_DATA = [
     "fullName": "yikart/AiToEarn",
     "githubUrl": "https://github.com/yikart/AiToEarn",
     "lang": "TypeScript",
-    "stars": "19k",
+    "stars": "15k",
     "forks": "3.5k",
     "category": "agent",
     "tags": [
@@ -1035,8 +1034,8 @@ const TOOLS_DATA = [
       "自动化",
       "平台"
     ],
-    "descShort": "AI驱动的内容变现平台，19k Stars，创作者经济自动化",
-    "descFull": "AiToEarn 是一个AI驱动的内容变现平台，累计19k Stars。它帮助创作者通过AI技术自动化内容生产、分发和变现流程，涵盖社交媒体、视频、写作等多个内容领域，是创作者经济的重要工具。",
+    "descShort": "AI驱动的内容变现平台，15k Stars，创作者经济自动化",
+    "descFull": "AiToEarn 是一个AI驱动的内容变现平台，累计15k Stars。它帮助创作者通过AI技术自动化内容生产、分发和变现流程，涵盖社交媒体、视频、写作等多个内容领域，是创作者经济的重要工具。",
     "features": [
       "AI驱动内容变现平台",
       "创作者经济自动化",
@@ -1119,6 +1118,384 @@ const TOOLS_DATA = [
       "多步骤Web操作",
       "微软Agent新布局"
     ]
+  },
+  {
+    "slug": "ruflo",
+    "name": "Ruflo",
+    "fullName": "ruvnet/ruflo",
+    "githubUrl": "https://github.com/ruvnet/ruflo",
+    "lang": "TypeScript",
+    "stars": "56k",
+    "forks": "6.3k",
+    "category": "agent",
+    "tags": [
+      "Multi-Agent",
+      "集群",
+      "编排",
+      "Claude Code",
+      "AI Agent"
+    ],
+    "descShort": "多Agent集群编排平台，56k Stars（月增18k），100+Agent并行协作",
+    "descFull": "Ruflo 是当前最强的Claude多Agent编排平台，累计56k Stars。它能同时调度100+个专门化Agent（负责coding、testing、review、security等）组成Swarm集群进行协作，具备自学习集群智能、RAG集成和企业级架构。5月单月新增18k Stars，代表着AI Agent从单兵作战向集团军演进的趋势。",
+    "features": [
+      "100+ Agent Swarm集群协作",
+      "自学习集群智能",
+      "RAG深度集成",
+      "企业级Agent编排架构",
+      "月增18k Stars"
+    ]
+  },
+  {
+    "slug": "money-printer-turbo",
+    "name": "MoneyPrinterTurbo",
+    "fullName": "harry0703/MoneyPrinterTurbo",
+    "githubUrl": "https://github.com/harry0703/MoneyPrinterTurbo",
+    "lang": "Python",
+    "stars": "70k",
+    "forks": "10k",
+    "category": "multimodal",
+    "tags": [
+      "视频生成",
+      "AI大模型",
+      "短视频",
+      "一键生成"
+    ],
+    "descShort": "AI一键生成高清短视频，70k Stars，利用大模型全自动创作",
+    "descFull": "MoneyPrinterTurbo 是目前最流行的AI短视频生成工具，累计70k Stars。它利用AI大模型一键生成高清短视频，实现从文案到配音到画面的全自动流程。本周新增11k Stars，是AI视频生成领域的绝对王者，深受自媒体和内容创作者欢迎。",
+    "features": [
+      "AI一键生成高清短视频",
+      "文案+配音+画面全自动",
+      "大模型驱动创意引擎",
+      "本周新增11k Stars",
+      "自媒体创作利器"
+    ]
+  },
+  {
+    "slug": "ruview",
+    "name": "RuView",
+    "fullName": "ruvnet/RuView",
+    "githubUrl": "https://github.com/ruvnet/RuView",
+    "lang": "Rust",
+    "stars": "60k",
+    "forks": "6.7k",
+    "category": "tool",
+    "tags": [
+      "WiFi感知",
+      "空间智能",
+      "Rust",
+      "AIoT"
+    ],
+    "descShort": "WiFi信号实时空间智能监测，60k Stars，无需摄像头的人体感知",
+    "descFull": "RuView 是一个革命性的项目，能将普通WiFi信号转化为实时空间智能、生命体征监测和存在检测——完全不需要摄像头像素。它利用WiFi信号的微小波动来感知空间内的人体活动，是AIoT和隐私保护感知领域的重大突破。",
+    "features": [
+      "WiFi信号空间智能感知",
+      "无需摄像头的人体检测",
+      "实时生命体征监测",
+      "隐私保护型感知技术",
+      "Rust构建高性能"
+    ]
+  },
+  {
+    "slug": "hackingtool",
+    "name": "HackingTool",
+    "fullName": "Z4nzu/hackingtool",
+    "githubUrl": "https://github.com/Z4nzu/hackingtool",
+    "lang": "Python",
+    "stars": "76k",
+    "forks": "8.6k",
+    "category": "security",
+    "tags": [
+      "安全",
+      "渗透测试",
+      "黑客工具",
+      "集成"
+    ],
+    "descShort": "一站式渗透测试黑客工具集，76k Stars，集成所有主流安全工具",
+    "descFull": "HackingTool 是一个ALL IN ONE的集成式黑客安全工具平台，累计76k Stars。它将所有主流安全工具整合到一个界面中，提供信息收集、漏洞扫描、密码攻击、无线攻击、Web应用测试等功能，是安全从业者和CTF爱好者的瑞士军刀。",
+    "features": [
+      "一站式渗透测试工具集",
+      "信息收集+漏洞扫描+密码攻击",
+      "Web应用安全测试",
+      "无线攻击与嗅探",
+      "CTF竞赛重要武器库"
+    ]
+  },
+  {
+    "slug": "deepseek-tui",
+    "name": "DeepSeek TUI",
+    "fullName": "Hmbown/DeepSeek-TUI",
+    "githubUrl": "https://github.com/Hmbown/DeepSeek-TUI",
+    "lang": "TypeScript",
+    "stars": "26k",
+    "forks": "2.2k",
+    "category": "agent",
+    "tags": [
+      "DeepSeek",
+      "终端",
+      "AI编码",
+      "Agent"
+    ],
+    "descShort": "DeepSeek原生终端AI编码Agent，26k Stars（月增30k），极致Prefix-Cache",
+    "descFull": "DeepSeek TUI 是一个专为DeepSeek模型优化的终端AI编码Agent，累计26k Stars，5月单月暴涨30k。它围绕Prefix-Cache稳定性精心设计，支持长期驻留运行，让DeepSeek模型在编码场景发挥最大性能。代表着开源模型进入专业AI编码Agent领域。",
+    "features": [
+      "DeepSeek模型原生优化",
+      "Prefix-Cache稳定性引擎",
+      "终端长期驻留运行",
+      "月增30k Stars爆发增长",
+      "开源模型Agent标杆"
+    ]
+  },
+  {
+    "slug": "agent-governance-toolkit",
+    "name": "Agent Governance Toolkit",
+    "fullName": "microsoft/agent-governance-toolkit",
+    "githubUrl": "https://github.com/microsoft/agent-governance-toolkit",
+    "lang": "Python",
+    "stars": "3.4k",
+    "forks": "490",
+    "category": "security",
+    "tags": [
+      "AI治理",
+      "微软",
+      "安全",
+      "Agent安全",
+      "零信任"
+    ],
+    "descShort": "微软AI Agent治理工具包，3.4k Stars，覆盖OWASP Agent Top 10",
+    "descFull": "Agent Governance Toolkit 是微软推出的AI Agent安全治理工具包，累计3.4k Stars。它提供策略执行、零信任身份、执行沙箱和安全可靠性工程能力，覆盖OWASP Agentic Top 10全部10个风险领域，是企业在生产环境部署Agent的安全底座。5月底新发布即引发大量关注。",
+    "features": [
+      "微软AI安全治理工具",
+      "覆盖OWASP Agent Top 10",
+      "零信任身份与沙箱",
+      "策略执行与安全工程",
+      "企业Agent安全底座"
+    ]
+  },
+  {
+    "slug": "stop-slop",
+    "name": "Stop Slop",
+    "fullName": "hardikpandya/stop-slop",
+    "githubUrl": "https://github.com/hardikpandya/stop-slop",
+    "lang": "Python",
+    "stars": "7k",
+    "forks": "490",
+    "category": "tool",
+    "tags": [
+      "AI写作",
+      "质量优化",
+      "去AI味",
+      "Skill"
+    ],
+    "descShort": "AI文本去「AI味」Skill，7k Stars，让AI写作更像人类",
+    "descFull": "Stop Slop 是一个专门用于移除AI生成文本中「AI味」的Skill文件，累计7k Stars。它通过精细化规则消除AI写作中的套话、陈词滥调和机械感，让AI输出更自然、更像人类写作。本周新增3k Stars，内容创作者和AI写作者的热门工具。",
+    "features": [
+      "移除AI文本中的机械感",
+      "精细化去AI味规则",
+      "让AI写作更自然人类化",
+      "本周新增3k Stars",
+      "内容创作者必备"
+    ]
+  },
+  {
+    "slug": "presenton",
+    "name": "Presenton",
+    "fullName": "presenton/presenton",
+    "githubUrl": "https://github.com/presenton/presenton",
+    "lang": "TypeScript",
+    "stars": "7.5k",
+    "forks": "1.2k",
+    "category": "multimodal",
+    "tags": [
+      "PPT",
+      "AI演示",
+      "Gamma替代",
+      "开源"
+    ],
+    "descShort": "开源AI演示文稿生成器，7.5k Stars，Gamma/Beautiful AI替代品",
+    "descFull": "Presenton 是一个开源的AI演示文稿生成器和API，累计7.5k Stars。它定位为Gamma、Beautiful AI、Decktopus的开源替代品，支持AI驱动的幻灯片自动生成、模板库和API集成，适合需要快速制作专业演示的场景。",
+    "features": [
+      "AI驱动演示文稿生成",
+      "Gamma/Beautiful AI开源替代",
+      "API集成支持",
+      "专业模板库",
+      "快速制作专业PPT"
+    ]
+  },
+  {
+    "slug": "oh-my-pi",
+    "name": "Oh My Pi",
+    "fullName": "can1357/oh-my-pi",
+    "githubUrl": "https://github.com/can1357/oh-my-pi",
+    "lang": "TypeScript",
+    "stars": "8.5k",
+    "forks": "680",
+    "category": "agent",
+    "tags": [
+      "AI编码",
+      "终端",
+      "Agent",
+      "多工具"
+    ],
+    "descShort": "终端AI编码Agent，8.5k Stars，hash锚定编辑+LSP+浏览器+子Agent",
+    "descFull": "Oh My Pi 是一个全能终端AI编码Agent，累计8.5k Stars。它集成了hash锚定编辑、优化工具束、LSP语言服务器、Python执行、浏览器控制和子Agent委托等丰富能力，为终端开发者提供一站式的AI编码体验。本周新增2.3k Stars。",
+    "features": [
+      "hash锚定编辑技术",
+      "LSP语言服务器集成",
+      "浏览器+Python+子Agent多工具",
+      "优化工具束降低Token消耗",
+      "终端原生AI编码体验"
+    ]
+  },
+  {
+    "slug": "dograh",
+    "name": "Dograh",
+    "fullName": "dograh-hq/dograh",
+    "githubUrl": "https://github.com/dograh-hq/dograh",
+    "lang": "Python",
+    "stars": "3.7k",
+    "forks": "770",
+    "category": "multimodal",
+    "tags": [
+      "语音AI",
+      "开源",
+      "Vapi替代",
+      "MCP"
+    ],
+    "descShort": "开源语音AI平台，3.7k Stars，Vapi/Retell自托管替代品",
+    "descFull": "Dograh 是一个开源语音AI平台，累计3.7k Stars。它定位为Vapi和Retell的自托管替代品，支持本地部署和BYOK（自带密钥），提供可视化工作流构建器、MCP原生集成和电话支持，覆盖语音到语音和LLM/STT/TTS全链路。",
+    "features": [
+      "开源语音AI平台",
+      "Vapi/Retell自托管替代",
+      "可视化工作流构建器",
+      "MCP原生集成",
+      "语音全链路覆盖"
+    ]
+  },
+  {
+    "slug": "awesome-mcp-servers",
+    "name": "Awesome MCP Servers",
+    "fullName": "punkpeye/awesome-mcp-servers",
+    "githubUrl": "https://github.com/punkpeye/awesome-mcp-servers",
+    "lang": "Markdown",
+    "stars": "83k",
+    "forks": "8k",
+    "category": "tool",
+    "tags": [
+      "MCP",
+      "Agent",
+      "生态",
+      "标准",
+      "USB-C"
+    ],
+    "descShort": "MCP Server生态合集，83k Stars，AI Agent的「USB-C」标准接口",
+    "descFull": "Awesome MCP Servers 是MCP（Model Context Protocol）生态的权威合集，累计83k Stars。它被社区称为「AI的USB-C」——就像USB-C统一了充电和数据传输，MCP正在统一AI Agent与外部工具的连接方式。覆盖数据库、云服务、开发工具、生产力等领域的MCP Server，一次编写即可被所有支持MCP的Agent使用。",
+    "features": [
+      "MCP协议生态权威合集",
+      "AI Agent标准接口「USB-C」",
+      "数据库/云服务/开发工具全覆盖",
+      "一次编写所有Agent通用",
+      "83k Stars生态爆发"
+    ]
+  },
+  {
+    "slug": "sandcastle",
+    "name": "Sandcastle",
+    "fullName": "mattpocock/sandcastle",
+    "githubUrl": "https://github.com/mattpocock/sandcastle",
+    "lang": "TypeScript",
+    "stars": "4.8k",
+    "forks": "515",
+    "category": "agent",
+    "tags": [
+      "沙箱",
+      "Agent",
+      "TypeScript",
+      "安全"
+    ],
+    "descShort": "沙箱化AI编码Agent编排，4.8k Stars，sandcastle.run() API",
+    "descFull": "Sandcastle 是Matt Pocock推出的TypeScript沙箱化编码Agent编排框架，累计4.8k Stars。它通过sandcastle.run() API实现安全的Agent沙箱执行，确保Agent代码在隔离环境中运行，不影响宿主系统。5月新增约4k Stars，是Agent安全执行的重要工具。",
+    "features": [
+      "沙箱化Agent安全执行",
+      "sandcastle.run()简洁API",
+      "TypeScript原生支持",
+      "隔离环境保护宿主机",
+      "Matt Pocock出品"
+    ]
+  },
+  {
+    "slug": "cocoindex",
+    "name": "CocoIndex",
+    "fullName": "cocoindex-io/cocoindex",
+    "githubUrl": "https://github.com/cocoindex-io/cocoindex",
+    "lang": "Python",
+    "stars": "10k",
+    "forks": "790",
+    "category": "agent",
+    "tags": [
+      "增量引擎",
+      "AI Agent",
+      "长周期任务",
+      "索引"
+    ],
+    "descShort": "长周期AI Agent增量引擎，10k Stars，持久化索引与状态管理",
+    "descFull": "CocoIndex 是一个为长周期AI Agent打造的增量引擎，累计10k Stars。它解决了AI Agent处理长时间运行任务时的状态管理、增量更新和索引持久化问题，让Agent能够在跨会话的场景中保持上下文并持续工作。",
+    "features": [
+      "长周期Agent增量引擎",
+      "跨会话状态持久化",
+      "增量索引更新",
+      "减少重复计算",
+      "10k Stars快速崛起"
+    ]
+  },
+  {
+    "slug": "letta",
+    "name": "Letta",
+    "fullName": "letta-ai/letta",
+    "githubUrl": "https://github.com/letta-ai/letta",
+    "lang": "Python",
+    "stars": "23k",
+    "forks": "2.5k",
+    "category": "agent",
+    "tags": [
+      "有状态Agent",
+      "记忆",
+      "自学习",
+      "Claude"
+    ],
+    "descShort": "有状态自学习AI Agent平台，23k Stars，持久记忆+持续进化",
+    "descFull": "Letta 是一个构建有状态AI Agent的平台，累计23k Stars。它赋予AI Agent高级记忆能力，可以学习和随时间自我改进。不同于无状态LLM调用，Letta的Agent能够在多轮对话中保持状态、积累知识并持续进化，是Agent长期记忆领域的领导者。",
+    "features": [
+      "有状态AI Agent平台",
+      "跨会话持久记忆",
+      "自学习和持续进化",
+      "长期知识积累",
+      "Agent记忆领域领导者"
+    ]
+  },
+  {
+    "slug": "mirage",
+    "name": "Mirage",
+    "fullName": "strukto-ai/mirage",
+    "githubUrl": "https://github.com/strukto-ai/mirage",
+    "lang": "TypeScript",
+    "stars": "2.7k",
+    "forks": "180",
+    "category": "tool",
+    "tags": [
+      "虚拟文件系统",
+      "AI Agent",
+      "文件管理",
+      "统一接口"
+    ],
+    "descShort": "AI Agent统一虚拟文件系统，2.7k Stars，跨平台文件管理",
+    "descFull": "Mirage 是为AI Agent打造的统一虚拟文件系统，累计2.7k Stars。它为Agent提供跨平台的统一文件操作接口，支持本地文件、云存储、数据库等多种后端的虚拟化统一访问，简化AI Agent的文件管理复杂度。",
+    "features": [
+      "AI Agent虚拟文件系统",
+      "跨平台统一文件接口",
+      "多后端虚拟化支持",
+      "简化Agent文件管理",
+      "新兴Agent基础设施"
+    ]
   }
 ];
 
@@ -1126,7 +1503,7 @@ const TOOL_CATEGORIES = {
   "agent": {
     "name": "AI Agent",
     "icon": "robot",
-    "count": 20
+    "count": 25
   },
   "research": {
     "name": "学习研究",
@@ -1136,17 +1513,17 @@ const TOOL_CATEGORIES = {
   "tool": {
     "name": "工具平台",
     "icon": "tool",
-    "count": 7
+    "count": 12
   },
   "multimodal": {
     "name": "多模态",
     "icon": "image",
-    "count": 6
+    "count": 9
   },
   "security": {
     "name": "安全",
     "icon": "shield",
-    "count": 2
+    "count": 4
   }
 };
 // TOOLS_DATA_END
