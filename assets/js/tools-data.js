@@ -4,7 +4,7 @@
 
 
 // TOOLS_DATA_START
-const TOOLS_UPDATE_DATE = '2026-06-09';
+const TOOLS_UPDATE_DATE = '2026-06-10';
 
 const FEATURED_IDS = ["openclaw", "superpowers", "ecc", "hermes-agent", "anthropics-skills", "karpathy-skills", "mattpocock-skills", "browser-use"];
 
@@ -40,7 +40,7 @@ const TOOLS_DATA = [
     "fullName": "obra/superpowers",
     "githubUrl": "https://github.com/obra/superpowers",
     "lang": "Shell",
-    "stars": "216k",
+    "stars": "221k",
     "forks": "18.8k",
     "category": "agent",
     "tags": [
@@ -65,7 +65,7 @@ const TOOLS_DATA = [
     "fullName": "affaan-m/everything-claude-code",
     "githubUrl": "https://github.com/affaan-m/everything-claude-code",
     "lang": "JavaScript",
-    "stars": "206k",
+    "stars": "211k",
     "forks": "32.5k",
     "category": "agent",
     "tags": [
@@ -90,7 +90,7 @@ const TOOLS_DATA = [
     "fullName": "NousResearch/hermes-agent",
     "githubUrl": "https://github.com/NousResearch/hermes-agent",
     "lang": "Python",
-    "stars": "186.4k",
+    "stars": "186k",
     "forks": "31k",
     "category": "agent",
     "tags": [
@@ -115,7 +115,7 @@ const TOOLS_DATA = [
     "fullName": "anthropics/skills",
     "githubUrl": "https://github.com/anthropics/skills",
     "lang": "Markdown",
-    "stars": "31k",
+    "stars": "148k",
     "forks": "4.2k",
     "category": "research",
     "tags": [
@@ -190,7 +190,7 @@ const TOOLS_DATA = [
     "fullName": "browser-use/browser-use",
     "githubUrl": "https://github.com/browser-use/browser-use",
     "lang": "Python",
-    "stars": "97.5k",
+    "stars": "97k",
     "forks": "11.2k",
     "category": "agent",
     "tags": [
@@ -390,7 +390,7 @@ const TOOLS_DATA = [
     "fullName": "ollama/ollama",
     "githubUrl": "https://github.com/ollama/ollama",
     "lang": "Go",
-    "stars": "174k",
+    "stars": "176k",
     "forks": "13.8k",
     "category": "tool",
     "tags": [
@@ -415,7 +415,7 @@ const TOOLS_DATA = [
     "fullName": "ggml-org/llama.cpp",
     "githubUrl": "https://github.com/ggml-org/llama.cpp",
     "lang": "C++",
-    "stars": "192k",
+    "stars": "194k",
     "forks": "22.2k",
     "category": "tool",
     "tags": [
@@ -440,7 +440,7 @@ const TOOLS_DATA = [
     "fullName": "langchain-ai/langchain",
     "githubUrl": "https://github.com/langchain-ai/langchain",
     "lang": "Python",
-    "stars": "138.4k",
+    "stars": "139k",
     "forks": "23k",
     "category": "agent",
     "tags": [
@@ -465,7 +465,7 @@ const TOOLS_DATA = [
     "fullName": "langgenius/dify",
     "githubUrl": "https://github.com/langgenius/dify",
     "lang": "TypeScript",
-    "stars": "140k",
+    "stars": "144k",
     "forks": "21.5k",
     "category": "agent",
     "tags": [
@@ -490,7 +490,7 @@ const TOOLS_DATA = [
     "fullName": "firecrawl/firecrawl",
     "githubUrl": "https://github.com/firecrawl/firecrawl",
     "lang": "TypeScript",
-    "stars": "128.5k",
+    "stars": "130k",
     "forks": "7.8k",
     "category": "tool",
     "tags": [
@@ -515,7 +515,7 @@ const TOOLS_DATA = [
     "fullName": "vllm-project/vllm",
     "githubUrl": "https://github.com/vllm-project/vllm",
     "lang": "Python",
-    "stars": "79.5k",
+    "stars": "80k",
     "forks": "12.3k",
     "category": "tool",
     "tags": [
@@ -565,7 +565,7 @@ const TOOLS_DATA = [
     "fullName": "harry0703/MoneyPrinterTurbo",
     "githubUrl": "https://github.com/harry0703/MoneyPrinterTurbo",
     "lang": "Python",
-    "stars": "80.5k",
+    "stars": "81.5k",
     "forks": "11.8k",
     "category": "multimodal",
     "tags": [
@@ -590,7 +590,7 @@ const TOOLS_DATA = [
     "fullName": "hiyouga/LlamaFactory",
     "githubUrl": "https://github.com/hiyouga/LlamaFactory",
     "lang": "Python",
-    "stars": "71.2k",
+    "stars": "73k",
     "forks": "9k",
     "category": "tool",
     "tags": [
