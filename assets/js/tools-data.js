@@ -1,10 +1,10 @@
 // ===== Gitmaxhub Tool Navigation Data =====
 // Auto-updated daily. DO NOT manually edit between markers.
-// Total tools: 37
+// Total tools: 41
 
 
 // TOOLS_DATA_START
-const TOOLS_UPDATE_DATE = '2026-06-10';
+const TOOLS_UPDATE_DATE = '2026-06-11';
 
 const FEATURED_IDS = ["openclaw", "superpowers", "ecc", "hermes-agent", "anthropics-skills", "karpathy-skills", "mattpocock-skills", "browser-use"];
 
@@ -15,8 +15,8 @@ const TOOLS_DATA = [
     "fullName": "openclaw/openclaw",
     "githubUrl": "https://github.com/openclaw/openclaw",
     "lang": "TypeScript",
-    "stars": "378k",
-    "forks": "79k",
+    "stars": "378,500",
+    "forks": "79,200",
     "category": "agent",
     "tags": [
       "AI Agent",
@@ -24,14 +24,14 @@ const TOOLS_DATA = [
       "多端协同",
       "GitHub榜首"
     ],
-    "descShort": "GitHub历史星标第一，378k Stars，Any OS Any Platform的AI助理框架",
+    "descShort": "GitHub历史星标第一，378.5k Stars，Any OS Any Platform的AI助理框架",
     "descFull": "OpenClaw是GitHub历史上星标最高的开源项目，累计378,000 Stars。支持Discord/Telegram/WhatsApp/Slack等多平台统一接入，让AI 7x24小时跨应用执行系统级任务。支持原生图像生成、实时语音网关，从$5 VPS到GPU集群无缝覆盖。",
     "features": [
-      "GitHub历史星标第一378k",
+      "GitHub历史星标第一378.5k",
       "全平台统一Agent架构",
-      "7x24跨应用任务执行",
+      "7×24跨应用任务执行",
       "原生图像生成+实时语音",
-      "多平台统一网关"
+      "Skill Workshop生态"
     ]
   },
   {
@@ -40,8 +40,8 @@ const TOOLS_DATA = [
     "fullName": "obra/superpowers",
     "githubUrl": "https://github.com/obra/superpowers",
     "lang": "Shell",
-    "stars": "221k",
-    "forks": "18.8k",
+    "stars": "223,800",
+    "forks": "20,100",
     "category": "agent",
     "tags": [
       "AI Agent",
@@ -49,39 +49,39 @@ const TOOLS_DATA = [
       "Claude Code",
       "开发方法论"
     ],
-    "descShort": "Agent技能即插即用框架，216k Stars，Andrej Karpathy点赞推荐",
+    "descShort": "Agent技能即插即用框架，223.8k Stars，定义Skill标准范式",
     "descFull": "Superpowers定义了Agent Skill即插即用的标准框架，累计216,000 Stars。提供50+预置技能（GitHub操作、代码审查、项目规划），支持Claude Code、Codex等主流AI编码Agent。其定义的Skill标准范式影响了整个Agent生态。",
     "features": [
       "50+预置技能即插即用",
       "标准化Skill格式定义",
       "Claude Code/Codex全兼容",
-      "Andrej Karpathy公开推荐",
-      "Agent生态基石项目"
+      "Agent生态基石项目",
+      "223.8k社区验证"
     ]
   },
   {
     "slug": "ecc",
     "name": "ECC",
-    "fullName": "affaan-m/everything-claude-code",
+    "fullName": "affaan-m/ECC",
     "githubUrl": "https://github.com/affaan-m/everything-claude-code",
     "lang": "JavaScript",
-    "stars": "211k",
-    "forks": "32.5k",
+    "stars": "213,200",
+    "forks": "32,800",
     "category": "agent",
     "tags": [
       "AI Agent",
       "性能优化",
-      "Skills",
+      "Harness",
       "Claude Code"
     ],
-    "descShort": "智能体Harness性能优化系统，206k Stars，63代理+249技能一体化",
+    "descShort": "Agent Harness性能优化系统，213.2k Stars，本周+2.6k持续暴涨",
     "descFull": "ECC（Everything Claude Code）将Skills、Instincts、Memory、Security和Research-first开发方法论融为一体，为Claude Code、Codex、OpenCode、Cursor等提供统一的性能优化框架。内置63个代理、249个技能和79个遗留命令兼容层，Token节省40-60%。",
     "features": [
       "63代理+249技能+79兼容层",
       "Skills+Instincts+Memory+Security一体化",
-      "支持12种编程语言",
-      "Claude Code/Codex/OpenCode/Cursor全兼容",
-      "日增1500 Stars"
+      "12种编程语言支持",
+      "Token节省40-60%",
+      "本周+2.6k持续热门"
     ]
   },
   {
@@ -90,8 +90,8 @@ const TOOLS_DATA = [
     "fullName": "NousResearch/hermes-agent",
     "githubUrl": "https://github.com/NousResearch/hermes-agent",
     "lang": "Python",
-    "stars": "186k",
-    "forks": "31k",
+    "stars": "188,500",
+    "forks": "32,000",
     "category": "agent",
     "tags": [
       "自进化Agent",
@@ -99,14 +99,14 @@ const TOOLS_DATA = [
       "持久记忆",
       "Multi-Agent"
     ],
-    "descShort": "自进化AI Agent，186.4k Stars，闭环学习引擎越用越聪明",
+    "descShort": "自进化AI Agent，188.5k Stars，闭环学习引擎越用越聪明",
     "descFull": "Hermes Agent由Nous Research打造，从经验中自动创建技能、使用时自我改善、主动持久化知识。支持200+模型、Telegram/Discord/Slack多平台网关、6种终端后端、Serverless模式空闲近乎零成本。独有的闭环学习引擎定义自进化Agent新范式。",
     "features": [
       "闭环学习引擎",
       "200+模型自由切换",
       "多平台统一网关",
       "Serverless零成本空闲",
-      "agentskills.io标准兼容"
+      "WebUI+CDP浏览器控制"
     ]
   },
   {
@@ -137,26 +137,26 @@ const TOOLS_DATA = [
   {
     "slug": "karpathy-skills",
     "name": "Karpathy Skills",
-    "fullName": "forrestchang/andrej-karpathy-skills",
+    "fullName": "multica-ai/andrej-karpathy-skills",
     "githubUrl": "https://github.com/forrestchang/andrej-karpathy-skills",
     "lang": "Markdown",
-    "stars": "145k",
-    "forks": "14.2k",
+    "stars": "158,000",
+    "forks": "14,500",
     "category": "research",
     "tags": [
       "AI技能",
       "Claude",
-      "开发方法论",
-      "Karpathy"
+      "Karpathy",
+      "开发方法论"
     ],
-    "descShort": "Karpathy亲编Claude Skills合集，145k Stars，定义AI编码新范式",
+    "descShort": "Karpathy亲编Claude Skills合集，158k Stars，定义AI编码新范式",
     "descFull": "由Andrej Karpathy推出的Claude Skills合集，将四大原则（先思考后编码、简洁优先、手术式修改、目标驱动执行）浓缩为CLAUDE.md文件。标志着Skills正在取代传统Prompt Engineering成为人机协作的新范式。",
     "features": [
       "Karpathy亲编Skills规范",
       "涵盖代码审查/架构设计/性能优化",
       "模拟资深工程师行为模式",
       "Skill替代Prompt Engineering新范式",
-      "日涨2.6k Stars"
+      "日增2.7k持续Trending"
     ]
   },
   {
@@ -190,22 +190,22 @@ const TOOLS_DATA = [
     "fullName": "browser-use/browser-use",
     "githubUrl": "https://github.com/browser-use/browser-use",
     "lang": "Python",
-    "stars": "97k",
-    "forks": "11.2k",
+    "stars": "98,200",
+    "forks": "11,100",
     "category": "agent",
     "tags": [
       "浏览器自动化",
       "Web Agent",
       "Playwright",
-      "AI自动化"
+      "数据采集"
     ],
-    "descShort": "AI Agent浏览器自动化基础设施，97.5k Stars，97%任务完成率",
+    "descShort": "让AI Agent操控浏览器，98.2k Stars，97%任务完成率",
     "descFull": "Browser Use让AI Agent用自然语言控制浏览器完成复杂任务。底层基于Playwright，支持GPT-4/Gemini/Claude/Ollama等主流模型。实测97%任务完成率，平均比普通LLM快3-5倍。Star数已超越Puppeteer。",
     "features": [
       "97%任务完成率",
       "自然语言驱动浏览器",
       "GPT-4/Gemini/Claude全支持",
-      "比普通LLM快3-5倍",
+      "超越Puppeteer",
       "AI驱动浏览器自动化标准"
     ]
   },
@@ -265,8 +265,8 @@ const TOOLS_DATA = [
     "fullName": "colbymchenry/codegraph",
     "githubUrl": "https://github.com/colbymchenry/codegraph",
     "lang": "TypeScript",
-    "stars": "43k",
-    "forks": "2.7k",
+    "stars": "44,500",
+    "forks": "3,000",
     "category": "tool",
     "tags": [
       "知识图谱",
@@ -274,14 +274,14 @@ const TOOLS_DATA = [
       "MCP",
       "Agent工具"
     ],
-    "descShort": "预索引代码知识图谱，43k Stars，tree-sitter+SQLite本地方案",
+    "descShort": "预索引代码知识图谱，44.5k Stars，tree-sitter+SQLite本地方案",
     "descFull": "CodeGraph使用tree-sitter预索引源码构建代码知识图谱。抽取函数/类/方法/调用/导入/继承关系存入本地SQLite+FTS5全文搜索。提供MCP Server为Claude Code/Codex/Gemini等Agent提供代码理解能力。",
     "features": [
       "tree-sitter预索引代码",
       "SQLite+FTS5本地存储",
       "调用链+影响分析",
       "MCP Server工具集成",
-      "43k月增41k"
+      "44.5k日增3,161"
     ]
   },
   {
@@ -390,8 +390,8 @@ const TOOLS_DATA = [
     "fullName": "ollama/ollama",
     "githubUrl": "https://github.com/ollama/ollama",
     "lang": "Go",
-    "stars": "176k",
-    "forks": "13.8k",
+    "stars": "178,000",
+    "forks": "17,100",
     "category": "tool",
     "tags": [
       "本地LLM",
@@ -399,14 +399,14 @@ const TOOLS_DATA = [
       "推理引擎",
       "一键部署"
     ],
-    "descShort": "本地LLM运行时标准，174k Stars，一键运行数百开源模型",
+    "descShort": "本地LLM运行时标准，178k Stars，一键运行DeepSeek/Qwen/Gemma",
     "descFull": "Ollama是本地LLM运行时事实标准。一键下载运行DeepSeek-K2.5、GLM-5、Qwen、Gemma、Llama等几乎所有主流开源模型。支持GPU加速、多模型并行、REST API服务化。",
     "features": [
       "一键运行数百开源模型",
       "GPU自动加速",
       "REST API服务化",
       "跨平台macOS/Linux/Windows",
-      "174k Stars"
+      "本地AI部署首选"
     ]
   },
   {
@@ -415,8 +415,8 @@ const TOOLS_DATA = [
     "fullName": "ggml-org/llama.cpp",
     "githubUrl": "https://github.com/ggml-org/llama.cpp",
     "lang": "C++",
-    "stars": "194k",
-    "forks": "22.2k",
+    "stars": "196,000",
+    "forks": "22,600",
     "category": "tool",
     "tags": [
       "LLM推理",
@@ -424,10 +424,10 @@ const TOOLS_DATA = [
       "量化",
       "跨平台"
     ],
-    "descShort": "端侧LLM推理事实标准，192k Stars，纯C/C++零依赖",
+    "descShort": "端侧LLM推理事实标准，196k Stars，纯C/C++无依赖金属加速",
     "descFull": "llama.cpp是端侧LLM推理事实标准。纯C/C++实现无任何外部依赖，Apple Silicon第一公民。支持1.5-bit到8-bit量化，CUDA/Vulkan/SYCL多后端，GGUF格式已成为开源模型分发标准。",
     "features": [
-      "纯C/C++零依赖",
+      "纯C/C++无依赖",
       "Apple Silicon Metal优化",
       "1.5-8bit全量化支持",
       "CPU+GPU混合推理",
@@ -440,8 +440,8 @@ const TOOLS_DATA = [
     "fullName": "langchain-ai/langchain",
     "githubUrl": "https://github.com/langchain-ai/langchain",
     "lang": "Python",
-    "stars": "139k",
-    "forks": "23k",
+    "stars": "140,200",
+    "forks": "23,300",
     "category": "agent",
     "tags": [
       "LLM框架",
@@ -449,14 +449,14 @@ const TOOLS_DATA = [
       "工具集成",
       "生态标准"
     ],
-    "descShort": "LLM应用开发框架行业标准，138.4k Stars，Agent工程核心平台",
+    "descShort": "LLM应用开发框架行业标准，140.2k Stars，Agent工程核心平台",
     "descFull": "LangChain是LLM应用开发框架的行业标准。提供链式调用、Agent编排、工具集成、RAG检索等核心能力。LangGraph支持有状态多Actor应用，LangSmith提供全链路可观测性。",
     "features": [
       "LLM应用开发行业标准",
       "链/Agent/RAG全能力",
       "LangGraph有状态编排",
       "LangSmith全链路可观测",
-      "138.4k生态基石"
+      "140.2k生态基石"
     ]
   },
   {
@@ -465,8 +465,8 @@ const TOOLS_DATA = [
     "fullName": "langgenius/dify",
     "githubUrl": "https://github.com/langgenius/dify",
     "lang": "TypeScript",
-    "stars": "144k",
-    "forks": "21.5k",
+    "stars": "146,000",
+    "forks": "23,000",
     "category": "agent",
     "tags": [
       "AI应用",
@@ -474,14 +474,14 @@ const TOOLS_DATA = [
       "RAG",
       "低代码"
     ],
-    "descShort": "生产级Agent工作流平台，140k Stars，企业RAG部署首选",
+    "descShort": "生产级Agent工作流平台，146k Stars，企业RAG部署首选",
     "descFull": "Dify是企业级Agent工作流平台。提供可视化工作流编排、RAG管道、Agent策略配置、应用监控等一站式AI应用构建能力。支持GPT/Claude/DeepSeek等主流模型。",
     "features": [
       "可视化Agent工作流",
       "RAG管道一站式构建",
       "GPT/Claude/DeepSeek多模型",
       "企业级可观测性",
-      "140k社区生态"
+      "146k社区生态"
     ]
   },
   {
@@ -490,8 +490,8 @@ const TOOLS_DATA = [
     "fullName": "firecrawl/firecrawl",
     "githubUrl": "https://github.com/firecrawl/firecrawl",
     "lang": "TypeScript",
-    "stars": "130k",
-    "forks": "7.8k",
+    "stars": "131,500",
+    "forks": "7,900",
     "category": "tool",
     "tags": [
       "网页抓取",
@@ -499,14 +499,14 @@ const TOOLS_DATA = [
       "搜索API",
       "数据采集"
     ],
-    "descShort": "AI专用网页抓取搜索API，128.5k Stars，Agent数据入口",
+    "descShort": "AI专用网页抓取搜索API，131.5k Stars，Agent数据入口",
     "descFull": "Firecrawl是专为AI Agent设计的网页抓取和搜索API。能将任何网站转化为LLM可用的干净Markdown，支持JS渲染、反爬对抗、批量抓取。已成为AI Agent数据采集的关键基础设施层。",
     "features": [
-      "网站到LLM就绪Markdown",
+      "网站→LLM就绪Markdown",
       "JS渲染+反爬对抗",
       "AI Agent数据基础设施",
       "批量抓取高效稳定",
-      "128.5k Stars"
+      "131.5k Stars"
     ]
   },
   {
@@ -515,8 +515,8 @@ const TOOLS_DATA = [
     "fullName": "vllm-project/vllm",
     "githubUrl": "https://github.com/vllm-project/vllm",
     "lang": "Python",
-    "stars": "80k",
-    "forks": "12.3k",
+    "stars": "81,500",
+    "forks": "12,700",
     "category": "tool",
     "tags": [
       "LLM推理",
@@ -524,14 +524,14 @@ const TOOLS_DATA = [
       "PagedAttention",
       "生产服务"
     ],
-    "descShort": "高吞吐LLM推理引擎，79.5k Stars，PagedAttention架构效率标杆",
+    "descShort": "高吞吐LLM推理引擎，81.5k Stars，PagedAttention架构效率标杆",
     "descFull": "vLLM是高吞吐LLM推理引擎标杆。PagedAttention架构通过KV缓存分页管理大幅提升显存利用率和推理吞吐。被Anthropic、Databricks等企业广泛采用。",
     "features": [
       "PagedAttention高效架构",
       "生产级高吞吐推理",
       "KV缓存智能分页",
       "Anthropic等企业采用",
-      "79.5k Stars"
+      "81.5k Stars"
     ]
   },
   {
@@ -565,8 +565,8 @@ const TOOLS_DATA = [
     "fullName": "harry0703/MoneyPrinterTurbo",
     "githubUrl": "https://github.com/harry0703/MoneyPrinterTurbo",
     "lang": "Python",
-    "stars": "81.5k",
-    "forks": "11.8k",
+    "stars": "82,800",
+    "forks": "11,900",
     "category": "multimodal",
     "tags": [
       "AI视频",
@@ -574,14 +574,14 @@ const TOOLS_DATA = [
       "一键生成",
       "内容创作"
     ],
-    "descShort": "AI一键生成高清短视频，80.5k Stars，文案+配音+视频全流程",
+    "descShort": "AI一键生成高清短视频，82.8k Stars，文案+配音+视频全流程",
     "descFull": "MoneyPrinterTurbo利用AI大模型一键生成高清短视频。从文案生成、素材匹配、配音合成到视频剪辑全流程自动化。国产AI应用出海的代表项目。",
     "features": [
       "AI一键生成高清短视频",
       "文案+配音+视频全流程",
-      "主题到视频端到端",
+      "主题→视频端到端",
       "国产AI应用出海代表",
-      "80.5k月增23k"
+      "82.8k持续热门"
     ]
   },
   {
@@ -590,8 +590,8 @@ const TOOLS_DATA = [
     "fullName": "hiyouga/LlamaFactory",
     "githubUrl": "https://github.com/hiyouga/LlamaFactory",
     "lang": "Python",
-    "stars": "73k",
-    "forks": "9k",
+    "stars": "74,500",
+    "forks": "9,200",
     "category": "tool",
     "tags": [
       "LLM微调",
@@ -599,14 +599,14 @@ const TOOLS_DATA = [
       "LoRA",
       "全参数"
     ],
-    "descShort": "统一LLM微调框架，71.2k Stars，100+模型一键微调",
+    "descShort": "统一LLM微调框架，74.5k Stars，100+模型一键微调",
     "descFull": "LLaMA Factory是统一LLM微调框架。支持100+种LLMs/VLMs的全参数微调、LoRA/QLoRA高效微调、RLHF对齐训练。ACL 2024论文发表，学术工业双认可。",
     "features": [
       "100+模型统一微调",
       "LoRA/QLoRA高效方案",
       "全参数+RLHF全覆盖",
       "ACL 2024论文",
-      "71.2k学术工业双认可"
+      "74.5k学术工业双认可"
     ]
   },
   {
@@ -690,8 +690,8 @@ const TOOLS_DATA = [
     "fullName": "Lum1104/Understand-Anything",
     "githubUrl": "https://github.com/Lum1104/Understand-Anything",
     "lang": "TypeScript",
-    "stars": "50.5k",
-    "forks": "4.5k",
+    "stars": "52,000",
+    "forks": "4,800",
     "category": "tool",
     "tags": [
       "知识图谱",
@@ -699,14 +699,14 @@ const TOOLS_DATA = [
       "交互可视化",
       "Agent工具"
     ],
-    "descShort": "交互式代码知识图谱，50.5k Stars，教大于炫的可视化Agent工具",
+    "descShort": "交互式代码知识图谱，52k Stars，教大于炫的可视化Agent工具",
     "descFull": "Understand Anything将代码库转化为交互式知识图谱。主打教学导向可视化而非炫技，支持Claude Code、Codex、Cursor、Copilot、Gemini CLI等主流AI编程工具。让Agent真正理解代码结构。",
     "features": [
-      "代码到交互知识图谱",
+      "代码→交互知识图谱",
       "Claude Code/Codex/Cursor全兼容",
       "教学导向可视化",
       "减少Agent盲目搜索",
-      "50.5k知识图谱赛道领跑"
+      "52k知识图谱赛道领跑"
     ]
   },
   {
@@ -740,8 +740,8 @@ const TOOLS_DATA = [
     "fullName": "OpenHands/OpenHands",
     "githubUrl": "https://github.com/OpenHands/OpenHands",
     "lang": "Python",
-    "stars": "72.8k",
-    "forks": "8.5k",
+    "stars": "74,000",
+    "forks": "8,700",
     "category": "agent",
     "tags": [
       "AI编程",
@@ -749,14 +749,14 @@ const TOOLS_DATA = [
       "代码Agent",
       "自动化"
     ],
-    "descShort": "AI驱动开发环境，72.8k Stars，软件工程自动化标杆",
+    "descShort": "AI驱动开发环境，74k Stars，软件工程自动化标杆",
     "descFull": "OpenHands是AI驱动的软件开发环境。让AI Agent在完整开发环境中自主编码、调试、测试、部署。软件工程自动化领域的标杆项目。",
     "features": [
       "AI全栈开发环境",
       "自主编码+调试+部署",
       "多语言多框架支持",
       "软件工程自动化标杆",
-      "72.8k周增198"
+      "74k Stars"
     ]
   },
   {
@@ -865,8 +865,8 @@ const TOOLS_DATA = [
     "fullName": "farion1231/cc-switch",
     "githubUrl": "https://github.com/farion1231/cc-switch",
     "lang": "TypeScript",
-    "stars": "89.5k",
-    "forks": "6.2k",
+    "stars": "91,000",
+    "forks": "6,500",
     "category": "agent",
     "tags": [
       "AI Agent",
@@ -874,14 +874,14 @@ const TOOLS_DATA = [
       "跨平台",
       "Claude Code"
     ],
-    "descShort": "跨平台桌面Agent一站式助手，89.5k Stars，多Agent统一入口",
+    "descShort": "跨平台桌面Agent一站式助手，91k Stars，多Agent统一入口",
     "descFull": "CC Switch是一款跨平台桌面端一站式AI助手，累计89,500 Stars。为Claude Code、Codex、Gemini CLI、Cursor等主流AI编码Agent提供统一桌面入口，支持快速切换和管理多个Agent。",
     "features": [
       "跨平台桌面Agent入口",
       "Claude Code/Codex/Gemini统一管理",
       "快速Agent切换",
       "多Agent并存管理",
-      "89.5k飙升榜Top1"
+      "91k飙升榜前列"
     ]
   },
   {
@@ -982,6 +982,54 @@ const TOOLS_DATA = [
       "安装+执行+编辑+测试",
       "执行优先设计",
       "48k Rust Agent代表"
+    ]
+  },
+  {
+    "slug": "ai-hedge-fund",
+    "name": "AI Hedge Fund",
+    "fullName": "ViratSingh/AIHedgeFund",
+    "githubUrl": "https://github.com/ViratSingh/AIHedgeFund",
+    "lang": "Python",
+    "stars": "53,500",
+    "forks": "9,500",
+    "category": "agent",
+    "tags": [
+      "金融Agent",
+      "Multi-Agent",
+      "投资决策",
+      "量化"
+    ],
+    "descShort": "12位投资大师Agent化，53.5k Stars，多人博弈式投资决策系统",
+    "features": [
+      "12位投资大师Agent化",
+      "多人博弈式投资决策",
+      "6大分析模块协同",
+      "历史回测闭环验证",
+      "53.5k曾登顶Trending"
+    ]
+  },
+  {
+    "slug": "ai-engineering-from-scratch",
+    "name": "AI Engineering From Scratch",
+    "fullName": "rohitg00/ai-engineering-from-scratch",
+    "githubUrl": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "lang": "Python",
+    "stars": "20,500",
+    "forks": "3,200",
+    "category": "tool",
+    "tags": [
+      "AI工程",
+      "教程",
+      "实战项目",
+      "从零到一"
+    ],
+    "descShort": "AI工程学习与实战项目，20.5k Stars，从零构建AI系统",
+    "features": [
+      "从零构建AI系统",
+      "Agent+RAG+推理引擎",
+      "实战教程+项目",
+      "GitHub Trending日榜",
+      "20.5k日增3,154"
     ]
   }
 ];
