@@ -1,12 +1,13 @@
 // ===== Gitmaxhub Project Data =====
 // Auto-updated daily. DO NOT manually edit between markers.
-// Total projects: 32 (refreshed from GitHub Trending / AI-Hippo / DataHive / Trendshift / 掘金 / 今日头条)
+// Total projects: 51 (refreshed from GitHub Trending / AI-Hippo / DataHive / Trendshift / 掘金 / 今日头条 / OSSInsight)
 
 
 // DATA_START
-const UPDATE_DATE = '2026-06-13';
+const UPDATE_DATE = '2026-06-14';
 
 const PROJECTS = [
+
   {
     "slug": "openclaw",
     "name": "OpenClaw",
@@ -1031,9 +1032,258 @@ const PROJECTS = [
       "历史回测闭环验证",
       "54.5k曾登顶Trending"
     ]
+  },
+  {
+    "slug": "meta-gpt",
+    "name": "MetaGPT",
+    "fullName": "FoundationAgents/MetaGPT",
+    "githubUrl": "https://github.com/FoundationAgents/MetaGPT",
+    "lang": "Python",
+    "stars": "68,500",
+    "forks": "8,800",
+    "category": "agent",
+    "tags": [
+      "Multi-Agent",
+      "软件工程",
+      "SOP",
+      "角色扮演"
+    ],
+    "descShort": "Multi-Agent模拟软件公司，68.5k Stars，产品经理+架构+开发全角色",
+    "descFull": "MetaGPT用多个AI Agent模拟完整软件开发团队——产品经理、架构师、工程师、QA，自动生成需求文档、系统设计、代码和测试。将SOP编码为Agent协作流程，开创Multi-Agent软件开发范式。是Multi-Agent协作方向的开创者，连年获顶会论文。",
+    "features": [
+      "产品经理+架构+开发+QA全角色",
+      "自动生成PRD/设计/代码/测试",
+      "SOP编码Agent协作",
+      "Multi-Agent范式开创者",
+      "68.5k顶会论文支撑"
+    ]
+  },
+  {
+    "slug": "deer-flow",
+    "name": "DeerFlow",
+    "fullName": "bytedance/deer-flow",
+    "githubUrl": "https://github.com/bytedance/deer-flow",
+    "lang": "Python",
+    "stars": "70,500",
+    "forks": "7,200",
+    "category": "agent",
+    "tags": [
+      "深度研究",
+      "SuperAgent",
+      "字节跳动",
+      "长周期任务"
+    ],
+    "descShort": "字节跳动深度研究SuperAgent，70.5k Stars，长周期任务规划执行反思",
+    "descFull": "DeerFlow是字节跳动开源的深度研究Agent框架，累计70,500 Stars。支持长周期任务的规划、执行与反思闭环。擅长处理需要多步推理和信息整合的复杂场景，如深度调研和报告生成。SuperAgent架构让单个Agent能独立完成数小时的研究任务。",
+    "features": [
+      "字节跳动开源SuperAgent",
+      "长周期规划执行反思",
+      "深度调研报告生成",
+      "多步推理信息整合",
+      "70.5k字节AI主力项目"
+    ]
+  },
+  {
+    "slug": "ruflo",
+    "name": "Ruflo",
+    "fullName": "ruvnet/ruflo",
+    "githubUrl": "https://github.com/ruvnet/ruflo",
+    "lang": "TypeScript",
+    "stars": "56,000",
+    "forks": "5,500",
+    "category": "agent",
+    "tags": [
+      "Agent编排",
+      "Claude生态",
+      "Swarm",
+      "RAG"
+    ],
+    "descShort": "Claude智能体编排平台，56k Stars，多智能体Swarm+RAG深度集成",
+    "descFull": "Ruflo是专为Claude设计的企业级多智能体编排平台，累计56,000 Stars。集成分布式Swarm架构、RAG、Claude Code/Codex深度集成。支持60+专业智能体角色、4种共识机制、自学习能力，是企业级Agent协作的首选平台。",
+    "features": [
+      "60+专业智能体角色",
+      "分布式Swarm架构",
+      "4种共识机制",
+      "RAG+Claude Code深度集成",
+      "56k企业Agent编排标准"
+    ]
+  },
+  {
+    "slug": "goose",
+    "name": "Goose",
+    "fullName": "block/goose",
+    "githubUrl": "https://github.com/block/goose",
+    "lang": "Rust",
+    "stars": "48,500",
+    "forks": "5,200",
+    "category": "agent",
+    "tags": [
+      "通用Agent",
+      "Rust",
+      "MCP",
+      "本地运行"
+    ],
+    "descShort": "本地通用AI Agent，48.5k Stars，Rust编写支持15+模型70+MCP扩展",
+    "descFull": "Goose是Block开源的本地通用AI Agent，累计48,500 Stars。Rust编写性能卓越，支持15+模型提供商、70+MCP扩展。定位为Agent领域的操作系统——不止代码补全，而是通用任务执行平台。本地运行保障数据安全。",
+    "features": [
+      "Block开源Rust Agent",
+      "15+模型提供商",
+      "70+MCP扩展生态",
+      "本地运行数据安全",
+      "48.5k通用Agent操作系统"
+    ]
+  },
+  {
+    "slug": "cline",
+    "name": "Cline",
+    "fullName": "cline/cline",
+    "githubUrl": "https://github.com/cline/cline",
+    "lang": "TypeScript",
+    "stars": "63,000",
+    "forks": "9,500",
+    "category": "agent",
+    "tags": [
+      "IDE Agent",
+      "VS Code",
+      "自主编程",
+      "多模型"
+    ],
+    "descShort": "IDE内AI自主编程Agent，63k Stars，VS Code插件支持多模型后端",
+    "descFull": "Cline是IDE内的AI自主编程Agent，累计63,000 Stars。作为VS Code插件提供完整的终端+编辑器自主编码能力。支持OpenAI/Anthropic/Ollama等多模型后端，能在IDE内完成创建文件、运行命令、分析代码等全流程开发任务。",
+    "features": [
+      "VS Code深度集成",
+      "自主编程全流程",
+      "多模型后端自由切换",
+      "终端+编辑器统一控制",
+      "63k IDE Agent赛道领跑"
+    ]
+  },
+  {
+    "slug": "supervision",
+    "name": "Supervision",
+    "fullName": "roboflow/supervision",
+    "githubUrl": "https://github.com/roboflow/supervision",
+    "lang": "Python",
+    "stars": "42,500",
+    "forks": "5,800",
+    "category": "multimodal",
+    "tags": [
+      "计算机视觉",
+      "模型无关",
+      "Roboflow",
+      "可复用"
+    ],
+    "descShort": "CV可复用工具库，42.5k Stars，模型无关的计算机视觉瑞士军刀",
+    "descFull": "Supervision是Roboflow出品的模型无关计算机视觉工具库，累计42,500 Stars。定位为CV领域可复用的基础设施——检测/跟踪/标注/可视化一站式。支持YOLO/SAM/DETR等所有主流模型，是CV方向少有的通用基础设施项目。",
+    "features": [
+      "模型无关CV工具库",
+      "检测跟踪标注可视化",
+      "YOLO/SAM/DETR全支持",
+      "Roboflow出品质量保证",
+      "42.5k CV基础设施"
+    ]
+  },
+  {
+    "slug": "copilotkit",
+    "name": "CopilotKit",
+    "fullName": "CopilotKit/CopilotKit",
+    "githubUrl": "https://github.com/CopilotKit/CopilotKit",
+    "lang": "TypeScript",
+    "stars": "30,500",
+    "forks": "3,800",
+    "category": "agent",
+    "tags": [
+      "前端Agent",
+      "Generative UI",
+      "React",
+      "Agent UI框架"
+    ],
+    "descShort": "AI Agent+生成式UI前端框架，30.5k Stars，React Agent应用开发栈",
+    "descFull": "CopilotKit是AI Agent与生成式UI的前端框架，累计30,500 Stars。支持React/Angular生成式UI，将Agent能力无缝嵌入Web应用界面。提供Agent状态管理、工具调用UI、实时协作等完整前端Agent开发栈。是Agent应用前端化的关键基础设施。",
+    "features": [
+      "React Agent应用开发栈",
+      "生成式UI动态渲染",
+      "Agent状态管理内置",
+      "工具调用UI组件",
+      "30.5k Agent前端化关键"
+    ]
+  },
+  {
+    "slug": "openai-codex",
+    "name": "OpenAI Codex",
+    "fullName": "openai/codex",
+    "githubUrl": "https://github.com/openai/codex",
+    "lang": "Python",
+    "stars": "90,000",
+    "forks": "14,500",
+    "category": "agent",
+    "tags": [
+      "OpenAI",
+      "终端Agent",
+      "CLI工具",
+      "编码"
+    ],
+    "descShort": "OpenAI官方终端AI编码Agent，90k Stars，Apache-2.0开源CLI",
+    "descFull": "OpenAI Codex是OpenAI官方终端AI编码Agent，累计90,000 Stars。Apache-2.0开源，支持CLI/IDE/Cloud三种模式，兼容ChatGPT登录和API Key。与Claude Code、Gemini CLI形成终端Agent三强格局。原生OpenAI生态深度集成。",
+    "features": [
+      "OpenAI官方终端Agent",
+      "CLI+IDE+Cloud三模式",
+      "Apache-2.0完全开源",
+      "ChatGPT+API Key双认证",
+      "90k终端Agent三强"
+    ]
+  },
+  {
+    "slug": "pai",
+    "name": "PAI",
+    "fullName": "danielmiessler/Personal_AI_Infrastructure",
+    "githubUrl": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+    "lang": "Python",
+    "stars": "25,500",
+    "forks": "2,200",
+    "category": "agent",
+    "tags": [
+      "个人AI",
+      "操作系统",
+      "Agent生态",
+      "工作流"
+    ],
+    "descShort": "个人AI基础设施操作系统，25.5k Stars，Agent驱动的人生OS",
+    "descFull": "PAI是Personal AI Infrastructure的缩写，累计25,500 Stars。将AI Agent融入个人工作流——从日历管理到信息消费到创作输出，构建以Agent为中心的个人操作系统。代表Agent从专业工具走向个人日常的趋势。",
+    "features": [
+      "个人AI操作系统",
+      "Agent驱动工作流",
+      "日历+信息+创作全链路",
+      "Agent个人化趋势代表",
+      "25.5k人生OS新范式"
+    ]
+  },
+  {
+    "slug": "openhands",
+    "name": "OpenHands",
+    "fullName": "All-Hands-AI/OpenHands",
+    "githubUrl": "https://github.com/All-Hands-AI/OpenHands",
+    "lang": "Python",
+    "stars": "60,500",
+    "forks": "7,800",
+    "category": "agent",
+    "tags": [
+      "代码Agent",
+      "自主开发",
+      "AI编程",
+      "多Agent"
+    ],
+    "descShort": "AI软件工程Agent平台，60.5k Stars，自主开发全流程代码Agent",
+    "descFull": "OpenHands是AI软件工程Agent平台，累计60,500 Stars。提供自主软件开发全流程——从代码编写、测试生成到部署运维。支持多Agent协作和工具链集成，是AI自主编程方向的核心项目。每周+198星增长稳定。",
+    "features": [
+      "自主软件工程Agent",
+      "代码+测试+部署全流程",
+      "多Agent协作开发",
+      "工具链深度集成",
+      "60.5k稳定增长"
+    ]
   }
 ];
-
 const CATEGORIES = {
   "agent": {
     "name": "Agent",
@@ -1111,5 +1361,4 @@ const TRENDS = [
     "desc": "热榜不再是谁家模型更强，而是模型如何被组织成可复用、可调试、可协作的工程系统——Skills、知识图谱、Harness、记忆系统正在补齐Agent工程化四块短板。"
   }
 ];
-
 // DATA_END
