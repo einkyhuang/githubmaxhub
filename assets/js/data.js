@@ -4,7 +4,7 @@
 
 
 // DATA_START
-const UPDATE_DATE = '2026-08-31';
+const UPDATE_DATE = '2026-09-02';
 
 const PROJECTS = [
   {
@@ -20,10 +20,10 @@ const PROJECTS = [
           "AI Agent",
           "跨平台",
           "多端协同",
-          "GitHub榜首"
+          "本地优先"
       ],
-      "descShort": "GitHub历史星标第一，386.8k Stars，Any OS Any Platform的AI助理框架",
-      "descFull": "OpenClaw是GitHub历史上星标最高的开源项目，累计386,800 Stars。完全运行在用户自己的设备上，原生连接WhatsApp/Telegram/Slack/Discord/飞书等50+渠道，数据不出设备，本地优先架构的代表作，被Sam Altman公开背书。",
+      "descShort": "GitHub历史星标第一，386.8k Stars，本地优先的跨平台AI助理框架",
+      "descFull": "OpenClaw是GitHub历史上星标最高的开源项目，累计386,800 Stars。完全运行在用户自己的设备上，原生连接WhatsApp/Telegram/Slack/Discord/飞书等50+渠道，数据不出设备，被Sam Altman公开背书，是本地优先架构的代表作。",
       "features": [
           "GitHub历史星标第一386.8k",
           "50+原生渠道集成",
@@ -83,28 +83,178 @@ const PROJECTS = [
       ]
   },
   {
-      "slug": "deepseek-harness",
-      "name": "DeepSeek Harness",
-      "fullName": "deepseek-ai/deepseek-harness",
-      "githubUrl": "https://github.com/deepseek-ai/deepseek-harness",
-      "lang": "TypeScript",
-      "stars": "204,730",
-      "forks": "22,000",
-      "category": "framework",
+      "slug": "autogpt",
+      "name": "AutoGPT",
+      "fullName": "Significant-Gravitas/AutoGPT",
+      "githubUrl": "https://github.com/Significant-Gravitas/AutoGPT",
+      "lang": "Python",
+      "stars": "184,300",
+      "forks": "46,200",
+      "category": "agent",
       "tags": [
-          "LLM框架",
-          "插件化",
-          "DeepSeek",
+          "AI Agent",
+          "自主执行",
+          "任务分解",
+          "可视化平台"
+      ],
+      "descShort": "老牌自主AI Agent平台，184.3k Stars，任务分解与自主执行标杆",
+      "descFull": "AutoGPT是开创性的自主AI Agent项目，累计184,300 Stars。以任务分解与自主执行为核心理念，提供可视化构建与运行自主工作流的平台，是「可访问AI」愿景的代表作，插件生态丰富。",
+      "features": [
+          "任务自主分解执行",
+          "可视化Agent平台",
+          "插件生态丰富",
+          "支持多模型接入",
+          "184.3k Stars"
+      ]
+  },
+  {
+      "slug": "opencode",
+      "name": "opencode",
+      "fullName": "anomalyco/opencode",
+      "githubUrl": "https://github.com/anomalyco/opencode",
+      "lang": "TypeScript",
+      "stars": "194,461",
+      "forks": "10,126",
+      "category": "agent",
+      "tags": [
+          "Coding Agent",
+          "终端",
+          "TypeScript",
+          "开源"
+      ],
+      "descShort": "开源Coding Agent最大项目，194.5k Stars，终端AI编码新霸主",
+      "descFull": "opencode是当前开源Coding Agent中规模最大的项目，累计194,461 Stars。开源许可、自主Agent架构、模块化工具集成（文件IO/Shell/测试），LLM无关设计支持多模型供应商，近28天新增超900 Stars。",
+      "features": [
+          "开源Coding Agent第一",
+          "LLM无关设计",
+          "模块化工具集成",
+          "高增长势头",
+          "194.5k Stars"
+      ]
+  },
+  {
+      "slug": "claude-code",
+      "name": "Claude Code",
+      "fullName": "anthropics/claude-code",
+      "githubUrl": "https://github.com/anthropics/claude-code",
+      "lang": "TypeScript",
+      "stars": "140,531",
+      "forks": "12,000",
+      "category": "agent",
+      "tags": [
+          "Coding Agent",
+          "Anthropic",
+          "终端",
+          "自然语言"
+      ],
+      "descShort": "Anthropic官方终端编码Agent，140.5k Stars，自然语言操作代码库",
+      "descFull": "Claude Code是Anthropic官方开源的终端Agent编码工具，累计140,531 Stars。通过自然语言理解代码库并处理git工作流，支持Claude的extended thinking与computer use能力，近28天新增561 Stars。",
+      "features": [
+          "Anthropic官方出品",
+          "自然语言代码库操作",
+          "支持computer use",
+          "与Claude深度集成",
+          "140.5k Stars"
+      ]
+  },
+  {
+      "slug": "gemini-cli",
+      "name": "Gemini CLI",
+      "fullName": "google-gemini/gemini-cli",
+      "githubUrl": "https://github.com/google-gemini/gemini-cli",
+      "lang": "TypeScript",
+      "stars": "106,402",
+      "forks": "9,000",
+      "category": "agent",
+      "tags": [
+          "Coding Agent",
+          "Google",
+          "终端",
+          "Gemini"
+      ],
+      "descShort": "Google官方终端AI Agent，106.4k Stars，Gemini进终端",
+      "descFull": "Gemini CLI是Google官方开源AI Agent，累计106,402 Stars。将Gemini模型能力带入终端，支持多模态交互与代码任务，与Claude Code、OpenCode构成终端Agent三强格局中的Google代表。",
+      "features": [
+          "Google官方出品",
+          "多模态终端交互",
+          "代码任务支持",
+          "Gemini生态集成",
+          "106.4k Stars"
+      ]
+  },
+  {
+      "slug": "browser-use",
+      "name": "browser-use",
+      "fullName": "browser-use/browser-use",
+      "githubUrl": "https://github.com/browser-use/browser-use",
+      "lang": "Python",
+      "stars": "108,128",
+      "forks": "10,605",
+      "category": "agent",
+      "tags": [
+          "浏览器自动化",
+          "AI Agent",
+          "网页操作",
+          "Python"
+      ],
+      "descShort": "让AI Agent操作浏览器的核心库，108.1k Stars，网站自动化首选",
+      "descFull": "browser-use是让AI Agent访问并操作任何网站的Python库，累计108,128 Stars。18个月从发布冲到94k+ Stars，是浏览器自动化赛道winner-take-most的领军者，让任意网站对Agent可访问。",
+      "features": [
+          "网站Agent化访问",
+          "18个月爆发增长",
+          "自动化在线任务",
+          "与主流Agent框架集成",
+          "108.1k Stars"
+      ]
+  },
+  {
+      "slug": "openhands",
+      "name": "OpenHands",
+      "fullName": "All-Hands-AI/OpenHands",
+      "githubUrl": "https://github.com/All-Hands-AI/OpenHands",
+      "lang": "Python",
+      "stars": "83,335",
+      "forks": "13,500",
+      "category": "agent",
+      "tags": [
+          "Coding Agent",
+          "软件开发",
+          "自主Agent",
+          "生产级"
+      ],
+      "descShort": "AI驱动的软件开发平台，83.3k Stars，自主编码Agent生产级落地",
+      "descFull": "OpenHands是AI驱动的软件开发平台，累计83,335 Stars。以自主编码Agent为核心，支持会话状态持久化、长任务checkpoint，覆盖从原型到生产的完整开发流程自动化。",
+      "features": [
+          "自主编码Agent",
+          "会话状态持久化",
+          "长任务checkpoint",
+          "生产级部署",
+          "83.3k Stars"
+      ]
+  },
+  {
+      "slug": "dify",
+      "name": "Dify",
+      "fullName": "langgenius/dify",
+      "githubUrl": "https://github.com/langgenius/dify",
+      "lang": "Python",
+      "stars": "152,676",
+      "forks": "19,000",
+      "category": "tool",
+      "tags": [
+          "LLM平台",
+          "低代码",
+          "RAG",
           "工作流"
       ],
-      "descShort": "Everything is a Plugin哲学，204.7k Stars的DeepSeek生态编排框架",
-      "descFull": "DeepSeek Harness是DeepSeek官方开源的工作流框架，累计204,730 Stars。秉持Everything is a Plugin理念，输入、处理、输出每个环节都可拆分为可插拔插件，支持多步推理Agent构建，与DeepSeek模型生态深度集成。",
+      "descShort": "生产级Agentic AI应用平台，152.7k Stars，低代码LLM应用王者",
+      "descFull": "Dify是生产级的Agentic AI应用开发平台，累计152,676 Stars。可视化工作流构建器+RAG流水线+API层一体，是低代码AI开发的事实标准，被广泛用于企业级LLM应用搭建。",
       "features": [
-          "Everything is a Plugin",
-          "组件级插件化",
-          "多步推理Agent",
-          "DeepSeek生态集成",
-          "204.7k Stars"
+          "可视化工作流构建",
+          "内置RAG流水线",
+          "API层一体化",
+          "企业级应用",
+          "152.7k Stars"
       ]
   },
   {
@@ -113,73 +263,23 @@ const PROJECTS = [
       "fullName": "n8n-io/n8n",
       "githubUrl": "https://github.com/n8n-io/n8n",
       "lang": "TypeScript",
-      "stars": "201,200",
-      "forks": "60,200",
+      "stars": "199,652",
+      "forks": "57,618",
       "category": "tool",
       "tags": [
           "工作流自动化",
-          "AI原生",
+          "低代码",
           "自托管",
-          "400+集成"
+          "AI集成"
       ],
-      "descShort": "AI原生工作流自动化平台，201.2k Stars，400+集成可视化编排",
-      "descFull": "n8n是AI原生的工作流自动化平台，累计201,200 Stars。可视化构建与自定义代码结合，自托管或云部署，400+集成覆盖数据、AI、业务系统，是AI Agent工作流编排的主流选择。",
+      "descShort": "工作流自动化平台，199.7k Stars，原生AI能力的n8n",
+      "descFull": "n8n是工作流自动化平台，累计199,652 Stars。原生集成AI能力，400+集成节点，支持自托管，是「2026年大量Agent工作负载实为带LLM节点的工作流自动化」趋势的最大受益者。",
       "features": [
-          "AI原生工作流",
-          "400+集成",
-          "可视化+代码混合",
-          "自托管/云部署",
-          "201.2k Stars"
-      ]
-  },
-  {
-      "slug": "autogpt",
-      "name": "AutoGPT",
-      "fullName": "Significant-Gravitas/AutoGPT",
-      "githubUrl": "https://github.com/Significant-Gravitas/AutoGPT",
-      "lang": "Python",
-      "stars": "186,700",
-      "forks": "46,000",
-      "category": "agent",
-      "tags": [
-          "AI Agent",
-          "自主工作流",
-          "自动化",
-          "先驱项目"
-      ],
-      "descShort": "AI Agent先驱平台，186.7k Stars，人人可用的自主AI",
-      "descFull": "AutoGPT是开启现代AI Agent浪潮的先驱项目，累计186,700 Stars。提供构建和运行自主工作流的完整平台，从简单任务到复杂多步自动化，持续活跃开发中。",
-      "features": [
-          "现代Agent先驱",
-          "自主工作流平台",
-          "持续活跃开发",
-          "可扩展架构",
-          "186.7k Stars"
-      ]
-  },
-  {
-      "slug": "ollama",
-      "name": "Ollama",
-      "fullName": "ollama/ollama",
-      "githubUrl": "https://github.com/ollama/ollama",
-      "lang": "Go",
-      "stars": "176,606",
-      "forks": "12,000",
-      "category": "framework",
-      "tags": [
-          "本地推理",
-          "LLM运行时",
-          "端侧部署",
-          "开源模型"
-      ],
-      "descShort": "本地LLM运行时事实标准，176.6k Stars，一行命令跑开源模型",
-      "descFull": "Ollama是本地运行开源LLM的事实标准，累计176,606 Stars。支持Llama、DeepSeek、Kimi、GLM等主流开源模型一键部署，OpenAI兼容接口，macOS/Linux/Windows全覆盖，端侧推理的绝对地基。",
-      "features": [
-          "本地LLM运行时标准",
-          "OpenAI兼容接口",
-          "多模型一键部署",
-          "跨平台支持",
-          "176.6k Stars"
+          "400+集成节点",
+          "原生AI能力",
+          "自托管部署",
+          "可视化工作流",
+          "199.7k Stars"
       ]
   },
   {
@@ -188,198 +288,223 @@ const PROJECTS = [
       "fullName": "firecrawl/firecrawl",
       "githubUrl": "https://github.com/firecrawl/firecrawl",
       "lang": "TypeScript",
-      "stars": "169,700",
-      "forks": "9,500",
+      "stars": "110,400",
+      "forks": "10,000",
       "category": "tool",
       "tags": [
-          "Web抓取",
-          "Agent工具",
-          "网页转LLM",
-          "搜索API"
+          "网页抓取",
+          "LLM数据",
+          "API",
+          "数据管道"
       ],
-      "descShort": "Agent网页抓取与搜索API，169.7k Stars，网页变LLM数据",
-      "descFull": "Firecrawl是面向AI Agent的网页抓取、搜索与交互API，累计169,700 Stars。将任意网页转为干净的LLM-ready数据，支持批量抓取、深度爬取、结构化提取，是AI应用获取实时网页数据的基础设施。",
+      "descShort": "网页转LLM数据接口，110.4k Stars，Web数据抓取与交互API",
+      "descFull": "Firecrawl是网页抓取与交互API，累计110,400 Stars。将任意网站转换为LLM-ready数据，支持实时Web数据获取、抓取、爬取与结构化输出，是Agent与网页数据之间的关键桥梁。",
       "features": [
           "网页转LLM数据",
-          "批量抓取",
-          "结构化提取",
-          "Agent搜索API",
-          "169.7k Stars"
+          "实时数据获取",
+          "结构化输出",
+          "Agent数据接口",
+          "110.4k Stars"
       ]
   },
   {
-      "slug": "transformers",
-      "name": "Transformers",
-      "fullName": "huggingface/transformers",
-      "githubUrl": "https://github.com/huggingface/transformers",
+      "slug": "ragflow",
+      "name": "RAGFlow",
+      "fullName": "infiniflow/ragflow",
+      "githubUrl": "https://github.com/infiniflow/ragflow",
       "lang": "Python",
-      "stars": "162,809",
-      "forks": "33,000",
-      "category": "framework",
+      "stars": "78,400",
+      "forks": "9,000",
+      "category": "tool",
       "tags": [
-          "模型框架",
-          "多模态",
-          "HuggingFace",
-          "行业标准"
+          "RAG",
+          "知识库",
+          "检索增强",
+          "引用溯源"
       ],
-      "descShort": "AI模型定义的事实标准框架，162.8k Stars，文本视觉音频全覆盖",
-      "descFull": "Transformers是HuggingFace开源的模型框架，累计162,809 Stars。支持文本、视觉、音频与多模态模型的训练与推理，几乎所有新AI项目都依赖此库，是ML生态的基础设施。",
+      "descShort": "深度RAG引擎，78.4k Stars，智能检索+引用溯源",
+      "descFull": "RAGFlow是带Agent能力的深度RAG引擎，累计78,400 Stars。智能检索+引用溯源+支持混乱真实文档，是企业级知识库的superior context layer，是文档密集型场景的首选。",
       "features": [
-          "多模态模型支持",
-          "行业标准框架",
-          "预训练模型生态",
-          "文本/视觉/音频",
-          "162.8k Stars"
+          "深度RAG引擎",
+          "引用溯源",
+          "智能Agent检索",
+          "企业知识库",
+          "78.4k Stars"
       ]
   },
   {
-      "slug": "langflow",
-      "name": "Langflow",
-      "fullName": "langflow-ai/langflow",
-      "githubUrl": "https://github.com/langflow-ai/langflow",
+      "slug": "mem0",
+      "name": "Mem0",
+      "fullName": "mem0ai/mem0",
+      "githubUrl": "https://github.com/mem0ai/mem0",
       "lang": "Python",
-      "stars": "153,500",
-      "forks": "9,900",
-      "category": "framework",
+      "stars": "62,736",
+      "forks": "7,300",
+      "category": "tool",
       "tags": [
-          "LLM框架",
-          "可视化",
-          "低代码",
-          "Agent构建"
+          "Agent记忆",
+          "上下文管理",
+          "持久化",
+          "记忆层"
       ],
-      "descShort": "可视化AI Agent构建平台，153.5k Stars，拖拽式低代码开发",
-      "descFull": "Langflow是可视化构建AI Agent与工作流的平台，累计153,500 Stars。拖拽式界面连接LLM、工具与数据源，一键生成可部署的Python代码，从原型到生产无需重写。",
+      "descShort": "AI Agent通用记忆层，62.7k Stars，持久化上下文",
+      "descFull": "Mem0是AI Agent的通用记忆层，累计62,736 Stars。为Agent提供持久化上下文与跨会话记忆，被广泛集成到各类Agent框架中，是Agent记忆赛道的领跑者。",
       "features": [
-          "拖拽式Agent构建",
-          "可视化工作流",
-          "生成生产级Python",
-          "多模型支持",
-          "153.5k Stars"
+          "通用记忆层",
+          "跨会话上下文",
+          "框架集成广泛",
+          "Apache-2.0",
+          "62.7k Stars"
       ]
   },
   {
-      "slug": "dify",
-      "name": "Dify",
-      "fullName": "langgenius/dify",
-      "githubUrl": "https://github.com/langgenius/dify",
+      "slug": "llama-index",
+      "name": "LlamaIndex",
+      "fullName": "run-llama/llama_index",
+      "githubUrl": "https://github.com/run-llama/llama_index",
+      "lang": "Python",
+      "stars": "51,697",
+      "forks": "7,407",
+      "category": "tool",
+      "tags": [
+          "RAG",
+          "数据框架",
+          "文档处理",
+          "索引检索"
+      ],
+      "descShort": "数据框架连接LLM，51.7k Stars，生产RAG标准",
+      "descFull": "LlamaIndex是连接LLM与数据的领先框架，累计51,697 Stars。强大的索引与检索能力，Workflows支持序列化恢复的会话状态，是生产RAG标准与文档Agent平台。",
+      "features": [
+          "文档Agent平台",
+          "生产RAG标准",
+          "索引检索能力强",
+          "Workflows状态恢复",
+          "51.7k Stars"
+      ]
+  },
+  {
+      "slug": "gpt-researcher",
+      "name": "GPT Researcher",
+      "fullName": "assafelovic/gpt-researcher",
+      "githubUrl": "https://github.com/assafelovic/gpt-researcher",
+      "lang": "Python",
+      "stars": "28,868",
+      "forks": "4,000",
+      "category": "tool",
+      "tags": [
+          "Deep Research",
+          "研究Agent",
+          "报告生成",
+          "多源检索"
+      ],
+      "descShort": "自主深度研究Agent，28.9k Stars，联网调研自动生成报告",
+      "descFull": "GPT Researcher是自主深度研究Agent，累计28,868 Stars。自动规划搜索、多源信息交叉验证并生成结构化研究报告，是Deep Research类工具的开源代表。",
+      "features": [
+          "自主研究规划",
+          "多源信息交叉",
+          "结构化报告生成",
+          "深度调研",
+          "28.9k Stars"
+      ]
+  },
+  {
+      "slug": "lightrag",
+      "name": "LightRAG",
+      "fullName": "HKUDS/LightRAG",
+      "githubUrl": "https://github.com/HKUDS/LightRAG",
+      "lang": "Python",
+      "stars": "24,000",
+      "forks": "1,500",
+      "category": "tool",
+      "tags": [
+          "RAG",
+          "轻量级",
+          "图检索",
+          "EMNLP"
+      ],
+      "descShort": "简单快速的RAG框架，24k Stars，EMNLP 2025成果",
+      "descFull": "LightRAG是来自EMNLP 2025的简单快速检索增强生成框架，累计24,000 Stars。以极简API实现高效RAG，支持增量索引与图结构检索，是轻量级RAG方案的优选。",
+      "features": [
+          "极简API",
+          "图结构检索",
+          "增量索引",
+          "EMNLP 2025",
+          "24k Stars"
+      ]
+  },
+  {
+      "slug": "docling",
+      "name": "Docling",
+      "fullName": "docling-project/docling",
+      "githubUrl": "https://github.com/docling-project/docling",
+      "lang": "Python",
+      "stars": "18,000",
+      "forks": "1,200",
+      "category": "tool",
+      "tags": [
+          "文档处理",
+          "数据管道",
+          "解析",
+          "生成式AI"
+      ],
+      "descShort": "文档预处理管道，18k Stars，为生成式AI准备文档",
+      "descFull": "Docling是文档预处理工具，累计18,000 Stars。将PDF/Word/PPT等复杂文档解析为结构化数据，为生成式AI管道准备干净输入，由IBM开源并广泛采用。",
+      "features": [
+          "复杂文档解析",
+          "生成式AI管道",
+          "多格式支持",
+          "IBM开源",
+          "18k Stars"
+      ]
+  },
+  {
+      "slug": "langfuse",
+      "name": "Langfuse",
+      "fullName": "langfuse/langfuse",
+      "githubUrl": "https://github.com/langfuse/langfuse",
       "lang": "TypeScript",
-      "stars": "153,000",
-      "forks": "24,200",
-      "category": "framework",
-      "tags": [
-          "LLM应用",
-          "RAG流水线",
-          "Agentic工作流",
-          "开源平台"
-      ],
-      "descShort": "开源LLM应用开发平台，153k Stars，Agentic工作流+RAG一站式",
-      "descFull": "Dify是开源的LLM应用开发平台，累计153,000 Stars。在统一协作空间构建Agentic工作流与RAG流水线，丰富模型与工具支持，可部署到云/VPC/自托管，从原型到生产不重建技术栈。",
-      "features": [
-          "Agentic工作流",
-          "RAG流水线",
-          "丰富模型支持",
-          "云/VPC/自托管",
-          "153k Stars"
-      ]
-  },
-  {
-      "slug": "open-webui",
-      "name": "Open WebUI",
-      "fullName": "open-webui/open-webui",
-      "githubUrl": "https://github.com/open-webui/open-webui",
-      "lang": "Python",
-      "stars": "149,300",
-      "forks": "21,800",
+      "stars": "32,663",
+      "forks": "3,200",
       "category": "tool",
       "tags": [
-          "LLM界面",
-          "Ollama",
-          "OpenAI兼容",
-          "自托管"
+          "可观测性",
+          "LLMOps",
+          "追踪",
+          "评估"
       ],
-      "descShort": "友好开源AI界面，149.3k Stars，支持Ollama与OpenAI API",
-      "descFull": "Open WebUI是用户友好的开源AI界面，累计149,300 Stars。原生支持Ollama本地模型与OpenAI兼容API，提供聊天、RAG、多用户管理与插件扩展，自托管AI应用首选界面。",
+      "descShort": "LLM可观测性平台，32.7k Stars，Agent追踪与评估",
+      "descFull": "Langfuse是开源LLM可观测性平台，累计32,663 Stars。提供Agent/LLM应用的追踪、监控、评估与提示管理，是生产级Agent应用的观测层标配。",
       "features": [
-          "Ollama原生支持",
-          "OpenAI兼容",
-          "多用户管理",
-          "内置RAG",
-          "149.3k Stars"
+          "LLM追踪",
+          "可观测性",
+          "评估与提示管理",
+          "开源自托管",
+          "32.7k Stars"
       ]
   },
   {
-      "slug": "langchain",
-      "name": "LangChain",
-      "fullName": "langchain-ai/langchain",
-      "githubUrl": "https://github.com/langchain-ai/langchain",
+      "slug": "litellm",
+      "name": "LiteLLM",
+      "fullName": "BerriAI/litellm",
+      "githubUrl": "https://github.com/BerriAI/litellm",
       "lang": "Python",
-      "stars": "144,600",
-      "forks": "24,100",
-      "category": "framework",
-      "tags": [
-          "LLM框架",
-          "Agent编排",
-          "行业标准",
-          "工程平台"
-      ],
-      "descShort": "AI Agent工程平台，144.6k Stars，生态标准的Agent开发框架",
-      "descFull": "LangChain是AI Agent工程平台，累计144,600 Stars。提供Agent、记忆、工具调用、RAG等完整能力，与LangGraph状态化工作流结合，是AI应用开发的事实标准框架。",
-      "features": [
-          "Agent+记忆+RAG",
-          "LangGraph集成",
-          "完整AI开发生态",
-          "行业事实标准",
-          "Python/JS双语言"
-      ]
-  },
-  {
-      "slug": "awesome-llm-apps",
-      "name": "Awesome LLM Apps",
-      "fullName": "Shubhamsaboo/awesome-llm-apps",
-      "githubUrl": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "lang": "Python",
-      "stars": "133,300",
-      "forks": "19,600",
-      "category": "agent",
-      "tags": [
-          "AI应用",
-          "Agent案例",
-          "RAG应用",
-          "开源合集"
-      ],
-      "descShort": "100+ AI Agent与RAG应用合集，133.3k Stars，开源免费",
-      "descFull": "Awesome LLM Apps汇集100+可运行的AI Agent、Agent Skills与RAG应用，累计133,300 Stars。从聊天机器人到复杂多Agent系统，全部免费开源，是学习与复用的最佳素材库。",
-      "features": [
-          "100+可运行应用",
-          "Agent+Skills+RAG",
-          "全部免费开源",
-          "持续更新",
-          "133.3k Stars"
-      ]
-  },
-  {
-      "slug": "spec-kit",
-      "name": "Spec Kit",
-      "fullName": "github/spec-kit",
-      "githubUrl": "https://github.com/github/spec-kit",
-      "lang": "Python",
-      "stars": "130,400",
-      "forks": "11,700",
+      "stars": "57,000",
+      "forks": "8,037",
       "category": "tool",
       "tags": [
-          "规范驱动",
-          "开发工具",
-          "GitHub官方",
-          "PRD"
+          "LLM网关",
+          "API路由",
+          "多模型",
+          "统一接口"
       ],
-      "descShort": "Spec-Driven Development工具包，130.4k Stars，GitHub官方出品",
-      "descFull": "Spec Kit是GitHub官方开源的规范驱动开发工具包，累计130,400 Stars。帮助团队从规范/PRD出发生成代码与文档，将AI Copilot融入工程流程，提升开发效率与一致性。",
+      "descShort": "统一LLM网关，57k Stars，200+模型一个API",
+      "descFull": "LiteLLM是通用LLM API网关，累计57,000 Stars。一个统一接口接入200+提供商，支持智能路由、自动回退与配额管理，是生产级多模型架构的标准组件。",
       "features": [
-          "规范驱动开发",
-          "GitHub官方出品",
-          "AI Copilot集成",
-          "自动化工程流程",
-          "130.4k Stars"
+          "200+提供商统一接口",
+          "智能路由",
+          "自动回退",
+          "配额管理",
+          "57k Stars"
       ]
   },
   {
@@ -389,422 +514,297 @@ const PROJECTS = [
       "githubUrl": "https://github.com/Comfy-Org/ComfyUI",
       "lang": "Python",
       "stars": "128,500",
-      "forks": "15,100",
+      "forks": "15,000",
       "category": "multimodal",
       "tags": [
-          "扩散模型",
-          "图生图",
+          "图像生成",
           "视频生成",
-          "节点工作流"
+          "节点式",
+          "扩散模型"
       ],
-      "descShort": "模块化扩散模型GUI，128.5k Stars，图/视频生成节点式工作流",
-      "descFull": "ComfyUI是最强大和模块化的扩散模型GUI/API/后端，累计128,500 Stars。图节点接口支持图像与视频生成工作流，社区模型生态庞大，是生成式AI创作者的事实标准工具。",
+      "descShort": "节点式AI图像/视频生成界面，128.5k Stars，模块化扩散模型GUI",
+      "descFull": "ComfyUI是模块化扩散模型GUI与后端，累计128,500 Stars。图节点式接口构建生成式图像与视频工作流，插件生态海量，是AIGC创作基础设施的核心。",
       "features": [
           "节点式工作流",
-          "图像+视频生成",
-          "庞大模型生态",
-          "可编程API",
+          "图像视频生成",
+          "插件生态海量",
+          "模块化后端",
           "128.5k Stars"
       ]
   },
   {
-      "slug": "ui-ux-pro-max-skill",
-      "name": "UI-UX Pro Max Skill",
-      "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "githubUrl": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "slug": "whisper",
+      "name": "Whisper",
+      "fullName": "openai/whisper",
+      "githubUrl": "https://github.com/openai/whisper",
       "lang": "Python",
-      "stars": "118,300",
-      "forks": "12,700",
-      "category": "tool",
-      "tags": [
-          "AI Skill",
-          "UI/UX",
-          "设计智能",
-          "跨平台"
-      ],
-      "descShort": "AI设计智能Skill，118.3k Stars，跨平台专业UI/UX构建",
-      "descFull": "UI-UX Pro Max Skill是为AI编码Agent提供设计智能的Skill，累计118,300 Stars。将专业UI/UX设计原则注入Agent工作流，跨Claude Code/Codex/Cursor等多平台使用，提升生成界面的设计质量。",
-      "features": [
-          "专业设计智能",
-          "跨平台Agent支持",
-          "设计原则注入",
-          "提升UI质量",
-          "118.3k Stars"
-      ]
-  },
-  {
-      "slug": "generative-ai-for-beginners",
-      "name": "Generative AI for Beginners",
-      "fullName": "microsoft/generative-ai-for-beginners",
-      "githubUrl": "https://github.com/microsoft/generative-ai-for-beginners",
-      "lang": "Jupyter",
-      "stars": "118,100",
-      "forks": "62,300",
-      "category": "tool",
-      "tags": [
-          "教程",
-          "生成式AI",
-          "微软",
-          "21课"
-      ],
-      "descShort": "生成式AI入门21课，118.1k Stars，微软官方免费课程",
-      "descFull": "Generative AI for Beginners是微软官方的生成式AI入门课程，累计118,100 Stars。21课覆盖Prompt工程、RAG、微调、Agent等主题，Jupyter Notebook实战演练，学习生成式AI的最佳起点。",
-      "features": [
-          "21课系统课程",
-          "微软官方出品",
-          "实战Notebook",
-          "覆盖RAG/Agent",
-          "118.1k Stars"
-      ]
-  },
-  {
-      "slug": "ponytail",
-      "name": "Ponytail",
-      "fullName": "DietrichGebert/ponytail",
-      "githubUrl": "https://github.com/DietrichGebert/ponytail",
-      "lang": "JavaScript",
-      "stars": "117,188",
-      "forks": "7,000",
-      "category": "agent",
-      "tags": [
-          "AI Agent",
-          "代码最少化",
-          "库优先",
-          "工程哲学"
-      ],
-      "descShort": "最懒资深工程师哲学，117.2k Stars，代码越少越好",
-      "descFull": "Ponytail让AI Agent像最懒的资深工程师一样思考，累计117,188 Stars。核心原则：最好的代码是没写的代码——优先探索生态、复用成熟库，避免重复造轮子，显著降低复杂度与维护成本。",
-      "features": [
-          "代码最少化哲学",
-          "库优先策略",
-          "自动代码审查",
-          "降低复杂度",
-          "117.2k Stars"
-      ]
-  },
-  {
-      "slug": "money-printer",
-      "name": "MoneyPrinterTurbo",
-      "fullName": "harry0703/MoneyPrinterTurbo",
-      "githubUrl": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "lang": "Python",
-      "stars": "111,300",
-      "forks": "16,900",
+      "stars": "106,802",
+      "forks": "14,000",
       "category": "multimodal",
       "tags": [
-          "AI视频",
-          "短视频生成",
-          "自动化工作流",
-          "内容创作"
+          "语音识别",
+          "ASR",
+          "多语言",
+          "OpenAI"
       ],
-      "descShort": "AI一键生成高清短视频，111.3k Stars，周增11k现象级爆量",
-      "descFull": "MoneyPrinterTurbo利用AI大模型与自动化工作流，根据主题或关键词一键生成高清短视频，累计111,300 Stars。编排文案、配音、素材、字幕、合成全流程，2026年8月周增11k Stars成为现象级项目。",
+      "descShort": "OpenAI语音识别模型，106.8k Stars，通用语音识别标准",
+      "descFull": "Whisper是OpenAI开源的通用语音识别模型，累计106,802 Stars。多语言、多任务（识别/翻译/转录），是语音Agent与音频处理领域的事实标准基础模型。",
       "features": [
-          "一键生成短视频",
-          "全自动流水线",
-          "文案配音合成",
-          "高清输出",
-          "111.3k Stars"
+          "通用语音识别",
+          "多语言支持",
+          "多任务能力",
+          "语音Agent基础",
+          "106.8k Stars"
       ]
   },
   {
-      "slug": "browser-use",
-      "name": "Browser Use",
-      "fullName": "browser-use/browser-use",
-      "githubUrl": "https://github.com/browser-use/browser-use",
+      "slug": "open-sora",
+      "name": "Open-Sora",
+      "fullName": "hpcaitech/Open-Sora",
+      "githubUrl": "https://github.com/hpcaitech/Open-Sora",
       "lang": "Python",
-      "stars": "109,800",
-      "forks": "12,100",
-      "category": "tool",
+      "stars": "24,100",
+      "forks": "2,600",
+      "category": "multimodal",
       "tags": [
-          "浏览器自动化",
-          "AI Agent",
-          "网页交互",
-          "LLM"
+          "视频生成",
+          "扩散模型",
+          "DiT",
+          "开源Sora"
       ],
-      "descShort": "让网站对AI Agent可用，109.8k Stars，浏览器自动化新标准",
-      "descFull": "Browser Use让网站对AI Agent变得可用，累计109,800 Stars。Agent通过LLM理解并操作网页，自动化填表、点击、导航、数据提取，正在重新定义浏览器自动化的生态。",
+      "descShort": "开源视频生成星标最高，24.1k Stars，Sora架构复现",
+      "descFull": "Open-Sora是GitHub星标最高的开源视频生成项目，累计24,100 Stars。2.0版本（11B参数）在VBench达到与HunyuanVideo相当性能，训练成本约20万美元，支持文生视频、图生视频与无限长度生成。",
       "features": [
-          "Agent驱动浏览器",
-          "网页操作自动化",
-          "LLM理解交互",
-          "超越传统爬虫",
-          "109.8k Stars"
+          "Sora架构DiT",
+          "文生图生视频",
+          "无限长度生成",
+          "训练可复现",
+          "24.1k Stars"
       ]
   },
   {
-      "slug": "gemini-cli",
-      "name": "Gemini CLI",
-      "fullName": "google-gemini/gemini-cli",
-      "githubUrl": "https://github.com/google-gemini/gemini-cli",
-      "lang": "TypeScript",
-      "stars": "106,600",
-      "forks": "14,400",
-      "category": "agent",
+      "slug": "vibevoice",
+      "name": "VibeVoice",
+      "fullName": "microsoft/VibeVoice",
+      "githubUrl": "https://github.com/microsoft/VibeVoice",
+      "lang": "Python",
+      "stars": "33,418",
+      "forks": "3,400",
+      "category": "multimodal",
       "tags": [
-          "终端Agent",
-          "Gemini",
-          "Google官方",
-          "编码助手"
+          "语音AI",
+          "语音合成",
+          "微软",
+          "声音智能"
       ],
-      "descShort": "Google官方终端Agent，106.6k Stars，Gemini直达终端",
-      "descFull": "Gemini CLI是Google官方开源的终端AI Agent，累计106,600 Stars。将Gemini模型能力直接带入终端，支持编码、文件操作、多步任务执行，与Claude Code、OpenCode形成终端Agent新三强格局。",
+      "descShort": "微软开源前沿语音AI，33.4k Stars，开源声音智能",
+      "descFull": "VibeVoice是微软开源的前沿语音AI项目，累计33,418 Stars。覆盖语音识别、合成与对话能力，是2026年开源语音赛道的新势力。",
       "features": [
-          "终端原生Agent",
-          "Gemini模型驱动",
-          "编码+文件操作",
-          "Google官方出品",
-          "106.6k Stars"
+          "前沿语音AI",
+          "微软开源",
+          "语音识别合成",
+          "对话语音",
+          "33.4k Stars"
       ]
   },
   {
-      "slug": "caveman",
-      "name": "Caveman",
-      "fullName": "JuliusBrussee/caveman",
-      "githubUrl": "https://github.com/JuliusBrussee/caveman",
+      "slug": "speech-to-speech",
+      "name": "Speech-to-Speech",
+      "fullName": "huggingface/speech-to-speech",
+      "githubUrl": "https://github.com/huggingface/speech-to-speech",
+      "lang": "Python",
+      "stars": "36,726",
+      "forks": "5,600",
+      "category": "multimodal",
+      "tags": [
+          "语音Agent",
+          "语音交互",
+          "本地部署",
+          "HuggingFace"
+      ],
+      "descShort": "本地语音Agent构建工具，36.7k Stars，开源模型语音交互",
+      "descFull": "Speech-to-Speech是Hugging Face开源的本地语音Agent构建框架，累计36,726 Stars。用开源模型在本地构建语音到语音的实时对话Agent，是语音交互赛道的重要基建。",
+      "features": [
+          "本地语音Agent",
+          "开源模型",
+          "实时对话",
+          "HuggingFace出品",
+          "36.7k Stars"
+      ]
+  },
+  {
+      "slug": "transformers",
+      "name": "Transformers",
+      "fullName": "huggingface/transformers",
+      "githubUrl": "https://github.com/huggingface/transformers",
+      "lang": "Python",
+      "stars": "159,500",
+      "forks": "42,000",
+      "category": "framework",
+      "tags": [
+          "机器学习",
+          "多模态",
+          "HuggingFace",
+          "模型库"
+      ],
+      "descShort": "HuggingFace核心ML框架，159.5k Stars，多模态模型标准",
+      "descFull": "Transformers是HuggingFace的State-of-the-Art机器学习框架，累计159,500 Stars。支持文本、视觉、音频与多模态模型，是开源ML生态的基石。",
+      "features": [
+          "多模态模型支持",
+          "SOTA模型库",
+          "生态基石",
+          "社区海量模型",
+          "159.5k Stars"
+      ]
+  },
+  {
+      "slug": "langchain",
+      "name": "LangChain",
+      "fullName": "langchain-ai/langchain",
+      "githubUrl": "https://github.com/langchain-ai/langchain",
+      "lang": "Python",
+      "stars": "144,700",
+      "forks": "22,606",
+      "category": "framework",
+      "tags": [
+          "LLM框架",
+          "Agent编排",
+          "生态标准",
+          "Python"
+      ],
+      "descShort": "LLM应用工程平台，144.7k Stars，Agent生态标准",
+      "descFull": "LangChain是Agent工程平台与生态标准，累计144,700 Stars。模块化架构覆盖LLM应用全链路，生态集成数量无出其右，2026年新增Claude adaptive thinking与OpenAI Responses API原生支持。",
+      "features": [
+          "模块化架构",
+          "生态集成最广",
+          "Agent编排",
+          "原生流式支持",
+          "144.7k Stars"
+      ]
+  },
+  {
+      "slug": "ollama",
+      "name": "Ollama",
+      "fullName": "ollama/ollama",
+      "githubUrl": "https://github.com/ollama/ollama",
       "lang": "Go",
-      "stars": "99,300",
-      "forks": "5,800",
-      "category": "tool",
-      "tags": [
-          "Token优化",
-          "Claude Code",
-          "成本节省",
-          "Skill"
-      ],
-      "descShort": "石器时代说话法省65% Token，99.3k Stars，Claude Code效率Skill",
-      "descFull": "Caveman是Claude Code Skill，累计99,300 Stars。通过极简的原始表达风格压缩Agent提示词，平均削减65% Token消耗，用最少Token传达同样意图，是Token成本优化的网红方案。",
-      "features": [
-          "节省65% Token",
-          "极简表达风格",
-          "Claude Code Skill",
-          "成本优化",
-          "99.3k Stars"
-      ]
-  },
-  {
-      "slug": "pi",
-      "name": "Pi",
-      "fullName": "earendil-works/pi",
-      "githubUrl": "https://github.com/earendil-works/pi",
-      "lang": "TypeScript",
-      "stars": "93,900",
-      "forks": "11,600",
+      "stars": "147,780",
+      "forks": "11,000",
       "category": "framework",
       "tags": [
-          "Agent工具包",
-          "LLM API",
-          "TUI",
-          "编码Agent"
+          "本地LLM",
+          "推理运行时",
+          "边缘AI",
+          "私有部署"
       ],
-      "descShort": "统一Agent工具包，93.9k Stars，LLM API+Agent循环+TUI一体",
-      "descFull": "Pi是AI Agent工具包，累计93,900 Stars。统一LLM API接入、Agent循环、TUI界面与编码Agent CLI，为开发者提供从模型调用到完整Agent的一站式工具箱。",
+      "descShort": "本地LLM运行时，147.8k Stars，50+模型一条命令",
+      "descFull": "Ollama是本地LLM运行时，累计147,780 Stars。支持50+模型一键运行，是边缘AI民主化的代表，本地部署LLM的事实标准。",
       "features": [
-          "统一LLM API",
-          "Agent循环",
-          "TUI+CLI",
-          "编码Agent能力",
-          "93.9k Stars"
+          "50+模型支持",
+          "一条命令运行",
+          "本地私有部署",
+          "边缘AI",
+          "147.8k Stars"
       ]
   },
   {
-      "slug": "awesome-mcp-servers",
-      "name": "Awesome MCP Servers",
-      "fullName": "punkpeye/awesome-mcp-servers",
-      "githubUrl": "https://github.com/punkpeye/awesome-mcp-servers",
-      "lang": "Markdown",
-      "stars": "92,600",
-      "forks": "14,800",
-      "category": "tool",
-      "tags": [
-          "MCP服务器",
-          "协议生态",
-          "工具集成",
-          "资源清单"
-      ],
-      "descShort": "MCP服务器大全，92.6k Stars，Agent工具协议生态总索引",
-      "descFull": "Awesome MCP Servers汇集了海量MCP（Model Context Protocol）服务器资源，累计92,600 Stars。覆盖数据库、浏览器、搜索、办公等各类工具接入，是MCP协议时代Agent工具生态的核心索引。",
-      "features": [
-          "MCP生态总索引",
-          "海量服务器资源",
-          "分类清晰",
-          "社区持续更新",
-          "92.6k Stars"
-      ]
-  },
-  {
-      "slug": "claude-mem",
-      "name": "Claude Mem",
-      "fullName": "thedotmack/claude-mem",
-      "githubUrl": "https://github.com/thedotmack/claude-mem",
-      "lang": "JavaScript",
-      "stars": "91,300",
-      "forks": "8,000",
-      "category": "tool",
-      "tags": [
-          "持久记忆",
-          "跨会话",
-          "上下文压缩",
-          "多Agent兼容"
-      ],
-      "descShort": "跨会话持久上下文，91.3k Stars，兼容Claude Code/OpenClaw等",
-      "descFull": "Claude Mem为每个Agent提供跨会话持久上下文，累计91,300 Stars。自动捕获会话中的关键信息，AI压缩后注入未来会话，兼容Claude Code、OpenClaw、Codex、Gemini、Copilot等主流工具。",
-      "features": [
-          "跨会话记忆",
-          "自动上下文压缩",
-          "多Agent兼容",
-          "AI注入回放",
-          "91.3k Stars"
-      ]
-  },
-  {
-      "slug": "ragflow",
-      "name": "RAGFlow",
-      "fullName": "infiniflow/ragflow",
-      "githubUrl": "https://github.com/infiniflow/ragflow",
-      "lang": "Go",
-      "stars": "88,900",
-      "forks": "10,400",
+      "slug": "llama-cpp",
+      "name": "llama.cpp",
+      "fullName": "ggml-org/llama.cpp",
+      "githubUrl": "https://github.com/ggml-org/llama.cpp",
+      "lang": "C++",
+      "stars": "90,441",
+      "forks": "14,000",
       "category": "framework",
       "tags": [
-          "RAG引擎",
-          "深度文档理解",
-          "Agent能力",
-          "企业知识库"
+          "LLM推理",
+          "C++",
+          "本地部署",
+          "量化"
       ],
-      "descShort": "开源RAG引擎，88.9k Stars，深度文档理解+Agent检索",
-      "descFull": "RAGFlow是领先的开源RAG引擎，累计88,900 Stars。融合前沿检索与Agent能力，支持多模态文档处理、表格/OCR/数学理解，为LLM构建企业级上下文层。",
+      "descShort": "高性能LLM推理引擎，90.4k Stars，CPU/边缘推理之王",
+      "descFull": "llama.cpp是GGML组织的高性能LLM推理引擎，累计90,441 Stars。C++实现、无GPU也能高效运行LLM，近28天新增394 Stars，是本地推理的核心基建。",
       "features": [
-          "深度文档理解",
-          "多模态文档处理",
-          "Agent化检索",
-          "引用溯源",
-          "88.9k Stars"
+          "C++高性能",
+          "CPU友好",
+          "量化支持",
+          "边缘设备推理",
+          "90.4k Stars"
       ]
   },
   {
-      "slug": "agent-skills",
-      "name": "Agent Skills",
-      "fullName": "addyosmani/agent-skills",
-      "githubUrl": "https://github.com/addyosmani/agent-skills",
+      "slug": "vllm",
+      "name": "vLLM",
+      "fullName": "vllm-project/vllm",
+      "githubUrl": "https://github.com/vllm-project/vllm",
       "lang": "Python",
-      "stars": "87,514",
-      "forks": "9,000",
-      "category": "agent",
-      "tags": [
-          "AI编码",
-          "Skills库",
-          "生产级",
-          "工程实践"
-      ],
-      "descShort": "生产级AI编码工程技能库，87.5k Stars，Addy Osmani出品",
-      "descFull": "Agent Skills由Google Chrome工程总监Addy Osmani开源，累计87,514 Stars。为AI编码Agent提供生产级工程技能，覆盖代码生成、调试、重构全流程，让AI编码助手更专业可靠。",
-      "features": [
-          "生产级工程技能",
-          "编码全流程覆盖",
-          "Google工程师出品",
-          "专业可靠",
-          "87.5k Stars"
-      ]
-  },
-  {
-      "slug": "mem0",
-      "name": "Mem0",
-      "fullName": "mem0ai/mem0",
-      "githubUrl": "https://github.com/mem0ai/mem0",
-      "lang": "Python",
-      "stars": "61,402",
-      "forks": "6,000",
-      "category": "tool",
-      "tags": [
-          "AI记忆",
-          "长期记忆",
-          "上下文层",
-          "Token节省"
-      ],
-      "descShort": "一行代码的记忆层，61.4k Stars，长期会话节省30-40% Token",
-      "descFull": "Mem0是AI Agent的通用记忆层，累计61,402 Stars。一行代码接入持久长期记忆，跨会话保留用户偏好与上下文，长会话节省30-40% Token，是Agent记忆基础设施的标杆。",
-      "features": [
-          "一行代码接入",
-          "跨会话长期记忆",
-          "节省30-40% Token",
-          "多框架兼容",
-          "61.4k Stars"
-      ]
-  },
-  {
-      "slug": "strix",
-      "name": "Strix",
-      "fullName": "usestrix/strix",
-      "githubUrl": "https://github.com/usestrix/strix",
-      "lang": "Python",
-      "stars": "54,183",
-      "forks": "5,000",
-      "category": "tool",
-      "tags": [
-          "AI安全",
-          "渗透测试",
-          "漏洞修复",
-          "红队"
-      ],
-      "descShort": "开源AI渗透测试工具，54.2k Stars，自动发现并修复漏洞",
-      "descFull": "Strix是开源AI渗透测试工具，累计54,183 Stars。利用AI自动发现并修复应用安全漏洞，支持安全研究、CTF、红队等场景，是AI+安全领域最受关注的项目之一。",
-      "features": [
-          "AI漏洞发现",
-          "自动修复建议",
-          "CTF/红队场景",
-          "应用安全",
-          "54.2k Stars"
-      ]
-  },
-  {
-      "slug": "colibri",
-      "name": "Colibri",
-      "fullName": "JustVugg/colibri",
-      "githubUrl": "https://github.com/JustVugg/colibri",
-      "lang": "C",
-      "stars": "26,480",
-      "forks": "800",
+      "stars": "77,100",
+      "forks": "12,000",
       "category": "framework",
       "tags": [
-          "MoE推理",
-          "C语言",
-          "零依赖",
-          "边缘部署"
+          "LLM推理",
+          "高吞吐",
+          "生产部署",
+          "服务引擎"
       ],
-      "descShort": "纯C零依赖MoE推理引擎，26.5k Stars，无GPU跑前沿模型",
-      "descFull": "Colibri是纯C语言编写的MoE推理引擎，累计26,480 Stars。零外部依赖，模型直接从磁盘流式加载，无需企业级GPU即可运行前沿模型，可部署在嵌入式设备、树莓派与旧服务器上。",
+      "descShort": "高吞吐LLM推理引擎，77.1k Stars，生产部署关键",
+      "descFull": "vLLM是高吞吐、内存高效的LLM推理引擎，累计77,100 Stars。PagedAttention等创新技术使其成为生产环境LLM服务的关键基础设施，广泛用于模型服务。",
       "features": [
-          "纯C零依赖",
-          "磁盘流式加载",
-          "无GPU运行前沿模型",
-          "边缘设备部署",
-          "26.5k Stars"
+          "高吞吐推理",
+          "PagedAttention",
+          "内存高效",
+          "生产级服务",
+          "77.1k Stars"
       ]
   },
   {
-      "slug": "grok-build",
-      "name": "Grok Build",
-      "fullName": "xai-org/grok-build",
-      "githubUrl": "https://github.com/xai-org/grok-build",
-      "lang": "Rust",
-      "stars": "26,261",
-      "forks": "2,000",
-      "category": "tool",
+      "slug": "crewai",
+      "name": "CrewAI",
+      "fullName": "crewAIInc/crewAI",
+      "githubUrl": "https://github.com/crewAIInc/crewAI",
+      "lang": "Python",
+      "stars": "57,200",
+      "forks": "7,103",
+      "category": "framework",
       "tags": [
-          "编码Harness",
-          "TUI",
-          "xAI",
-          "Grok"
+          "多Agent",
+          "角色编排",
+          "协作框架",
+          "Python"
       ],
-      "descShort": "xAI官方编码Harness，26.3k Stars，沉浸式全屏TUI",
-      "descFull": "Grok Build是xAI官方开源的编码Harness与TUI，累计26,261 Stars。全屏交互式界面、鼠标支持、完全可扩展，让开发者与xAI编码Agent进行沉浸式交互，实时查看进度并定制工作流。",
+      "descShort": "角色扮演多Agent框架，57.2k Stars，团队协作式编排",
+      "descFull": "CrewAI是角色驱动的多Agent编排框架，累计57,200 Stars。将Agent定义为带角色/目标/背景故事的团队成员，顺序或层级协作完成任务，是快速搭建多Agent应用的首选，1500+企业采用。",
       "features": [
-          "xAI官方出品",
-          "全屏交互TUI",
-          "可扩展架构",
-          "实时进度可视化",
-          "26.3k Stars"
+          "角色驱动设计",
+          "任务委派协作",
+          "层级协调",
+          "1500+企业采用",
+          "57.2k Stars"
+      ]
+  },
+  {
+      "slug": "langgraph",
+      "name": "LangGraph",
+      "fullName": "langchain-ai/langgraph",
+      "githubUrl": "https://github.com/langchain-ai/langgraph",
+      "lang": "Python",
+      "stars": "39,848",
+      "forks": "5,432",
+      "category": "framework",
+      "tags": [
+          "Agent编排",
+          "状态图",
+          "LangChain",
+          "生产级"
+      ],
+      "descShort": "有状态图Agent框架，39.8k Stars，生产默认编排",
+      "descFull": "LangGraph是LangChain的有状态图Agent框架，累计39,848 Stars。图节点边建模、内置checkpoint、暂停/恢复/时间旅行调试，34.5M月下载量，是企业生产Agent的默认选择。",
+      "features": [
+          "图结构编排",
+          "内置checkpoint",
+          "时间旅行调试",
+          "34.5M月下载",
+          "39.8k Stars"
       ]
   }
 ];
@@ -814,68 +814,68 @@ const CATEGORIES = {
     "name": "Agent",
     "icon": "bot",
     "color": "#6366f1",
-    "count": 8
+    "count": 9
   },
   "tool": {
     "name": "工具",
     "icon": "wrench",
     "color": "#10b981",
-    "count": 13
+    "count": 11
   },
   "multimodal": {
     "name": "多模态",
     "icon": "image",
     "color": "#ec4899",
-    "count": 2
+    "count": 5
   },
   "framework": {
     "name": "框架",
     "icon": "layers",
     "color": "#f59e0b",
-    "count": 9
+    "count": 7
   },
 };
 
 const TRENDS = [
   {
-    "title": "DeepSeek Harness引爆插件化Agent框架浪潮",
-    "desc": "deepseek-ai/deepseek-harness以204.7k Stars成为本周最大黑马，Everything is a Plugin哲学将Agent工作流彻底组件化。与OpenClaw 386.8k、Superpowers 274.4k一起，框架之争从「模型能力」转向「编排能力」。"
+    "title": "opencode登顶Coding Agent：194.5k Stars成开源编码第一",
+    "desc": "anomalyco/opencode以194.5k Stars超越Claude Code（140.5k）与Gemini CLI（106.4k），成为开源Coding Agent最大项目。终端AI编码工作流全面Agent化，近28天新增超900 Stars。"
   },
   {
     "title": "OpenClaw稳居GitHub第一，本地优先成为主流",
-    "desc": "OpenClaw 386.8k Stars持续霸榜，完全本地运行、50+原生渠道接入，获Sam Altman公开背书。本地优先不再是小众极客选择，而是主流化偏好，数据不出设备成为隐私刚需。"
+    "desc": "OpenClaw 386.8k Stars持续霸榜，完全本地运行、50+原生渠道接入。与n8n 199.7k、Superpowers 274.4k一起，本地优先与工作流自动化成为2026年AI开源的两大主线。"
   },
   {
-    "title": "本地推理全面爆发：Colibri与oMLX双线推进",
-    "desc": "Colibri 26.5k（纯C零依赖MoE引擎，无GPU跑前沿模型）+Ollama 176.6k+oMLX（Apple Silicon推理服务器），本地部署从极客玩具变成生产级需求。隐私、成本、可控性三因素持续推动。"
+    "title": "低代码LLM平台双雄：Dify与Langflow齐破150k",
+    "desc": "Dify 152.7k与Langflow 153.5k双双站稳150k+ Stars，可视化工作流构建成为企业LLM应用标配。低代码不是玩具，而是AI应用从原型到生产的快速通道。"
   },
   {
-    "title": "Agent记忆成为核心基建，跨厂商交接成新卖点",
-    "desc": "Mem0 61.4k+claude-mem 91.3k+ai-memory（Rust跨厂商上下文交接），Agent记忆从附加功能升级为基础设施。换个Agent工具上下文全丢的痛点，正在催生记忆治理新赛道。"
+    "title": "本地推理全面爆发：Ollama、llama.cpp与vLLM三线推进",
+    "desc": "Ollama 147.8k+llama.cpp 90.4k+vLLM 77.1k，本地与边缘推理从极客玩具变成生产级需求。隐私、成本、可控性三因素持续推动部署形态变革。"
   },
   {
-    "title": "Agent安全从「可选」变为「必选」",
-    "desc": "Strix 54.2k（AI渗透测试）+codex-security（Codex安全SDK）+AI-Infra-Guard（全栈AI红队），AI Agent误删事故频发推动安全成为Agent基础设施层必备，安全技能与扫描工具批量涌现。"
+    "title": "Agent记忆与可观测性成为生产必备基建",
+    "desc": "Mem0 62.7k提供通用记忆层+Langfuse 32.7k提供追踪评估，Agent从「能跑」走向「可运维」。跨会话记忆、可观测性与评估体系成为生产级Agent的三件套。"
   },
   {
-    "title": "Skills生态操作系统化：从技术标准到平台经济",
-    "desc": "Superpowers 274.4k定义Skill标准+agent-skills 87.5k生产级工程技能+UI-UX Pro Max 118.3k设计智能+claude-mem记忆Skill，Skills从编码技巧演变为可交易、可复用的生态资产。"
+    "title": "语音赛道升温：VibeVoice、speech-to-speech与Whisper共振",
+    "desc": "微软VibeVoice 33.4k+HuggingFace speech-to-speech 36.7k+OpenAI Whisper 106.8k，语音识别、合成与对话Agent全线开源化，语音交互进入Agent原生时代。"
   },
   {
-    "title": "视频多模态自动化：MoneyPrinterTurbo周增11k现象级",
-    "desc": "MoneyPrinterTurbo 111.3k Stars单周新增11k，AI一键生成高清短视频成为内容创作基础设施。ComfyUI 128.5k巩固节点式图像/视频生成地位，多模态从「能生成」走向「全自动」。"
+    "title": "视频生成开源成熟：Open-Sora以20万美元训练成本挑战闭源",
+    "desc": "Open-Sora 24.1k（11B参数，VBench对标HunyuanVideo）+ComfyUI 128.5k节点式生态，开源视频生成从实验室走向创作者工具，训练成本大幅下降成为关键拐点。"
   },
   {
-    "title": "MCP协议成为新API战争，spec-kit定义规范开发",
-    "desc": "awesome-mcp-servers 92.6k汇集海量MCP服务器+Firecrawl 169.7k网页转LLM+spec-kit 130.4k规范驱动开发，Agent到工具的通信协议层成为兵家必争之地，AI工程进入标准化时代。"
+    "title": "Deep Research工具链成型：从检索到报告全流程自动化",
+    "desc": "GPT Researcher 28.9k自主调研+LightRAG 24k轻量RAG+RAGFlow 78.4k深度RAG，研究型Agent覆盖多源检索、图结构索引与引用溯源，深度调研进入自动化时代。"
   },
   {
-    "title": "终端Agent新三强格局：Gemini CLI追赶OpenCode与Claude Code",
-    "desc": "Gemini CLI 106.6k（Google官方）与Claude Code、OpenCode形成终端Agent三强格局，Grok Build 26.3k（xAI）作为新玩家入局。终端Agent从编码工具进化为完整的工作操作系统。"
+    "title": "终端Agent三强格局确立：opencode/Claude Code/Gemini CLI",
+    "desc": "opencode 194.5k、Claude Code 140.5k、Gemini CLI 106.4k形成终端Agent三强，另有OpenAI Codex CLI 104.5k紧随。终端从编码工具进化为完整的工作操作系统。"
   },
   {
-    "title": "AI开源生态三层架构成熟，工程化思维取代模型竞赛",
-    "desc": "入口层(OpenClaw/Gemini CLI/Grok Build)→技能编排层(Superpowers/LangChain/CrewAI)→基础设施层(Ollama/Transformers/RAGFlow)。热榜不再比谁家模型强，而是比模型如何被组织成可复用、可调试、可协作的工程系统。"
+    "title": "框架分化加剧：LangGraph生产默认、CrewAI快速原型、smolagents极简派",
+    "desc": "LangGraph 39.8k以34.5M月下载成为生产默认；CrewAI 57.2k角色编排主打快速落地；HuggingFace smolagents以千行级极简代码另辟蹊径。热榜不再比谁家模型强，而是比编排与工程化能力。"
   },
 ];
 // DATA_END
