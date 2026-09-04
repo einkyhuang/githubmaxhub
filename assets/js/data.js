@@ -4,7 +4,7 @@
 
 
 // DATA_START
-const UPDATE_DATE = '2026-09-02';
+const UPDATE_DATE = '2026-09-04';
 
 const PROJECTS = [
   {
@@ -13,8 +13,8 @@ const PROJECTS = [
       "fullName": "openclaw/openclaw",
       "githubUrl": "https://github.com/openclaw/openclaw",
       "lang": "TypeScript",
-      "stars": "386,800",
-      "forks": "81,300",
+      "stars": "388,796",
+      "forks": "81,644",
       "category": "agent",
       "tags": [
           "AI Agent",
@@ -22,10 +22,10 @@ const PROJECTS = [
           "多端协同",
           "本地优先"
       ],
-      "descShort": "GitHub历史星标第一，386.8k Stars，本地优先的跨平台AI助理框架",
-      "descFull": "OpenClaw是GitHub历史上星标最高的开源项目，累计386,800 Stars。完全运行在用户自己的设备上，原生连接WhatsApp/Telegram/Slack/Discord/飞书等50+渠道，数据不出设备，被Sam Altman公开背书，是本地优先架构的代表作。",
+      "descShort": "GitHub历史星标第一，388.8k Stars，本地优先的跨平台AI助理框架",
+      "descFull": "OpenClaw是GitHub历史上星标最高的开源项目，累计388,796 Stars。完全运行在用户自己的设备上，原生连接WhatsApp/Telegram/Slack/Discord/飞书等50+渠道，数据不出设备，被Sam Altman公开背书，是本地优先架构的代表作。",
       "features": [
-          "GitHub历史星标第一386.8k",
+          "GitHub历史星标第一388.8k",
           "50+原生渠道集成",
           "完全本地自托管",
           "本地LLM兼容",
@@ -38,8 +38,8 @@ const PROJECTS = [
       "fullName": "obra/superpowers",
       "githubUrl": "https://github.com/obra/superpowers",
       "lang": "Shell",
-      "stars": "274,400",
-      "forks": "24,600",
+      "stars": "281,393",
+      "forks": "25,207",
       "category": "agent",
       "tags": [
           "AI Agent",
@@ -47,14 +47,14 @@ const PROJECTS = [
           "TDD",
           "开发方法论"
       ],
-      "descShort": "Agentic Skills框架与方法论，274.4k Stars，TDD驱动的结构化工作流",
-      "descFull": "Superpowers是Agentic Skills框架与软件开发方法论，累计274,400 Stars。定义7阶段结构化工作流（需求澄清、计划审批、TDD实现、子Agent并行、审查收尾），测试先行铁律，已进入Claude Code和Codex官方插件市场。",
+      "descShort": "Agentic Skills框架与方法论，281.4k Stars，TDD驱动的结构化工作流",
+      "descFull": "Superpowers是Agentic Skills框架与软件开发方法论，累计281,393 Stars。定义7阶段结构化工作流（需求澄清、计划审批、TDD实现、子Agent并行、审查收尾），测试先行铁律，已进入Claude Code和Codex官方插件市场。",
       "features": [
           "7阶段结构化工作流",
           "TDD铁律测试先行",
           "子Agent并行隔离",
           "Claude Code/Codex官方集成",
-          "274.4k Stars"
+          "281.4k Stars"
       ]
   },
   {
@@ -63,8 +63,8 @@ const PROJECTS = [
       "fullName": "NousResearch/hermes-agent",
       "githubUrl": "https://github.com/NousResearch/hermes-agent",
       "lang": "Python",
-      "stars": "233,100",
-      "forks": "46,600",
+      "stars": "240,907",
+      "forks": "49,368",
       "category": "agent",
       "tags": [
           "AI Agent",
@@ -72,8 +72,8 @@ const PROJECTS = [
           "多网关",
           "持久记忆"
       ],
-      "descShort": "自我进化型通用AI Agent框架，233.1k Stars，六周47k爆发式增长",
-      "descFull": "Hermes Agent是Nous Research开源的自我进化通用Agent框架，累计233,100 Stars。通过自我改进循环将成功经验编码为可复用Skills，支持跨会话持久记忆，集成CLI/Telegram/Discord/Slack等15+网关，OpenRouter接入200+模型，内置40+工具。",
+      "descShort": "自我进化型通用AI Agent框架，240.9k Stars，六周47k爆发式增长",
+      "descFull": "Hermes Agent是Nous Research开源的自我进化通用Agent框架，累计240,907 Stars。通过自我改进循环将成功经验编码为可复用Skills，支持跨会话持久记忆，集成CLI/Telegram/Discord/Slack等15+网关，OpenRouter接入200+模型，内置40+工具。",
       "features": [
           "自我改进循环",
           "跨会话持久记忆",
@@ -88,8 +88,8 @@ const PROJECTS = [
       "fullName": "Significant-Gravitas/AutoGPT",
       "githubUrl": "https://github.com/Significant-Gravitas/AutoGPT",
       "lang": "Python",
-      "stars": "184,300",
-      "forks": "46,200",
+      "stars": "187,108",
+      "forks": "46,040",
       "category": "agent",
       "tags": [
           "AI Agent",
@@ -97,14 +97,14 @@ const PROJECTS = [
           "任务分解",
           "可视化平台"
       ],
-      "descShort": "老牌自主AI Agent平台，184.3k Stars，任务分解与自主执行标杆",
-      "descFull": "AutoGPT是开创性的自主AI Agent项目，累计184,300 Stars。以任务分解与自主执行为核心理念，提供可视化构建与运行自主工作流的平台，是「可访问AI」愿景的代表作，插件生态丰富。",
+      "descShort": "老牌自主AI Agent平台，187.1k Stars，任务分解与自主执行标杆",
+      "descFull": "AutoGPT是开创性的自主AI Agent项目，累计187,108 Stars。以任务分解与自主执行为核心理念，提供可视化构建与运行自主工作流的平台，是「可访问AI」愿景的代表作，插件生态丰富。",
       "features": [
           "任务自主分解执行",
           "可视化Agent平台",
           "插件生态丰富",
           "支持多模型接入",
-          "184.3k Stars"
+          "187.1k Stars"
       ]
   },
   {
@@ -113,8 +113,8 @@ const PROJECTS = [
       "fullName": "anomalyco/opencode",
       "githubUrl": "https://github.com/anomalyco/opencode",
       "lang": "TypeScript",
-      "stars": "194,461",
-      "forks": "10,126",
+      "stars": "203,585",
+      "forks": "26,565",
       "category": "agent",
       "tags": [
           "Coding Agent",
@@ -122,14 +122,14 @@ const PROJECTS = [
           "TypeScript",
           "开源"
       ],
-      "descShort": "开源Coding Agent最大项目，194.5k Stars，终端AI编码新霸主",
-      "descFull": "opencode是当前开源Coding Agent中规模最大的项目，累计194,461 Stars。开源许可、自主Agent架构、模块化工具集成（文件IO/Shell/测试），LLM无关设计支持多模型供应商，近28天新增超900 Stars。",
+      "descShort": "开源Coding Agent最大项目，203.6k Stars，终端AI编码新霸主",
+      "descFull": "opencode是当前开源Coding Agent中规模最大的项目，累计203,585 Stars。开源许可、自主Agent架构、模块化工具集成（文件IO/Shell/测试），LLM无关设计支持多模型供应商，近28天新增超900 Stars。",
       "features": [
           "开源Coding Agent第一",
           "LLM无关设计",
           "模块化工具集成",
           "高增长势头",
-          "194.5k Stars"
+          "203.6k Stars"
       ]
   },
   {
@@ -137,9 +137,9 @@ const PROJECTS = [
       "name": "Claude Code",
       "fullName": "anthropics/claude-code",
       "githubUrl": "https://github.com/anthropics/claude-code",
-      "lang": "TypeScript",
-      "stars": "140,531",
-      "forks": "12,000",
+      "lang": "Python",
+      "stars": "143,975",
+      "forks": "23,009",
       "category": "agent",
       "tags": [
           "Coding Agent",
@@ -147,14 +147,14 @@ const PROJECTS = [
           "终端",
           "自然语言"
       ],
-      "descShort": "Anthropic官方终端编码Agent，140.5k Stars，自然语言操作代码库",
-      "descFull": "Claude Code是Anthropic官方开源的终端Agent编码工具，累计140,531 Stars。通过自然语言理解代码库并处理git工作流，支持Claude的extended thinking与computer use能力，近28天新增561 Stars。",
+      "descShort": "Anthropic官方终端编码Agent，144k Stars，自然语言操作代码库",
+      "descFull": "Claude Code是Anthropic官方开源的终端Agent编码工具，累计143,975 Stars。通过自然语言理解代码库并处理git工作流，支持Claude的extended thinking与computer use能力，近28天新增561 Stars。",
       "features": [
           "Anthropic官方出品",
           "自然语言代码库操作",
           "支持computer use",
           "与Claude深度集成",
-          "140.5k Stars"
+          "144k Stars"
       ]
   },
   {
@@ -163,8 +163,8 @@ const PROJECTS = [
       "fullName": "google-gemini/gemini-cli",
       "githubUrl": "https://github.com/google-gemini/gemini-cli",
       "lang": "TypeScript",
-      "stars": "106,402",
-      "forks": "9,000",
+      "stars": "106,807",
+      "forks": "14,526",
       "category": "agent",
       "tags": [
           "Coding Agent",
@@ -172,14 +172,14 @@ const PROJECTS = [
           "终端",
           "Gemini"
       ],
-      "descShort": "Google官方终端AI Agent，106.4k Stars，Gemini进终端",
-      "descFull": "Gemini CLI是Google官方开源AI Agent，累计106,402 Stars。将Gemini模型能力带入终端，支持多模态交互与代码任务，与Claude Code、OpenCode构成终端Agent三强格局中的Google代表。",
+      "descShort": "Google官方终端AI Agent，106.8k Stars，Gemini进终端",
+      "descFull": "Gemini CLI是Google官方开源AI Agent，累计106,807 Stars。将Gemini模型能力带入终端，支持多模态交互与代码任务，与Claude Code、OpenCode构成终端Agent三强格局中的Google代表。",
       "features": [
           "Google官方出品",
           "多模态终端交互",
           "代码任务支持",
           "Gemini生态集成",
-          "106.4k Stars"
+          "106.8k Stars"
       ]
   },
   {
@@ -188,8 +188,8 @@ const PROJECTS = [
       "fullName": "browser-use/browser-use",
       "githubUrl": "https://github.com/browser-use/browser-use",
       "lang": "Python",
-      "stars": "108,128",
-      "forks": "10,605",
+      "stars": "112,199",
+      "forks": "12,341",
       "category": "agent",
       "tags": [
           "浏览器自动化",
@@ -197,14 +197,14 @@ const PROJECTS = [
           "网页操作",
           "Python"
       ],
-      "descShort": "让AI Agent操作浏览器的核心库，108.1k Stars，网站自动化首选",
-      "descFull": "browser-use是让AI Agent访问并操作任何网站的Python库，累计108,128 Stars。18个月从发布冲到94k+ Stars，是浏览器自动化赛道winner-take-most的领军者，让任意网站对Agent可访问。",
+      "descShort": "让AI Agent操作浏览器的核心库，112.2k Stars，网站自动化首选",
+      "descFull": "browser-use是让AI Agent访问并操作任何网站的Python库，累计112,199 Stars。18个月从发布冲到94k+ Stars，是浏览器自动化赛道winner-take-most的领军者，让任意网站对Agent可访问。",
       "features": [
           "网站Agent化访问",
           "18个月爆发增长",
           "自动化在线任务",
           "与主流Agent框架集成",
-          "108.1k Stars"
+          "112.2k Stars"
       ]
   },
   {
@@ -212,9 +212,9 @@ const PROJECTS = [
       "name": "OpenHands",
       "fullName": "All-Hands-AI/OpenHands",
       "githubUrl": "https://github.com/All-Hands-AI/OpenHands",
-      "lang": "Python",
-      "stars": "83,335",
-      "forks": "13,500",
+      "lang": "TypeScript",
+      "stars": "86,114",
+      "forks": "11,292",
       "category": "agent",
       "tags": [
           "Coding Agent",
@@ -222,14 +222,14 @@ const PROJECTS = [
           "自主Agent",
           "生产级"
       ],
-      "descShort": "AI驱动的软件开发平台，83.3k Stars，自主编码Agent生产级落地",
-      "descFull": "OpenHands是AI驱动的软件开发平台，累计83,335 Stars。以自主编码Agent为核心，支持会话状态持久化、长任务checkpoint，覆盖从原型到生产的完整开发流程自动化。",
+      "descShort": "AI驱动的软件开发平台，86.1k Stars，自主编码Agent生产级落地",
+      "descFull": "OpenHands是AI驱动的软件开发平台，累计86,114 Stars。以自主编码Agent为核心，支持会话状态持久化、长任务checkpoint，覆盖从原型到生产的完整开发流程自动化。",
       "features": [
           "自主编码Agent",
           "会话状态持久化",
           "长任务checkpoint",
           "生产级部署",
-          "83.3k Stars"
+          "86.1k Stars"
       ]
   },
   {
@@ -237,9 +237,9 @@ const PROJECTS = [
       "name": "Dify",
       "fullName": "langgenius/dify",
       "githubUrl": "https://github.com/langgenius/dify",
-      "lang": "Python",
-      "stars": "152,676",
-      "forks": "19,000",
+      "lang": "TypeScript",
+      "stars": "154,381",
+      "forks": "24,402",
       "category": "tool",
       "tags": [
           "LLM平台",
@@ -247,14 +247,14 @@ const PROJECTS = [
           "RAG",
           "工作流"
       ],
-      "descShort": "生产级Agentic AI应用平台，152.7k Stars，低代码LLM应用王者",
-      "descFull": "Dify是生产级的Agentic AI应用开发平台，累计152,676 Stars。可视化工作流构建器+RAG流水线+API层一体，是低代码AI开发的事实标准，被广泛用于企业级LLM应用搭建。",
+      "descShort": "生产级Agentic AI应用平台，154.4k Stars，低代码LLM应用王者",
+      "descFull": "Dify是生产级的Agentic AI应用开发平台，累计154,381 Stars。可视化工作流构建器+RAG流水线+API层一体，是低代码AI开发的事实标准，被广泛用于企业级LLM应用搭建。",
       "features": [
           "可视化工作流构建",
           "内置RAG流水线",
           "API层一体化",
           "企业级应用",
-          "152.7k Stars"
+          "154.4k Stars"
       ]
   },
   {
@@ -263,8 +263,8 @@ const PROJECTS = [
       "fullName": "n8n-io/n8n",
       "githubUrl": "https://github.com/n8n-io/n8n",
       "lang": "TypeScript",
-      "stars": "199,652",
-      "forks": "57,618",
+      "stars": "203,266",
+      "forks": "60,542",
       "category": "tool",
       "tags": [
           "工作流自动化",
@@ -272,14 +272,14 @@ const PROJECTS = [
           "自托管",
           "AI集成"
       ],
-      "descShort": "工作流自动化平台，199.7k Stars，原生AI能力的n8n",
-      "descFull": "n8n是工作流自动化平台，累计199,652 Stars。原生集成AI能力，400+集成节点，支持自托管，是「2026年大量Agent工作负载实为带LLM节点的工作流自动化」趋势的最大受益者。",
+      "descShort": "工作流自动化平台，203.3k Stars，原生AI能力的n8n",
+      "descFull": "n8n是工作流自动化平台，累计203,266 Stars。原生集成AI能力，400+集成节点，支持自托管，是「2026年大量Agent工作负载实为带LLM节点的工作流自动化」趋势的最大受益者。",
       "features": [
           "400+集成节点",
           "原生AI能力",
           "自托管部署",
           "可视化工作流",
-          "199.7k Stars"
+          "203.3k Stars"
       ]
   },
   {
@@ -288,8 +288,8 @@ const PROJECTS = [
       "fullName": "firecrawl/firecrawl",
       "githubUrl": "https://github.com/firecrawl/firecrawl",
       "lang": "TypeScript",
-      "stars": "110,400",
-      "forks": "10,000",
+      "stars": "176,191",
+      "forks": "9,641",
       "category": "tool",
       "tags": [
           "网页抓取",
@@ -297,14 +297,14 @@ const PROJECTS = [
           "API",
           "数据管道"
       ],
-      "descShort": "网页转LLM数据接口，110.4k Stars，Web数据抓取与交互API",
-      "descFull": "Firecrawl是网页抓取与交互API，累计110,400 Stars。将任意网站转换为LLM-ready数据，支持实时Web数据获取、抓取、爬取与结构化输出，是Agent与网页数据之间的关键桥梁。",
+      "descShort": "网页转LLM数据接口，176.2k Stars，Web数据抓取与交互API",
+      "descFull": "Firecrawl是网页抓取与交互API，累计176,191 Stars。将任意网站转换为LLM-ready数据，支持实时Web数据获取、抓取、爬取与结构化输出，是Agent与网页数据之间的关键桥梁。",
       "features": [
           "网页转LLM数据",
           "实时数据获取",
           "结构化输出",
           "Agent数据接口",
-          "110.4k Stars"
+          "176.2k Stars"
       ]
   },
   {
@@ -312,9 +312,9 @@ const PROJECTS = [
       "name": "RAGFlow",
       "fullName": "infiniflow/ragflow",
       "githubUrl": "https://github.com/infiniflow/ragflow",
-      "lang": "Python",
-      "stars": "78,400",
-      "forks": "9,000",
+      "lang": "Go",
+      "stars": "90,009",
+      "forks": "10,610",
       "category": "tool",
       "tags": [
           "RAG",
@@ -322,14 +322,14 @@ const PROJECTS = [
           "检索增强",
           "引用溯源"
       ],
-      "descShort": "深度RAG引擎，78.4k Stars，智能检索+引用溯源",
-      "descFull": "RAGFlow是带Agent能力的深度RAG引擎，累计78,400 Stars。智能检索+引用溯源+支持混乱真实文档，是企业级知识库的superior context layer，是文档密集型场景的首选。",
+      "descShort": "深度RAG引擎，90k Stars，智能检索+引用溯源",
+      "descFull": "RAGFlow是带Agent能力的深度RAG引擎，累计90,009 Stars。智能检索+引用溯源+支持混乱真实文档，是企业级知识库的superior context layer，是文档密集型场景的首选。",
       "features": [
           "深度RAG引擎",
           "引用溯源",
           "智能Agent检索",
           "企业知识库",
-          "78.4k Stars"
+          "90k Stars"
       ]
   },
   {
@@ -338,8 +338,8 @@ const PROJECTS = [
       "fullName": "mem0ai/mem0",
       "githubUrl": "https://github.com/mem0ai/mem0",
       "lang": "Python",
-      "stars": "62,736",
-      "forks": "7,300",
+      "stars": "64,672",
+      "forks": "7,576",
       "category": "tool",
       "tags": [
           "Agent记忆",
@@ -347,14 +347,14 @@ const PROJECTS = [
           "持久化",
           "记忆层"
       ],
-      "descShort": "AI Agent通用记忆层，62.7k Stars，持久化上下文",
-      "descFull": "Mem0是AI Agent的通用记忆层，累计62,736 Stars。为Agent提供持久化上下文与跨会话记忆，被广泛集成到各类Agent框架中，是Agent记忆赛道的领跑者。",
+      "descShort": "AI Agent通用记忆层，64.7k Stars，持久化上下文",
+      "descFull": "Mem0是AI Agent的通用记忆层，累计64,672 Stars。为Agent提供持久化上下文与跨会话记忆，被广泛集成到各类Agent框架中，是Agent记忆赛道的领跑者。",
       "features": [
           "通用记忆层",
           "跨会话上下文",
           "框架集成广泛",
           "Apache-2.0",
-          "62.7k Stars"
+          "64.7k Stars"
       ]
   },
   {
@@ -363,8 +363,8 @@ const PROJECTS = [
       "fullName": "run-llama/llama_index",
       "githubUrl": "https://github.com/run-llama/llama_index",
       "lang": "Python",
-      "stars": "51,697",
-      "forks": "7,407",
+      "stars": "52,003",
+      "forks": "8,078",
       "category": "tool",
       "tags": [
           "RAG",
@@ -372,14 +372,14 @@ const PROJECTS = [
           "文档处理",
           "索引检索"
       ],
-      "descShort": "数据框架连接LLM，51.7k Stars，生产RAG标准",
-      "descFull": "LlamaIndex是连接LLM与数据的领先框架，累计51,697 Stars。强大的索引与检索能力，Workflows支持序列化恢复的会话状态，是生产RAG标准与文档Agent平台。",
+      "descShort": "数据框架连接LLM，52k Stars，生产RAG标准",
+      "descFull": "LlamaIndex是连接LLM与数据的领先框架，累计52,003 Stars。强大的索引与检索能力，Workflows支持序列化恢复的会话状态，是生产RAG标准与文档Agent平台。",
       "features": [
           "文档Agent平台",
           "生产RAG标准",
           "索引检索能力强",
           "Workflows状态恢复",
-          "51.7k Stars"
+          "52k Stars"
       ]
   },
   {
@@ -388,8 +388,8 @@ const PROJECTS = [
       "fullName": "assafelovic/gpt-researcher",
       "githubUrl": "https://github.com/assafelovic/gpt-researcher",
       "lang": "Python",
-      "stars": "28,868",
-      "forks": "4,000",
+      "stars": "29,277",
+      "forks": "3,978",
       "category": "tool",
       "tags": [
           "Deep Research",
@@ -397,14 +397,14 @@ const PROJECTS = [
           "报告生成",
           "多源检索"
       ],
-      "descShort": "自主深度研究Agent，28.9k Stars，联网调研自动生成报告",
-      "descFull": "GPT Researcher是自主深度研究Agent，累计28,868 Stars。自动规划搜索、多源信息交叉验证并生成结构化研究报告，是Deep Research类工具的开源代表。",
+      "descShort": "自主深度研究Agent，29.3k Stars，联网调研自动生成报告",
+      "descFull": "GPT Researcher是自主深度研究Agent，累计29,277 Stars。自动规划搜索、多源信息交叉验证并生成结构化研究报告，是Deep Research类工具的开源代表。",
       "features": [
           "自主研究规划",
           "多源信息交叉",
           "结构化报告生成",
           "深度调研",
-          "28.9k Stars"
+          "29.3k Stars"
       ]
   },
   {
@@ -413,8 +413,8 @@ const PROJECTS = [
       "fullName": "HKUDS/LightRAG",
       "githubUrl": "https://github.com/HKUDS/LightRAG",
       "lang": "Python",
-      "stars": "24,000",
-      "forks": "1,500",
+      "stars": "39,375",
+      "forks": "5,543",
       "category": "tool",
       "tags": [
           "RAG",
@@ -422,14 +422,14 @@ const PROJECTS = [
           "图检索",
           "EMNLP"
       ],
-      "descShort": "简单快速的RAG框架，24k Stars，EMNLP 2025成果",
-      "descFull": "LightRAG是来自EMNLP 2025的简单快速检索增强生成框架，累计24,000 Stars。以极简API实现高效RAG，支持增量索引与图结构检索，是轻量级RAG方案的优选。",
+      "descShort": "简单快速的RAG框架，39.4k Stars，EMNLP 2025成果",
+      "descFull": "LightRAG是来自EMNLP 2025的简单快速检索增强生成框架，累计39,375 Stars。以极简API实现高效RAG，支持增量索引与图结构检索，是轻量级RAG方案的优选。",
       "features": [
           "极简API",
           "图结构检索",
           "增量索引",
           "EMNLP 2025",
-          "24k Stars"
+          "39.4k Stars"
       ]
   },
   {
@@ -438,8 +438,8 @@ const PROJECTS = [
       "fullName": "docling-project/docling",
       "githubUrl": "https://github.com/docling-project/docling",
       "lang": "Python",
-      "stars": "18,000",
-      "forks": "1,200",
+      "stars": "65,966",
+      "forks": "4,745",
       "category": "tool",
       "tags": [
           "文档处理",
@@ -447,14 +447,14 @@ const PROJECTS = [
           "解析",
           "生成式AI"
       ],
-      "descShort": "文档预处理管道，18k Stars，为生成式AI准备文档",
-      "descFull": "Docling是文档预处理工具，累计18,000 Stars。将PDF/Word/PPT等复杂文档解析为结构化数据，为生成式AI管道准备干净输入，由IBM开源并广泛采用。",
+      "descShort": "文档预处理管道，66k Stars，为生成式AI准备文档",
+      "descFull": "Docling是文档预处理工具，累计65,966 Stars。将PDF/Word/PPT等复杂文档解析为结构化数据，为生成式AI管道准备干净输入，由IBM开源并广泛采用。",
       "features": [
           "复杂文档解析",
           "生成式AI管道",
           "多格式支持",
           "IBM开源",
-          "18k Stars"
+          "66k Stars"
       ]
   },
   {
@@ -463,8 +463,8 @@ const PROJECTS = [
       "fullName": "langfuse/langfuse",
       "githubUrl": "https://github.com/langfuse/langfuse",
       "lang": "TypeScript",
-      "stars": "32,663",
-      "forks": "3,200",
+      "stars": "34,170",
+      "forks": "3,691",
       "category": "tool",
       "tags": [
           "可观测性",
@@ -472,14 +472,14 @@ const PROJECTS = [
           "追踪",
           "评估"
       ],
-      "descShort": "LLM可观测性平台，32.7k Stars，Agent追踪与评估",
-      "descFull": "Langfuse是开源LLM可观测性平台，累计32,663 Stars。提供Agent/LLM应用的追踪、监控、评估与提示管理，是生产级Agent应用的观测层标配。",
+      "descShort": "LLM可观测性平台，34.2k Stars，Agent追踪与评估",
+      "descFull": "Langfuse是开源LLM可观测性平台，累计34,170 Stars。提供Agent/LLM应用的追踪、监控、评估与提示管理，是生产级Agent应用的观测层标配。",
       "features": [
           "LLM追踪",
           "可观测性",
           "评估与提示管理",
           "开源自托管",
-          "32.7k Stars"
+          "34.2k Stars"
       ]
   },
   {
@@ -488,8 +488,8 @@ const PROJECTS = [
       "fullName": "BerriAI/litellm",
       "githubUrl": "https://github.com/BerriAI/litellm",
       "lang": "Python",
-      "stars": "57,000",
-      "forks": "8,037",
+      "stars": "57,981",
+      "forks": "11,152",
       "category": "tool",
       "tags": [
           "LLM网关",
@@ -497,14 +497,14 @@ const PROJECTS = [
           "多模型",
           "统一接口"
       ],
-      "descShort": "统一LLM网关，57k Stars，200+模型一个API",
-      "descFull": "LiteLLM是通用LLM API网关，累计57,000 Stars。一个统一接口接入200+提供商，支持智能路由、自动回退与配额管理，是生产级多模型架构的标准组件。",
+      "descShort": "统一LLM网关，511.2k Stars，200+模型一个API",
+      "descFull": "LiteLLM是通用LLM API网关，累计57,981 Stars。一个统一接口接入200+提供商，支持智能路由、自动回退与配额管理，是生产级多模型架构的标准组件。",
       "features": [
           "200+提供商统一接口",
           "智能路由",
           "自动回退",
           "配额管理",
-          "57k Stars"
+          "511.2k Stars"
       ]
   },
   {
@@ -513,8 +513,8 @@ const PROJECTS = [
       "fullName": "Comfy-Org/ComfyUI",
       "githubUrl": "https://github.com/Comfy-Org/ComfyUI",
       "lang": "Python",
-      "stars": "128,500",
-      "forks": "15,000",
+      "stars": "131,387",
+      "forks": "15,483",
       "category": "multimodal",
       "tags": [
           "图像生成",
@@ -522,14 +522,14 @@ const PROJECTS = [
           "节点式",
           "扩散模型"
       ],
-      "descShort": "节点式AI图像/视频生成界面，128.5k Stars，模块化扩散模型GUI",
-      "descFull": "ComfyUI是模块化扩散模型GUI与后端，累计128,500 Stars。图节点式接口构建生成式图像与视频工作流，插件生态海量，是AIGC创作基础设施的核心。",
+      "descShort": "节点式AI图像/视频生成界面，131.4k Stars，模块化扩散模型GUI",
+      "descFull": "ComfyUI是模块化扩散模型GUI与后端，累计131,387 Stars。图节点式接口构建生成式图像与视频工作流，插件生态海量，是AIGC创作基础设施的核心。",
       "features": [
           "节点式工作流",
           "图像视频生成",
           "插件生态海量",
           "模块化后端",
-          "128.5k Stars"
+          "131.4k Stars"
       ]
   },
   {
@@ -538,8 +538,8 @@ const PROJECTS = [
       "fullName": "openai/whisper",
       "githubUrl": "https://github.com/openai/whisper",
       "lang": "Python",
-      "stars": "106,802",
-      "forks": "14,000",
+      "stars": "108,376",
+      "forks": "13,132",
       "category": "multimodal",
       "tags": [
           "语音识别",
@@ -547,14 +547,14 @@ const PROJECTS = [
           "多语言",
           "OpenAI"
       ],
-      "descShort": "OpenAI语音识别模型，106.8k Stars，通用语音识别标准",
-      "descFull": "Whisper是OpenAI开源的通用语音识别模型，累计106,802 Stars。多语言、多任务（识别/翻译/转录），是语音Agent与音频处理领域的事实标准基础模型。",
+      "descShort": "OpenAI语音识别模型，108.4k Stars，通用语音识别标准",
+      "descFull": "Whisper是OpenAI开源的通用语音识别模型，累计108,376 Stars。多语言、多任务（识别/翻译/转录），是语音Agent与音频处理领域的事实标准基础模型。",
       "features": [
           "通用语音识别",
           "多语言支持",
           "多任务能力",
           "语音Agent基础",
-          "106.8k Stars"
+          "108.4k Stars"
       ]
   },
   {
@@ -563,8 +563,8 @@ const PROJECTS = [
       "fullName": "hpcaitech/Open-Sora",
       "githubUrl": "https://github.com/hpcaitech/Open-Sora",
       "lang": "Python",
-      "stars": "24,100",
-      "forks": "2,600",
+      "stars": "29,353",
+      "forks": "3,028",
       "category": "multimodal",
       "tags": [
           "视频生成",
@@ -572,14 +572,14 @@ const PROJECTS = [
           "DiT",
           "开源Sora"
       ],
-      "descShort": "开源视频生成星标最高，24.1k Stars，Sora架构复现",
-      "descFull": "Open-Sora是GitHub星标最高的开源视频生成项目，累计24,100 Stars。2.0版本（11B参数）在VBench达到与HunyuanVideo相当性能，训练成本约20万美元，支持文生视频、图生视频与无限长度生成。",
+      "descShort": "开源视频生成星标最高，29.4k Stars，Sora架构复现",
+      "descFull": "Open-Sora是GitHub星标最高的开源视频生成项目，累计29,353 Stars。2.0版本（11B参数）在VBench达到与HunyuanVideo相当性能，训练成本约20万美元，支持文生视频、图生视频与无限长度生成。",
       "features": [
           "Sora架构DiT",
           "文生图生视频",
           "无限长度生成",
           "训练可复现",
-          "24.1k Stars"
+          "29.4k Stars"
       ]
   },
   {
@@ -588,8 +588,8 @@ const PROJECTS = [
       "fullName": "microsoft/VibeVoice",
       "githubUrl": "https://github.com/microsoft/VibeVoice",
       "lang": "Python",
-      "stars": "33,418",
-      "forks": "3,400",
+      "stars": "53,662",
+      "forks": "6,057",
       "category": "multimodal",
       "tags": [
           "语音AI",
@@ -597,14 +597,14 @@ const PROJECTS = [
           "微软",
           "声音智能"
       ],
-      "descShort": "微软开源前沿语音AI，33.4k Stars，开源声音智能",
-      "descFull": "VibeVoice是微软开源的前沿语音AI项目，累计33,418 Stars。覆盖语音识别、合成与对话能力，是2026年开源语音赛道的新势力。",
+      "descShort": "微软开源前沿语音AI，53.7k Stars，开源声音智能",
+      "descFull": "VibeVoice是微软开源的前沿语音AI项目，累计53,662 Stars。覆盖语音识别、合成与对话能力，是2026年开源语音赛道的新势力。",
       "features": [
           "前沿语音AI",
           "微软开源",
           "语音识别合成",
           "对话语音",
-          "33.4k Stars"
+          "53.7k Stars"
       ]
   },
   {
@@ -613,8 +613,8 @@ const PROJECTS = [
       "fullName": "huggingface/speech-to-speech",
       "githubUrl": "https://github.com/huggingface/speech-to-speech",
       "lang": "Python",
-      "stars": "36,726",
-      "forks": "5,600",
+      "stars": "13,027",
+      "forks": "1,634",
       "category": "multimodal",
       "tags": [
           "语音Agent",
@@ -622,14 +622,14 @@ const PROJECTS = [
           "本地部署",
           "HuggingFace"
       ],
-      "descShort": "本地语音Agent构建工具，36.7k Stars，开源模型语音交互",
-      "descFull": "Speech-to-Speech是Hugging Face开源的本地语音Agent构建框架，累计36,726 Stars。用开源模型在本地构建语音到语音的实时对话Agent，是语音交互赛道的重要基建。",
+      "descShort": "本地语音Agent构建工具，13k Stars，开源模型语音交互",
+      "descFull": "Speech-to-Speech是Hugging Face开源的本地语音Agent构建框架，累计13,027 Stars。用开源模型在本地构建语音到语音的实时对话Agent，是语音交互赛道的重要基建。",
       "features": [
           "本地语音Agent",
           "开源模型",
           "实时对话",
           "HuggingFace出品",
-          "36.7k Stars"
+          "13k Stars"
       ]
   },
   {
@@ -638,8 +638,8 @@ const PROJECTS = [
       "fullName": "huggingface/transformers",
       "githubUrl": "https://github.com/huggingface/transformers",
       "lang": "Python",
-      "stars": "159,500",
-      "forks": "42,000",
+      "stars": "164,761",
+      "forks": "34,437",
       "category": "framework",
       "tags": [
           "机器学习",
@@ -647,14 +647,14 @@ const PROJECTS = [
           "HuggingFace",
           "模型库"
       ],
-      "descShort": "HuggingFace核心ML框架，159.5k Stars，多模态模型标准",
-      "descFull": "Transformers是HuggingFace的State-of-the-Art机器学习框架，累计159,500 Stars。支持文本、视觉、音频与多模态模型，是开源ML生态的基石。",
+      "descShort": "HuggingFace核心ML框架，164.8k Stars，多模态模型标准",
+      "descFull": "Transformers是HuggingFace的State-of-the-Art机器学习框架，累计164,761 Stars。支持文本、视觉、音频与多模态模型，是开源ML生态的基石。",
       "features": [
           "多模态模型支持",
           "SOTA模型库",
           "生态基石",
           "社区海量模型",
-          "159.5k Stars"
+          "164.8k Stars"
       ]
   },
   {
@@ -663,8 +663,8 @@ const PROJECTS = [
       "fullName": "langchain-ai/langchain",
       "githubUrl": "https://github.com/langchain-ai/langchain",
       "lang": "Python",
-      "stars": "144,700",
-      "forks": "22,606",
+      "stars": "145,604",
+      "forks": "24,305",
       "category": "framework",
       "tags": [
           "LLM框架",
@@ -672,14 +672,14 @@ const PROJECTS = [
           "生态标准",
           "Python"
       ],
-      "descShort": "LLM应用工程平台，144.7k Stars，Agent生态标准",
-      "descFull": "LangChain是Agent工程平台与生态标准，累计144,700 Stars。模块化架构覆盖LLM应用全链路，生态集成数量无出其右，2026年新增Claude adaptive thinking与OpenAI Responses API原生支持。",
+      "descShort": "LLM应用工程平台，145.6k Stars，Agent生态标准",
+      "descFull": "LangChain是Agent工程平台与生态标准，累计145,604 Stars。模块化架构覆盖LLM应用全链路，生态集成数量无出其右，2026年新增Claude adaptive thinking与OpenAI Responses API原生支持。",
       "features": [
           "模块化架构",
           "生态集成最广",
           "Agent编排",
           "原生流式支持",
-          "144.7k Stars"
+          "145.6k Stars"
       ]
   },
   {
@@ -688,8 +688,8 @@ const PROJECTS = [
       "fullName": "ollama/ollama",
       "githubUrl": "https://github.com/ollama/ollama",
       "lang": "Go",
-      "stars": "147,780",
-      "forks": "11,000",
+      "stars": "180,094",
+      "forks": "17,672",
       "category": "framework",
       "tags": [
           "本地LLM",
@@ -697,14 +697,14 @@ const PROJECTS = [
           "边缘AI",
           "私有部署"
       ],
-      "descShort": "本地LLM运行时，147.8k Stars，50+模型一条命令",
-      "descFull": "Ollama是本地LLM运行时，累计147,780 Stars。支持50+模型一键运行，是边缘AI民主化的代表，本地部署LLM的事实标准。",
+      "descShort": "本地LLM运行时，180.1k Stars，50+模型一条命令",
+      "descFull": "Ollama是本地LLM运行时，累计180,094 Stars。支持50+模型一键运行，是边缘AI民主化的代表，本地部署LLM的事实标准。",
       "features": [
           "50+模型支持",
           "一条命令运行",
           "本地私有部署",
           "边缘AI",
-          "147.8k Stars"
+          "180.1k Stars"
       ]
   },
   {
@@ -713,8 +713,8 @@ const PROJECTS = [
       "fullName": "ggml-org/llama.cpp",
       "githubUrl": "https://github.com/ggml-org/llama.cpp",
       "lang": "C++",
-      "stars": "90,441",
-      "forks": "14,000",
+      "stars": "126,959",
+      "forks": "22,731",
       "category": "framework",
       "tags": [
           "LLM推理",
@@ -722,14 +722,14 @@ const PROJECTS = [
           "本地部署",
           "量化"
       ],
-      "descShort": "高性能LLM推理引擎，90.4k Stars，CPU/边缘推理之王",
-      "descFull": "llama.cpp是GGML组织的高性能LLM推理引擎，累计90,441 Stars。C++实现、无GPU也能高效运行LLM，近28天新增394 Stars，是本地推理的核心基建。",
+      "descShort": "高性能LLM推理引擎，127k Stars，CPU/边缘推理之王",
+      "descFull": "llama.cpp是GGML组织的高性能LLM推理引擎，累计126,959 Stars。C++实现、无GPU也能高效运行LLM，近28天新增394 Stars，是本地推理的核心基建。",
       "features": [
           "C++高性能",
           "CPU友好",
           "量化支持",
           "边缘设备推理",
-          "90.4k Stars"
+          "127k Stars"
       ]
   },
   {
@@ -738,8 +738,8 @@ const PROJECTS = [
       "fullName": "vllm-project/vllm",
       "githubUrl": "https://github.com/vllm-project/vllm",
       "lang": "Python",
-      "stars": "77,100",
-      "forks": "12,000",
+      "stars": "90,927",
+      "forks": "21,675",
       "category": "framework",
       "tags": [
           "LLM推理",
@@ -747,14 +747,14 @@ const PROJECTS = [
           "生产部署",
           "服务引擎"
       ],
-      "descShort": "高吞吐LLM推理引擎，77.1k Stars，生产部署关键",
-      "descFull": "vLLM是高吞吐、内存高效的LLM推理引擎，累计77,100 Stars。PagedAttention等创新技术使其成为生产环境LLM服务的关键基础设施，广泛用于模型服务。",
+      "descShort": "高吞吐LLM推理引擎，90.9k Stars，生产部署关键",
+      "descFull": "vLLM是高吞吐、内存高效的LLM推理引擎，累计90,927 Stars。PagedAttention等创新技术使其成为生产环境LLM服务的关键基础设施，广泛用于模型服务。",
       "features": [
           "高吞吐推理",
           "PagedAttention",
           "内存高效",
           "生产级服务",
-          "77.1k Stars"
+          "90.9k Stars"
       ]
   },
   {
@@ -763,8 +763,8 @@ const PROJECTS = [
       "fullName": "crewAIInc/crewAI",
       "githubUrl": "https://github.com/crewAIInc/crewAI",
       "lang": "Python",
-      "stars": "57,200",
-      "forks": "7,103",
+      "stars": "58,059",
+      "forks": "8,331",
       "category": "framework",
       "tags": [
           "多Agent",
@@ -772,14 +772,14 @@ const PROJECTS = [
           "协作框架",
           "Python"
       ],
-      "descShort": "角色扮演多Agent框架，57.2k Stars，团队协作式编排",
-      "descFull": "CrewAI是角色驱动的多Agent编排框架，累计57,200 Stars。将Agent定义为带角色/目标/背景故事的团队成员，顺序或层级协作完成任务，是快速搭建多Agent应用的首选，1500+企业采用。",
+      "descShort": "角色扮演多Agent框架，58.1k Stars，团队协作式编排",
+      "descFull": "CrewAI是角色驱动的多Agent编排框架，累计58,059 Stars。将Agent定义为带角色/目标/背景故事的团队成员，顺序或层级协作完成任务，是快速搭建多Agent应用的首选，1500+企业采用。",
       "features": [
           "角色驱动设计",
           "任务委派协作",
           "层级协调",
           "1500+企业采用",
-          "57.2k Stars"
+          "58.1k Stars"
       ]
   },
   {
@@ -788,8 +788,8 @@ const PROJECTS = [
       "fullName": "langchain-ai/langgraph",
       "githubUrl": "https://github.com/langchain-ai/langgraph",
       "lang": "Python",
-      "stars": "39,848",
-      "forks": "5,432",
+      "stars": "41,014",
+      "forks": "6,921",
       "category": "framework",
       "tags": [
           "Agent编排",
@@ -797,14 +797,14 @@ const PROJECTS = [
           "LangChain",
           "生产级"
       ],
-      "descShort": "有状态图Agent框架，39.8k Stars，生产默认编排",
-      "descFull": "LangGraph是LangChain的有状态图Agent框架，累计39,848 Stars。图节点边建模、内置checkpoint、暂停/恢复/时间旅行调试，34.5M月下载量，是企业生产Agent的默认选择。",
+      "descShort": "有状态图Agent框架，41k Stars，生产默认编排",
+      "descFull": "LangGraph是LangChain的有状态图Agent框架，累计41,014 Stars。图节点边建模、内置checkpoint、暂停/恢复/时间旅行调试，34.5M月下载量，是企业生产Agent的默认选择。",
       "features": [
           "图结构编排",
           "内置checkpoint",
           "时间旅行调试",
           "34.5M月下载",
-          "39.8k Stars"
+          "41k Stars"
       ]
   }
 ];
